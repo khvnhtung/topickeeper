@@ -100,9 +100,6 @@
     elements.accordionPart3Toggle = document.getElementById('accordion-part3-toggle');
     elements.accordionPart3Title = document.getElementById('accordion-part3-title');
     elements.part3QuestionsList = document.getElementById('part3-questions-list');
-    elements.inputTranscript = document.getElementById('input-transcript');
-    elements.inputNotes = document.getElementById('input-notes');
-    elements.autosaveIndicator = document.getElementById('autosave-indicator');
     elements.btnSetNew = document.getElementById('btn-set-new');
     elements.btnSetTried = document.getElementById('btn-set-tried');
     elements.btnSetImproving = document.getElementById('btn-set-improving');
@@ -435,14 +432,6 @@
       });
     }
 
-    // Preloaded Transcripts & Notes
-    if (elements.inputTranscript) {
-      elements.inputTranscript.value = topic.studentTranscript || '';
-    }
-    if (elements.inputNotes) {
-      elements.inputNotes.value = topic.notes || '';
-    }
-
     // Update Mastery Buttons highlight
     updateModalMasteryButtons(topic.status || 'new');
 
@@ -493,25 +482,6 @@
       }
       updateModalMasteryButtons(updated.status);
     }
-  }
-
-  function handleNotesAutoSave() {
-    if (notesSaveTimeout) clearTimeout(notesSaveTimeout);
-
-    notesSaveTimeout = setTimeout(() => {
-      if (!state || !currentModalTopicId) return;
-      const transcript = elements.inputTranscript ? elements.inputTranscript.value : '';
-      const notes = elements.inputNotes ? elements.inputNotes.value : '';
-
-      state.updatePart2Notes(currentModalTopicId, notes, transcript);
-
-      if (elements.autosaveIndicator) {
-        elements.autosaveIndicator.classList.add('active');
-        setTimeout(() => {
-          elements.autosaveIndicator.classList.remove('active');
-        }, 1800);
-      }
-    }, 300);
   }
 
   // --- RANDOM TOPIC PICKER ---
@@ -639,17 +609,6 @@
           </ol>
         </div>
 
-        <div class="part1-editors-row">
-          <div class="editor-pane">
-            <label>Student Answers / Transcript:</label>
-            <textarea class="part1-transcript-input" placeholder="Draft your spoken responses here...">${escapeHtml(topic.studentTranscript || '')}</textarea>
-          </div>
-          <div class="editor-pane">
-            <label>Teacher Corrections & Vocab:</label>
-            <textarea class="part1-notes-input" placeholder="Add vocabulary, grammar corrections...">${escapeHtml(topic.notes || '')}</textarea>
-          </div>
-        </div>
-
         <div class="part1-actions">
           <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary);">Set Status:</span>
           <div style="display: flex; gap: 0.35rem; flex-wrap: wrap;">
@@ -660,17 +619,6 @@
           </div>
         </div>
       `;
-
-      // Wire auto-save for Part 1 textareas
-      const transcriptArea = card.querySelector('.part1-transcript-input');
-      const notesArea = card.querySelector('.part1-notes-input');
-
-      const saveP1 = () => {
-        state.updatePart1Notes(topic.id, notesArea.value, transcriptArea.value);
-      };
-
-      transcriptArea.addEventListener('input', debounce(saveP1, 400));
-      notesArea.addEventListener('input', debounce(saveP1, 400));
 
       // Wire Part 1 status buttons
       const statusBtns = card.querySelectorAll('.btn-mastery');
@@ -877,14 +825,6 @@
       elements.accordionPart3Toggle.addEventListener('click', () => {
         elements.accordionPart3.classList.toggle('open');
       });
-    }
-
-    // Modal Auto-Save Notes
-    if (elements.inputTranscript) {
-      elements.inputTranscript.addEventListener('input', handleNotesAutoSave);
-    }
-    if (elements.inputNotes) {
-      elements.inputNotes.addEventListener('input', handleNotesAutoSave);
     }
 
     // Modal Mastery Buttons

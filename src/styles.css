@@ -1114,69 +1114,7 @@ input:focus, textarea:focus, select:focus {
   line-height: 1.45;
 }
 
-/* Transcripts & Practice Notes Editor */
-.editor-section {
-  display: flex;
-  flex-direction: column;
-  gap: 0.85rem;
-}
-
-.editor-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
-}
-
-.editor-title {
-  font-size: 0.95rem;
-  font-weight: 700;
-}
-
-.autosave-indicator {
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--state-ready);
-  opacity: 0;
-  transition: opacity var(--transition-fast);
-}
-
-.autosave-indicator.active {
-  opacity: 1;
-}
-
-.editor-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
-
-@media (max-width: 700px) {
-  .editor-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.editor-pane {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-}
-
-.editor-pane label {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--text-secondary);
-}
-
-.editor-pane textarea {
-  width: 100%;
-  min-height: 140px;
-  padding: 0.75rem;
-  font-size: 0.85rem;
-  line-height: 1.45;
-  resize: vertical;
-}
+/* Transcripts & Practice Notes Editor (Removed) */
 
 /* Mastery Buttons Setter */
 .mastery-setter-section {
@@ -1465,18 +1403,6 @@ input:focus, textarea:focus, select:focus {
   gap: 0.4rem;
   font-size: 0.85rem;
   color: var(--text-secondary);
-}
-
-.part1-editors-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.75rem;
-}
-
-@media (max-width: 650px) {
-  .part1-editors-row {
-    grid-template-columns: 1fr;
-  }
 }
 
 .part1-actions {
