@@ -563,14 +563,14 @@
 
     const dict = I18N[currentLang] || I18N.vi;
     const statusLabel = getStatusLabel(topic.status || 'new');
-    const practicedText = topic.lastPracticed 
-      ? `${dict.tooltipLastPracticed} ${topic.lastPracticed.slice(0, 10)}` 
-      : dict.tooltipNotPracticed;
+    const lastPracticedHtml = topic.lastPracticed 
+      ? `<br><span style="color: var(--text-muted); font-size: 0.75rem;">${dict.tooltipLastPracticed} ${escapeHtml(topic.lastPracticed.slice(0, 10))}</span>` 
+      : '';
 
     elements.nodeTooltip.innerHTML = `
       <strong>#${topic.id} · ${escapeHtml(topic.title)}</strong><br>
-      <span style="color: var(--text-muted);">${dict.tooltipCategory} ${escapeHtml(getCategoryLabel(topic.category))}</span><br>
-      <span>${dict.tooltipStatus} <strong>${statusLabel}</strong> (${practicedText})</span>
+      <span style="color: var(--text-muted); font-size: 0.8rem;">${dict.tooltipCategory} ${escapeHtml(getCategoryLabel(topic.category))}</span><br>
+      <span style="font-size: 0.85rem;">${dict.tooltipStatus} <strong>${statusLabel}</strong></span>${lastPracticedHtml}
     `;
 
     elements.nodeTooltip.classList.add('visible');
