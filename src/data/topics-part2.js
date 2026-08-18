@@ -687,7 +687,8 @@ const topicsPart2 = [
       "Do you think studying biology at school makes students healthier?"
     ],
     "status": "improving",
-    "notes": "Practiced in Lesson 7, 14: Lan nurse working at hospital caring for patients"
+    "storyCluster": "Mẹ / Người thân truyền cảm hứng (Inspiring Family Member)",
+    "notes": "Practiced in Lesson 7, 14: Lan nurse working at hospital caring for patients / can also describe mom"
   },
   {
     "id": 29,

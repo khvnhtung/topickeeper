@@ -929,6 +929,7 @@ Practiced in Entrance Test, Lesson 6: Special birthday food & festive dishes
 ### Part 2 #28. Describe a person who has chosen a career in the medical field, e.g. doctor, nurse, vet
 
 **Category:** Ambition
+**Linked Story Grouping:** My Mother / Inspiring Family Member
 
 **Cue Card (Describe a person who has chosen a career in the medical field, e.g. doctor, nurse, vet)**
 - Who this person is
@@ -937,7 +938,7 @@ Practiced in Entrance Test, Lesson 6: Special birthday food & festive dishes
 - And explain how you felt about this person
 
 **Teacher Feedback & Story Notes:**
-Practiced in Lesson 7, 14: Lan nurse working at hospital caring for patients
+Practiced in Lesson 7, 14: Lan nurse working at hospital caring for patients (can also describe mother's medical/caregiving background)
 
 **Part 3 Follow-up Discussion Questions:**
 1. Why do some people choose to work in the medical field?
@@ -1880,13 +1881,14 @@ Practiced in Lesson 11: Custom chocolate birthday cake from friends
 **Core Persona / Setting:** A master narrative about an inspiring, organized, and selfless mother who overcomes hardships and supports others.
 
 **Narrative Backbone:**
-Focus on your mother (or family member) demonstrating exceptional planning skills (#13), volunteering to assist neighbours (#6), motivating you to pursue difficult goals (#25), achieving a challenging career or personal milestone (#45), and making the whole family proud (#1).
+Focus on your mother (or family member) demonstrating exceptional planning skills (#13), volunteering to assist neighbours (#6), dedicated to a medical / healthcare career (#28), motivating you to pursue difficult goals (#25), achieving a challenging career or personal milestone (#45), and making the whole family proud (#1).
 
-**Topics Covered (5 Cue Cards):**
+**Topics Covered (6 Cue Cards):**
 - #1 Describe a time when you felt very proud of something a family member did
 - #6 Describe a person you know who enjoys helping other people
 - #13 Describe a person who you think is good at planning things
 - #25 Describe a time when you encouraged somebody to do something that he/she didn’t want to do
+- #28 Describe a person who has chosen a career in the medical field, e.g. doctor, nurse, vet
 - #45 Describe a person you know who successfully achieved something difficult
 
 ### 🏖️ Cua Lo Beach Trip

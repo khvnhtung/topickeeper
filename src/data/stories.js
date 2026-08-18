@@ -18,11 +18,12 @@ const storyClusters = [
       6,
       13,
       25,
+      28,
       45
     ],
-    "narrative": "Tập trung vào hình ảnh mẹ (hoặc người thân) với kỹ năng lập kế hoạch xuất sắc (#13), luôn sẵn lòng giúp đỡ người khác (#6), động viên bạn vượt qua mục tiêu khó (#25), đạt được thành tựu đáng tự hào (#45), và khiến cả gia đình tự hào (#1).",
-    "narrative_vi": "Tập trung vào hình ảnh mẹ (hoặc người thân) với kỹ năng lập kế hoạch xuất sắc (#13), luôn sẵn lòng giúp đỡ người khác (#6), động viên bạn vượt qua mục tiêu khó (#25), đạt được thành tựu đáng tự hào (#45), và khiến cả gia đình tự hào (#1).",
-    "narrative_en": "Focus on your mother (or family member) demonstrating exceptional planning skills (#13), volunteering to assist neighbours (#6), motivating you to pursue difficult goals (#25), achieving a challenging career or personal milestone (#45), and making the whole family proud (#1)."
+    "narrative": "Tập trung vào hình ảnh mẹ (hoặc người thân) với kỹ năng lập kế hoạch xuất sắc (#13), luôn sẵn lòng giúp đỡ người khác (#6), tận tâm với công việc y tế/chăm sóc sức khỏe (#28), động viên bạn vượt qua mục tiêu khó (#25), đạt được thành tựu đáng tự hào (#45), và khiến cả gia đình tự hào (#1).",
+    "narrative_vi": "Tập trung vào hình ảnh mẹ (hoặc người thân) với kỹ năng lập kế hoạch xuất sắc (#13), luôn sẵn lòng giúp đỡ người khác (#6), tận tâm với công việc y tế/chăm sóc sức khỏe (#28), động viên bạn vượt qua mục tiêu khó (#25), đạt được thành tựu đáng tự hào (#45), và khiến cả gia đình tự hào (#1).",
+    "narrative_en": "Focus on your mother (or family member) demonstrating exceptional planning skills (#13), volunteering to assist others (#6), dedicated to a medical/healthcare career (#28), motivating you to pursue difficult goals (#25), achieving a challenging milestone (#45), and making the whole family proud (#1)."
   },
   {
     "id": 2,
