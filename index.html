@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IELTS Speaking Quest & TopicKeeper — Q2 2026 Forecast Pool</title>
+  <title>IELTS Speaking Quest & TopicKeeper — Bộ dự đoán Quý 2/2026</title>
   <link rel="stylesheet" href="src/styles.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎙️</text></svg>">
 </head>
@@ -15,14 +15,14 @@
         <span class="brand-icon">🎙️</span>
         <div>
           <h1 class="brand-title">TopicKeeper</h1>
-          <p class="brand-subtitle">IELTS Speaking Quest · Q2 May–August 2026 Forecast Pool</p>
+          <p class="brand-subtitle">IELTS Speaking Quest · Bộ đề dự đoán Quý 2 (Tháng 5 – Tháng 8, 2026)</p>
         </div>
       </div>
       <div class="header-actions">
-        <div class="streak-pill" id="streak-display" title="Consecutive Practice Days">
-          <span>🔥</span> <span id="streak-count">0-Day Streak</span>
+        <div class="streak-pill" id="streak-display" title="Số ngày luyện tập liên tiếp">
+          <span>🔥</span> <span id="streak-count">0 ngày liên tiếp</span>
         </div>
-        <button class="theme-toggle-btn" id="theme-toggle" title="Toggle Light / Dark Mode" aria-label="Toggle Theme">
+        <button class="theme-toggle-btn" id="theme-toggle" title="Chuyển chế độ Sáng / Tối" aria-label="Chuyển giao diện">
           🌙
         </button>
       </div>
@@ -33,28 +33,28 @@
       <div class="kpi-row">
         <div class="kpi-main">
           <span class="kpi-number" id="kpi-ready-count">0</span>
-          <span class="kpi-label">/ 62 Exam Ready</span>
+          <span class="kpi-label">/ 62 Đã sẵn sàng</span>
           <span class="kpi-percentage" id="kpi-percentage">0%</span>
         </div>
         <div class="milestone-badge-active" id="milestone-next-badge">
           <span>🌱</span>
-          <span id="milestone-next-text">10 more topics to Getting Started</span>
+          <span id="milestone-next-text">10 chủ đề nữa để đạt mốc Khởi động</span>
         </div>
       </div>
 
       <!-- Multi-segment Progress Bar -->
       <div class="progress-bar-container">
         <div class="multi-progress-track" id="multi-progress-track">
-          <div class="seg-ready" id="seg-ready" style="width: 0%" title="Exam Ready"></div>
-          <div class="seg-improving" id="seg-improving" style="width: 0%" title="Improving"></div>
-          <div class="seg-tried" id="seg-tried" style="width: 0%" title="Tried"></div>
-          <div class="seg-new" id="seg-new" style="width: 100%" title="New"></div>
+          <div class="seg-ready" id="seg-ready" style="width: 0%" title="Đã sẵn sàng"></div>
+          <div class="seg-improving" id="seg-improving" style="width: 0%" title="Đang cải thiện"></div>
+          <div class="seg-tried" id="seg-tried" style="width: 0%" title="Đã thử"></div>
+          <div class="seg-new" id="seg-new" style="width: 100%" title="Chưa luyện"></div>
         </div>
         <div class="progress-legend">
-          <span class="legend-item"><span class="legend-dot dot-ready"></span> ● Ready: <strong id="count-ready">0</strong></span>
-          <span class="legend-item"><span class="legend-dot dot-improving"></span> ◑ Improving: <strong id="count-improving">0</strong></span>
-          <span class="legend-item"><span class="legend-dot dot-tried"></span> ◔ Tried: <strong id="count-tried">0</strong></span>
-          <span class="legend-item"><span class="legend-dot dot-new"></span> ○ New: <strong id="count-new">62</strong></span>
+          <span class="legend-item"><span class="legend-dot dot-ready"></span> ● Sẵn sàng: <strong id="count-ready">0</strong></span>
+          <span class="legend-item"><span class="legend-dot dot-improving"></span> ◑ Đang cải thiện: <strong id="count-improving">0</strong></span>
+          <span class="legend-item"><span class="legend-dot dot-tried"></span> ◔ Đã thử: <strong id="count-tried">0</strong></span>
+          <span class="legend-item"><span class="legend-dot dot-new"></span> ○ Chưa luyện: <strong id="count-new">62</strong></span>
         </div>
       </div>
 
@@ -62,33 +62,33 @@
       <div class="milestone-ladder" id="milestone-ladder">
         <div class="milestone-step" data-target="10">
           <span class="step-icon">🌱</span>
-          <span class="step-target">10 Topics</span>
-          <span class="step-name">Getting Started</span>
+          <span class="step-target">10 Chủ đề</span>
+          <span class="step-name">Khởi động</span>
         </div>
         <div class="milestone-step" data-target="20">
           <span class="step-icon">🔥</span>
-          <span class="step-target">20 Topics</span>
-          <span class="step-name">Building Fluency</span>
+          <span class="step-target">20 Chủ đề</span>
+          <span class="step-name">Tăng tốc</span>
         </div>
         <div class="milestone-step" data-target="30">
           <span class="step-icon">🎙️</span>
-          <span class="step-target">30 Topics</span>
-          <span class="step-name">Confident Speaker</span>
+          <span class="step-target">30 Chủ đề</span>
+          <span class="step-name">Tự tin nói</span>
         </div>
         <div class="milestone-step" data-target="40">
           <span class="step-icon">🚀</span>
-          <span class="step-target">40 Topics</span>
-          <span class="step-name">Exam Mode</span>
+          <span class="step-target">40 Chủ đề</span>
+          <span class="step-name">Sẵn sàng thi</span>
         </div>
         <div class="milestone-step" data-target="50">
           <span class="step-icon">💪</span>
-          <span class="step-target">50 Topics</span>
-          <span class="step-name">Almost Ready</span>
+          <span class="step-target">50 Chủ đề</span>
+          <span class="step-name">Về đích</span>
         </div>
         <div class="milestone-step" data-target="62">
           <span class="step-icon">🏆</span>
-          <span class="step-target">62 Topics</span>
-          <span class="step-name">Pool Complete</span>
+          <span class="step-target">62 Chủ đề</span>
+          <span class="step-name">Hoàn thành bộ đề</span>
         </div>
       </div>
     </section>
@@ -97,16 +97,16 @@
     <nav class="nav-tabs-container">
       <div class="nav-tabs">
         <button class="nav-tab active" data-tab="part2">
-          <span>🗺️</span> <span>Part 2 Quest Map</span> <span class="tab-badge" id="tab-badge-part2">62</span>
+          <span>🗺️</span> <span>Bản đồ Part 2</span> <span class="tab-badge" id="tab-badge-part2">62</span>
         </button>
         <button class="nav-tab" data-tab="part1">
-          <span>💬</span> <span>Part 1 Frames</span> <span class="tab-badge" id="tab-badge-part1">32</span>
+          <span>💬</span> <span>Khung đề Part 1</span> <span class="tab-badge" id="tab-badge-part1">32</span>
         </button>
         <button class="nav-tab" data-tab="stories">
-          <span>🧬</span> <span>Story Multipliers</span> <span class="tab-badge">6</span>
+          <span>🧬</span> <span>Nhóm câu chuyện</span> <span class="tab-badge">6</span>
         </button>
         <button class="nav-tab" data-tab="settings">
-          <span>⚙️</span> <span>Backup & Settings</span>
+          <span>⚙️</span> <span>Sao lưu & Cài đặt</span>
         </button>
       </div>
     </nav>
@@ -120,31 +120,31 @@
         <div class="search-row">
           <div class="search-box">
             <span class="search-icon">🔍</span>
-            <input type="text" id="search-input" placeholder="Search topics by number (#4), title, or keywords..." autocomplete="off">
+            <input type="text" id="search-input" placeholder="Tìm kiếm chủ đề theo số (#4), tên tiếng Anh, từ khóa..." autocomplete="off">
           </div>
           <button class="btn-random-topic" id="btn-random-topic">
-            <span>🎲</span> <span>Pick Next Random Topic</span>
+            <span>🎲</span> <span>Chọn ngẫu nhiên 1 chủ đề</span>
           </button>
         </div>
 
         <div class="filter-chips-row">
-          <span class="filter-label">Status:</span>
-          <button class="chip-btn active" data-filter-status="all">All (62)</button>
-          <button class="chip-btn chip-ready" data-filter-status="ready">● Ready</button>
-          <button class="chip-btn chip-improving" data-filter-status="improving">◑ Improving</button>
-          <button class="chip-btn chip-tried" data-filter-status="tried">◔ Tried</button>
-          <button class="chip-btn chip-new" data-filter-status="new">○ New</button>
+          <span class="filter-label">Trạng thái:</span>
+          <button class="chip-btn active" data-filter-status="all">Tất cả (62)</button>
+          <button class="chip-btn chip-ready" data-filter-status="ready">● Sẵn sàng</button>
+          <button class="chip-btn chip-improving" data-filter-status="improving">◑ Đang cải thiện</button>
+          <button class="chip-btn chip-tried" data-filter-status="tried">◔ Đã thử</button>
+          <button class="chip-btn chip-new" data-filter-status="new">○ Chưa luyện</button>
         </div>
 
         <div class="filter-chips-row">
-          <span class="filter-label">Category:</span>
-          <button class="chip-btn active" data-filter-category="all">All Categories</button>
-          <button class="chip-btn" data-filter-category="People">People</button>
-          <button class="chip-btn" data-filter-category="Places">Places</button>
-          <button class="chip-btn" data-filter-category="Tech & Objects">Tech & Objects</button>
-          <button class="chip-btn" data-filter-category="Experiences">Experiences</button>
-          <button class="chip-btn" data-filter-category="Culture & Nature">Culture & Nature</button>
-          <button class="chip-btn" data-filter-category="Ambition">Ambition</button>
+          <span class="filter-label">Chủ đề:</span>
+          <button class="chip-btn active" data-filter-category="all">Tất cả chủ đề</button>
+          <button class="chip-btn" data-filter-category="People">Con người</button>
+          <button class="chip-btn" data-filter-category="Places">Địa điểm</button>
+          <button class="chip-btn" data-filter-category="Tech & Objects">Công nghệ & Đồ vật</button>
+          <button class="chip-btn" data-filter-category="Experiences">Trải nghiệm</button>
+          <button class="chip-btn" data-filter-category="Culture & Nature">Văn hóa & Tự nhiên</button>
+          <button class="chip-btn" data-filter-category="Ambition">Ước mơ & Dự định</button>
         </div>
       </section>
 
@@ -152,9 +152,9 @@
       <section class="matrix-card">
         <div class="matrix-header">
           <h2 class="matrix-title">
-            <span>🌌</span> <span>62-Node Quest Journey Matrix</span>
+            <span>🌌</span> <span>Hành trình 62 chủ đề Part 2</span>
           </h2>
-          <span class="matrix-hint">Click any circle to open its full Cue Card & bullet points</span>
+          <span class="matrix-hint">Nhấp vào vòng tròn số bất kỳ để xem Cue Card & gợi ý chi tiết</span>
         </div>
 
         <!-- Matrix Grid of 62 Circles -->
@@ -172,15 +172,15 @@
         <div class="search-row">
           <div class="search-box">
             <span class="search-icon">🔍</span>
-            <input type="text" id="search-part1" placeholder="Search Part 1 topics & questions..." autocomplete="off">
+            <input type="text" id="search-part1" placeholder="Tìm kiếm chủ đề & câu hỏi Part 1..." autocomplete="off">
           </div>
           <div class="filter-chips-row">
-            <span class="filter-label">Status:</span>
-            <button class="chip-btn active" data-filter-part1-status="all">All (32)</button>
-            <button class="chip-btn chip-ready" data-filter-part1-status="ready">● Ready</button>
-            <button class="chip-btn chip-improving" data-filter-part1-status="improving">◑ Improving</button>
-            <button class="chip-btn chip-tried" data-filter-part1-status="tried">◔ Tried</button>
-            <button class="chip-btn chip-new" data-filter-part1-status="new">○ New</button>
+            <span class="filter-label">Trạng thái:</span>
+            <button class="chip-btn active" data-filter-part1-status="all">Tất cả (32)</button>
+            <button class="chip-btn chip-ready" data-filter-part1-status="ready">● Sẵn sàng</button>
+            <button class="chip-btn chip-improving" data-filter-part1-status="improving">◑ Đang cải thiện</button>
+            <button class="chip-btn chip-tried" data-filter-part1-status="tried">◔ Đã thử</button>
+            <button class="chip-btn chip-new" data-filter-part1-status="new">○ Chưa luyện</button>
           </div>
         </div>
       </div>
@@ -195,9 +195,9 @@
          ==================================================================== -->
     <section class="tab-view" id="view-stories">
       <div class="stories-intro-card">
-        <h2 class="stories-intro-title">🧬 The Story Multiplier Strategy</h2>
+        <h2 class="stories-intro-title">🧬 Chiến lược dùng 1 câu chuyện cho nhiều đề</h2>
         <p class="stories-intro-desc">
-          Instead of memorizing 62 distinct cue cards, master these <strong>6 core life stories</strong>. Each story effortlessly adapts to cover 4–6 different IELTS Part 2 topics across People, Places, Objects, and Experiences. Click any topic badge below to open its cue card!
+          Thay vì ghi nhớ 62 bài nói riêng biệt, hãy làm chủ <strong>6 câu chuyện cốt lõi</strong> này. Mỗi câu chuyện có thể linh hoạt chuyển hóa để trả lời 4–6 đề IELTS Part 2 khác nhau (Người, Địa điểm, Đồ vật, Trải nghiệm). Nhấp vào bất kỳ chủ đề nào bên dưới để mở ngay Cue Card!
         </p>
       </div>
 
@@ -213,29 +213,29 @@
       <div class="settings-grid">
         <!-- Export Card -->
         <div class="settings-card">
-          <h3 class="settings-title"><span>📥</span> <span>Export Backup</span></h3>
-          <p class="settings-desc">Save your practice statuses, transcripts, notes, and streak to a JSON file or copy to your clipboard.</p>
+          <h3 class="settings-title"><span>📥</span> <span>Xuất bản sao lưu</span></h3>
+          <p class="settings-desc">Lưu trạng thái luyện tập, streak và tiến độ ra file JSON hoặc sao chép vào bộ nhớ tạm.</p>
           <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
-            <button class="btn-action-primary" id="btn-export-json">Download JSON File</button>
-            <button class="btn-action-secondary" id="btn-copy-json">Copy JSON</button>
+            <button class="btn-action-primary" id="btn-export-json">Tải file JSON</button>
+            <button class="btn-action-secondary" id="btn-copy-json">Sao chép JSON</button>
           </div>
         </div>
 
         <!-- Import Card -->
         <div class="settings-card">
-          <h3 class="settings-title"><span>📤</span> <span>Import Backup</span></h3>
-          <p class="settings-desc">Restore your progress from a saved JSON backup file or paste the JSON text below.</p>
+          <h3 class="settings-title"><span>📤</span> <span>Khôi phục bản sao lưu</span></h3>
+          <p class="settings-desc">Khôi phục tiến độ từ file JSON đã lưu hoặc dán nội dung JSON vào khung bên dưới.</p>
           <input type="file" id="file-import-json" accept=".json" style="font-size: 0.85rem;">
-          <textarea class="import-textarea" id="import-json-text" placeholder="Or paste JSON backup content here..."></textarea>
-          <button class="btn-action-primary" id="btn-import-json">Restore Progress</button>
+          <textarea class="import-textarea" id="import-json-text" placeholder="Hoặc dán nội dung JSON sao lưu vào đây..."></textarea>
+          <button class="btn-action-primary" id="btn-import-json">Khôi phục tiến độ</button>
           <div id="import-status-msg" style="font-size: 0.8rem; font-weight: 600;"></div>
         </div>
 
         <!-- Reset Card -->
         <div class="settings-card">
-          <h3 class="settings-title"><span>⚠️</span> <span>Reset to Default</span></h3>
-          <p class="settings-desc">Reset all topics, notes, and statuses back to original factory defaults. This action cannot be undone.</p>
-          <button class="btn-action-danger" id="btn-reset-data">Reset All Data to Default</button>
+          <h3 class="settings-title"><span>⚠️</span> <span>Đặt lại mặc định</span></h3>
+          <p class="settings-desc">Đặt lại tất cả trạng thái chủ đề về mặc định ban đầu. Hành động này không thể hoàn tác.</p>
+          <button class="btn-action-danger" id="btn-reset-data">Xóa và đặt lại dữ liệu gốc</button>
         </div>
       </div>
     </section>
@@ -252,19 +252,19 @@
           <div class="modal-badges">
             <span class="modal-topic-id" id="modal-topic-id">#1</span>
             <span class="modal-category-chip" id="modal-category">People</span>
-            <span class="modal-status-badge status-new" id="modal-status-badge">○ New</span>
+            <span class="modal-status-badge status-new" id="modal-status-badge">○ Chưa luyện</span>
           </div>
           <h2 class="modal-title" id="modal-title">Topic Title Here</h2>
           <a class="modal-story-link" id="modal-story-link" style="display: none;">
-            <span>🧬 Linked Story:</span> <strong id="modal-story-name"></strong>
+            <span>🧬 Câu chuyện liên kết:</span> <strong id="modal-story-name"></strong>
           </a>
         </div>
-        <button class="btn-close-modal" id="btn-close-modal" aria-label="Close modal">&times;</button>
+        <button class="btn-close-modal" id="btn-close-modal" aria-label="Đóng">&times;</button>
       </header>
 
       <!-- Modal Body -->
       <div class="modal-body">
-        <!-- "You should say:" Bullet Points Box -->
+        <!-- "You should say:" Bullet Points Box (Prompt remains in English) -->
         <section class="cuecard-prompt-box">
           <div class="cuecard-lead" id="cuecard-prompt">You should say:</div>
           <ul class="cuecard-points-list" id="cuecard-points">
@@ -275,7 +275,7 @@
         <!-- Part 3 Follow-up Questions Accordion -->
         <section class="accordion-box" id="accordion-part3">
           <button class="accordion-header" id="accordion-part3-toggle" type="button">
-            <span id="accordion-part3-title">💬 Part 3 Follow-up Discussion Questions</span>
+            <span id="accordion-part3-title">💬 Câu hỏi thảo luận Part 3 (Part 3 Discussion Questions)</span>
             <span class="accordion-chevron">▼</span>
           </button>
           <div class="accordion-content">
@@ -287,20 +287,20 @@
 
         <!-- Mastery Status Buttons (1-Click Setter) -->
         <section class="mastery-setter-section">
-          <span class="mastery-setter-label">Update Mastery Status:</span>
+          <span class="mastery-setter-label">Cập nhật trạng thái:</span>
           <div class="mastery-btn-group">
-            <button class="btn-mastery btn-set-new" id="btn-set-new">○ New</button>
-            <button class="btn-mastery btn-set-tried" id="btn-set-tried">◔ Tried</button>
-            <button class="btn-mastery btn-set-improving" id="btn-set-improving">◑ Improving</button>
-            <button class="btn-mastery btn-set-ready" id="btn-set-ready">● Exam Ready</button>
+            <button class="btn-mastery btn-set-new" id="btn-set-new">○ Chưa luyện</button>
+            <button class="btn-mastery btn-set-tried" id="btn-set-tried">◔ Đã thử</button>
+            <button class="btn-mastery btn-set-improving" id="btn-set-improving">◑ Đang cải thiện</button>
+            <button class="btn-mastery btn-set-ready" id="btn-set-ready">● Đã sẵn sàng</button>
           </div>
         </section>
       </div>
 
       <!-- Modal Footer -->
       <footer class="modal-footer">
-        <button class="modal-nav-btn" id="btn-prev-topic">← Previous Topic</button>
-        <button class="modal-nav-btn" id="btn-next-topic">Next Topic →</button>
+        <button class="modal-nav-btn" id="btn-prev-topic">← Chủ đề trước</button>
+        <button class="modal-nav-btn" id="btn-next-topic">Chủ đề tiếp theo →</button>
       </footer>
     </div>
   </div>

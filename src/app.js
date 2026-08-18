@@ -140,7 +140,7 @@
 
     // Streak
     if (elements.streakCount) {
-      elements.streakCount.textContent = `${streak.count}-Day Streak`;
+      elements.streakCount.textContent = `${streak.count} ngày liên tiếp`;
     }
 
     // KPIs
@@ -149,12 +149,12 @@
 
     // Next Milestone
     if (elements.milestoneNextText && stats.nextMilestone) {
-      elements.milestoneNextText.textContent = `${stats.topicsToNextMilestone} more to ${stats.nextMilestone.name}`;
+      elements.milestoneNextText.textContent = `${stats.topicsToNextMilestone} chủ đề nữa để đạt mốc ${stats.nextMilestone.name}`;
       if (elements.milestoneNextBadge) {
         elements.milestoneNextBadge.querySelector('span:first-child').textContent = stats.nextMilestone.emoji;
       }
     } else if (elements.milestoneNextText) {
-      elements.milestoneNextText.textContent = 'All 62 Topics Mastered!';
+      elements.milestoneNextText.textContent = 'Đã hoàn thành toàn bộ 62 chủ đề!';
     }
 
     // Multi-segment progress bar
@@ -203,7 +203,7 @@
       node.dataset.id = topic.id;
       node.dataset.category = topic.category || '';
       node.dataset.status = topic.status || 'new';
-      node.setAttribute('aria-label', `Topic ${topic.id}: ${topic.title} (${topic.status || 'new'})`);
+      node.setAttribute('aria-label', `Chủ đề ${topic.id}: ${topic.title} (${getStatusVietnamese(topic.status || 'new')})`);
 
       node.textContent = topic.id;
 
@@ -241,20 +241,21 @@
       const id = Number(node.dataset.id);
       const category = node.dataset.category;
       const status = node.dataset.status;
-      const topic = state.getPart2Topic(id);
+      const topic = state ? state.getPart2Topic(id) : null;
 
       let matchStatus = (currentFilterStatus === 'all' || status === currentFilterStatus);
       let matchCategory = (currentFilterCategory === 'all' || category === currentFilterCategory);
 
       let matchSearch = true;
-      if (query) {
+      if (query && topic) {
         // Match topic id (e.g. #4, 4)
         const idMatches = query === String(id) || query === `#${id}`;
         const titleMatches = topic && topic.title && topic.title.toLowerCase().includes(query);
         const promptMatches = topic && topic.cueCard && topic.cueCard.prompt && topic.cueCard.prompt.toLowerCase().includes(query);
         const pointsMatch = topic && topic.cueCard && topic.cueCard.points && topic.cueCard.points.some(p => p.toLowerCase().includes(query));
+        const storyMatch = topic.storyCluster && topic.storyCluster.toLowerCase().includes(query);
 
-        matchSearch = idMatches || titleMatches || promptMatches || pointsMatch;
+        matchSearch = idMatches || titleMatches || promptMatches || pointsMatch || storyMatch;
       }
 
       if (matchStatus && matchCategory && matchSearch) {
@@ -269,13 +270,13 @@
   function showTooltip(topic, e) {
     if (!elements.nodeTooltip) return;
 
-    const statusLabel = capitalize(topic.status || 'new');
-    const practicedText = topic.lastPracticed ? `Last: ${topic.lastPracticed.slice(0, 10)}` : 'Not practiced yet';
+    const statusLabel = getStatusVietnamese(topic.status || 'new');
+    const practicedText = topic.lastPracticed ? `Lần luyện gần nhất: ${topic.lastPracticed.slice(0, 10)}` : 'Chưa luyện';
 
     elements.nodeTooltip.innerHTML = `
       <strong>#${topic.id} · ${escapeHtml(topic.title)}</strong><br>
-      <span style="color: var(--text-muted);">Category: ${escapeHtml(topic.category || 'General')}</span><br>
-      <span>Status: <strong>${statusLabel}</strong> (${practicedText})</span>
+      <span style="color: var(--text-muted);">Chủ đề: ${escapeHtml(getCategoryVietnamese(topic.category))}</span><br>
+      <span>Trạng thái: <strong>${statusLabel}</strong> (${practicedText})</span>
     `;
 
     elements.nodeTooltip.classList.add('visible');
@@ -317,13 +318,13 @@
 
     // Header info
     if (elements.modalTopicId) elements.modalTopicId.textContent = `#${topic.id}`;
-    if (elements.modalCategory) elements.modalCategory.textContent = topic.category || 'Part 2';
+    if (elements.modalCategory) elements.modalCategory.textContent = getCategoryVietnamese(topic.category);
     if (elements.modalTitle) elements.modalTitle.textContent = topic.title;
 
     // Status badge
     if (elements.modalStatusBadge) {
       elements.modalStatusBadge.className = `modal-status-badge status-${topic.status || 'new'}`;
-      elements.modalStatusBadge.textContent = `${getStatusEmoji(topic.status)} ${capitalize(topic.status || 'new')}`;
+      elements.modalStatusBadge.textContent = `${getStatusEmoji(topic.status)} ${getStatusVietnamese(topic.status || 'new')}`;
     }
 
     // Story Link
@@ -360,7 +361,7 @@
       elements.part3QuestionsList.innerHTML = '';
       const p3Questions = Array.isArray(topic.part3Questions) ? topic.part3Questions : [];
       if (elements.accordionPart3Title) {
-        elements.accordionPart3Title.textContent = `💬 Part 3 Follow-up Discussion Questions (${p3Questions.length})`;
+        elements.accordionPart3Title.textContent = `💬 Câu hỏi thảo luận Part 3 (${p3Questions.length})`;
       }
       p3Questions.forEach(q => {
         const li = document.createElement('li');
@@ -415,7 +416,7 @@
     if (updated) {
       if (elements.modalStatusBadge) {
         elements.modalStatusBadge.className = `modal-status-badge status-${updated.status}`;
-        elements.modalStatusBadge.textContent = `${getStatusEmoji(updated.status)} ${capitalize(updated.status)}`;
+        elements.modalStatusBadge.textContent = `${getStatusEmoji(updated.status)} ${getStatusVietnamese(updated.status)}`;
       }
       updateModalMasteryButtons(updated.status);
     }
@@ -476,7 +477,7 @@
         </div>
 
         <div>
-          <div class="story-topics-title">Covers ${story.topicIds ? story.topicIds.length : 0} Cue Cards:</div>
+          <div class="story-topics-title">Bao quát ${story.topicIds ? story.topicIds.length : 0} chủ đề Part 2:</div>
           <div class="story-topics-wrap">
             ${badgesHtml}
           </div>
@@ -536,7 +537,7 @@
             <h3 class="part1-title">${escapeHtml(topic.title)}</h3>
           </div>
           <span class="part1-status-pill modal-status-badge status-${topic.status || 'new'}">
-            ${getStatusEmoji(topic.status)} ${capitalize(topic.status || 'new')}
+            ${getStatusEmoji(topic.status)} ${getStatusVietnamese(topic.status || 'new')}
           </span>
         </div>
 
@@ -547,12 +548,12 @@
         </div>
 
         <div class="part1-actions">
-          <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary);">Set Status:</span>
+          <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary);">Trạng thái:</span>
           <div style="display: flex; gap: 0.35rem; flex-wrap: wrap;">
-            <button class="btn-mastery btn-set-new ${topic.status === 'new' ? 'active' : ''}" data-status="new">○ New</button>
-            <button class="btn-mastery btn-set-tried ${topic.status === 'tried' ? 'active' : ''}" data-status="tried">◔ Tried</button>
-            <button class="btn-mastery btn-set-improving ${topic.status === 'improving' ? 'active' : ''}" data-status="improving">◑ Improving</button>
-            <button class="btn-mastery btn-set-ready ${topic.status === 'ready' ? 'active' : ''}" data-status="ready">● Ready</button>
+            <button class="btn-mastery btn-set-new ${topic.status === 'new' ? 'active' : ''}" data-status="new">○ Chưa luyện</button>
+            <button class="btn-mastery btn-set-tried ${topic.status === 'tried' ? 'active' : ''}" data-status="tried">◔ Đã thử</button>
+            <button class="btn-mastery btn-set-improving ${topic.status === 'improving' ? 'active' : ''}" data-status="improving">◑ Đang cải thiện</button>
+            <button class="btn-mastery btn-set-ready ${topic.status === 'ready' ? 'active' : ''}" data-status="ready">● Sẵn sàng</button>
           </div>
         </div>
       `;
@@ -592,13 +593,13 @@
     navigator.clipboard.writeText(json).then(() => {
       if (elements.btnCopyJson) {
         const originalText = elements.btnCopyJson.textContent;
-        elements.btnCopyJson.textContent = '✓ Copied to Clipboard!';
+        elements.btnCopyJson.textContent = '✓ Đã sao chép vào bộ nhớ tạm!';
         setTimeout(() => {
           elements.btnCopyJson.textContent = originalText;
         }, 2000);
       }
     }).catch(err => {
-      alert('Could not copy to clipboard. Please use file export.');
+      alert('Không thể sao chép. Vui lòng sử dụng nút tải file JSON.');
     });
   }
 
@@ -608,7 +609,7 @@
 
     if (!text) {
       if (elements.importStatusMsg) {
-        elements.importStatusMsg.textContent = '⚠️ Please paste JSON or select a file first.';
+        elements.importStatusMsg.textContent = '⚠️ Vui lòng dán nội dung JSON hoặc chọn file trước.';
         elements.importStatusMsg.style.color = '#ef4444';
       }
       return;
@@ -617,13 +618,13 @@
     try {
       state.importJSON(text);
       if (elements.importStatusMsg) {
-        elements.importStatusMsg.textContent = '✓ Backup restored successfully!';
+        elements.importStatusMsg.textContent = '✓ Khôi phục tiến độ thành công!';
         elements.importStatusMsg.style.color = '#10b981';
       }
       if (elements.importJsonText) elements.importJsonText.value = '';
     } catch (err) {
       if (elements.importStatusMsg) {
-        elements.importStatusMsg.textContent = `❌ Import failed: ${err.message}`;
+        elements.importStatusMsg.textContent = `❌ Lỗi khôi phục: ${err.message}`;
         elements.importStatusMsg.style.color = '#ef4444';
       }
     }
@@ -646,10 +647,10 @@
 
   function resetAllData() {
     if (!state) return;
-    const confirmReset = window.confirm('Are you sure you want to reset all topics, notes, and streak back to factory defaults? This cannot be undone.');
-    if (confirmReset) {
+    const confirmed = confirm('Bạn có chắc chắn muốn đặt lại toàn bộ tiến độ về mặc định? Thao tác này không thể hoàn tác.');
+    if (confirmed) {
       state.resetToDefaults();
-      alert('All data has been reset to defaults.');
+      alert('Đã khôi phục dữ liệu gốc thành công!');
     }
   }
 
@@ -823,6 +824,27 @@
       case 'improving': return '◑';
       case 'tried': return '◔';
       default: return '○';
+    }
+  }
+
+  function getStatusVietnamese(status) {
+    switch (status) {
+      case 'ready': return 'Đã sẵn sàng';
+      case 'improving': return 'Đang cải thiện';
+      case 'tried': return 'Đã thử';
+      default: return 'Chưa luyện';
+    }
+  }
+
+  function getCategoryVietnamese(category) {
+    switch (category) {
+      case 'People': return 'Con người';
+      case 'Places': return 'Địa điểm';
+      case 'Tech & Objects': return 'Công nghệ & Đồ vật';
+      case 'Experiences': return 'Trải nghiệm';
+      case 'Culture & Nature': return 'Văn hóa & Tự nhiên';
+      case 'Ambition': return 'Ước mơ & Dự định';
+      default: return category || 'Chung';
     }
   }
 

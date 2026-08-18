@@ -123,7 +123,7 @@ for (let i = 1; i <= 15; i++) {
 const stats15 = freshState.getPart2Stats();
 assert.strictEqual(stats15.readyCount, 17); // 15 + #23 + #46
 assert.strictEqual(stats15.currentMilestone.target, 10);
-assert.strictEqual(stats15.currentMilestone.name, 'Getting Started');
+assert.strictEqual(stats15.currentMilestone.name, 'Khởi động');
 assert.strictEqual(stats15.nextMilestone.target, 20);
 assert.strictEqual(stats15.topicsToNextMilestone, 3);
 

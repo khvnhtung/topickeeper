@@ -6,12 +6,12 @@
 const STORAGE_KEY = 'topickeeper_app_state_v1';
 
 const MILESTONES = [
-  { name: 'Getting Started', emoji: '🌱', target: 10 },
-  { name: 'Building Fluency', emoji: '🔥', target: 20 },
-  { name: 'Confident Speaker', emoji: '🎙️', target: 30 },
-  { name: 'Exam Mode', emoji: '🚀', target: 40 },
-  { name: 'Almost Ready', emoji: '💪', target: 50 },
-  { name: 'Prediction Pool Complete', emoji: '🏆', target: 62 }
+  { name: 'Khởi động', emoji: '🌱', target: 10 },
+  { name: 'Tăng tốc', emoji: '🔥', target: 20 },
+  { name: 'Tự tin nói', emoji: '🎙️', target: 30 },
+  { name: 'Sẵn sàng thi', emoji: '🚀', target: 40 },
+  { name: 'Về đích', emoji: '💪', target: 50 },
+  { name: 'Hoàn thành bộ đề', emoji: '🏆', target: 62 }
 ];
 
 class AppState {
