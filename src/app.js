@@ -201,8 +201,6 @@
     elements.kpiReadyCount = document.getElementById('kpi-ready-count');
     elements.kpiLabel = document.getElementById('kpi-label');
     elements.kpiPercentage = document.getElementById('kpi-percentage');
-    elements.milestoneNextText = document.getElementById('milestone-next-text');
-    elements.milestoneNextBadge = document.getElementById('milestone-next-badge');
     elements.segReady = document.getElementById('seg-ready');
     elements.segImproving = document.getElementById('seg-improving');
     elements.segTried = document.getElementById('seg-tried');
@@ -215,7 +213,6 @@
     elements.countImproving = document.getElementById('count-improving');
     elements.countTried = document.getElementById('count-tried');
     elements.countNew = document.getElementById('count-new');
-    elements.milestoneLadder = document.getElementById('milestone-ladder');
 
     // Tabs & Views
     elements.navTabs = document.querySelectorAll('.nav-tab');
@@ -342,14 +339,6 @@
     if (elements.legendLabelTried) elements.legendLabelTried.textContent = dict.triedFull + ':';
     if (elements.legendLabelNew) elements.legendLabelNew.textContent = dict.newFull + ':';
 
-    // Milestone ladder
-    [10, 20, 30, 40, 50, 62].forEach(target => {
-      const stepTarget = document.getElementById(`step-target-${target}`);
-      const stepName = document.getElementById(`step-name-${target}`);
-      if (stepTarget && dict.milestones[target]) stepTarget.textContent = dict.milestones[target].targetText;
-      if (stepName && dict.milestones[target]) stepName.textContent = dict.milestones[target].name;
-    });
-
     // Nav Tabs
     if (elements.tabTitlePart2) elements.tabTitlePart2.textContent = dict.tabPart2;
     if (elements.tabTitlePart1) elements.tabTitlePart1.textContent = dict.tabPart1;
@@ -473,19 +462,6 @@
     if (elements.kpiReadyCount) elements.kpiReadyCount.textContent = stats.readyCount;
     if (elements.kpiPercentage) elements.kpiPercentage.textContent = `${stats.readinessPercentage}%`;
 
-    // Next Milestone
-    if (elements.milestoneNextText && stats.nextMilestone) {
-      const mName = dict.milestones[stats.nextMilestone.target] ? dict.milestones[stats.nextMilestone.target].name : stats.nextMilestone.name;
-      elements.milestoneNextText.textContent = dict.topicsToNextMilestone
-        .replace('{n}', stats.topicsToNextMilestone)
-        .replace('{name}', mName);
-      if (elements.milestoneNextBadge) {
-        elements.milestoneNextBadge.querySelector('span:first-child').textContent = stats.nextMilestone.emoji;
-      }
-    } else if (elements.milestoneNextText) {
-      elements.milestoneNextText.textContent = dict.allMastered;
-    }
-
     // Multi-segment progress bar
     const total = stats.total || 62;
     const readyPct = (stats.readyCount / total) * 100;
@@ -503,20 +479,6 @@
     if (elements.countImproving) elements.countImproving.textContent = stats.improvingCount;
     if (elements.countTried) elements.countTried.textContent = stats.triedCount;
     if (elements.countNew) elements.countNew.textContent = stats.newCount;
-
-    // Milestone ladder
-    if (elements.milestoneLadder) {
-      const steps = elements.milestoneLadder.querySelectorAll('.milestone-step');
-      steps.forEach(step => {
-        const target = Number(step.dataset.target);
-        step.classList.remove('achieved', 'current');
-        if (stats.readyCount >= target) {
-          step.classList.add('achieved');
-        } else if (stats.nextMilestone && stats.nextMilestone.target === target) {
-          step.classList.add('current');
-        }
-      });
-    }
   }
 
   // --- 62-NODE MATRIX MAP RENDERING ---

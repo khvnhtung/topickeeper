@@ -315,22 +315,9 @@ input:focus, textarea:focus, select:focus {
   font-size: 0.85rem;
 }
 
-.milestone-badge-active {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.4rem 0.85rem;
-  background: var(--accent-primary-light);
-  border: 1px solid var(--accent-primary);
-  border-radius: var(--radius-full);
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--accent-primary);
-}
-
 /* Multi-Segment Progress Bar */
 .progress-bar-container {
-  margin-bottom: 1rem;
+  margin-bottom: 0.25rem;
 }
 
 .multi-progress-track {
@@ -390,48 +377,6 @@ input:focus, textarea:focus, select:focus {
 .dot-improving { background: var(--state-improving); }
 .dot-tried { background: var(--state-tried); }
 .dot-new { background: var(--state-new); }
-
-/* Milestone Ladder */
-.milestone-ladder {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
-  overflow-x: auto;
-  padding: 0.75rem 0.25rem 0.25rem;
-  margin-top: 0.75rem;
-  border-top: 1px dashed var(--border-color);
-}
-
-.milestone-step {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 0.2rem;
-  font-size: 0.75rem;
-  min-width: 80px;
-  opacity: 0.45;
-  transition: opacity var(--transition-fast), transform var(--transition-fast);
-}
-
-.milestone-step.achieved {
-  opacity: 1;
-  font-weight: 700;
-  color: var(--state-ready);
-}
-
-.milestone-step.current {
-  opacity: 1;
-  font-weight: 800;
-  color: var(--accent-primary);
-  transform: scale(1.05);
-}
-
-.milestone-step .step-icon {
-  font-size: 1.3rem;
-  line-height: 1;
-}
 
 /* Daily Mission (Removed) */
 
