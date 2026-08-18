@@ -12,7 +12,7 @@
 
 ---
 
-## 2. User Interface & Core Components
+## 2. User Interface & Core Interactive Components
 
 ### Component A: Header & Multi-Stage Progress Bar
 - **Readiness KPI:** Displays `X / 62 Exam Ready` + percentage (e.g. `24 Ready (39%)`).
@@ -30,17 +30,24 @@
   - `💪 50 Topics` — Almost Ready
   - `🏆 62 Topics` — Prediction Pool Complete
 
-### Component B: The 62-Node Journey Matrix
-- Visual grid of 62 circular interactive nodes, color-coded by mastery state.
-- Hovering shows a tooltip with topic number, title, and last practiced date.
-- Clicking any node opens the topic in the **Practice Studio**.
-- Quick filter tabs: `All (62)`, `Exam Ready`, `Improving`, `Tried`, `New`, plus category chips (*People, Places, Tech, Experiences, Culture*).
+### Component B: The 62-Node Journey Matrix (Interactive Number Map)
+- Visual grid of 62 circular interactive nodes (1 to 62), color-coded by current mastery state.
+- **Instant Click Interaction:** Clicking on any number circle (e.g. #4, #27, #46) immediately opens the **Cue Card & Practice Drawer/Modal**:
+  - Displays the topic title.
+  - Displays the exact **"You should say:"** cue card bullet points.
+  - Displays the **Part 3 Follow-up Discussion Questions** accordion.
+  - Displays preloaded student transcripts, practice notes, and teacher corrections.
+  - Controls to start the **1:00 Prep / 2:00 Speak Hourglass Timers**.
+  - One-click buttons to change mastery state (`○ New` -> `◔ Tried` -> `◑ Improving` -> `● Exam Ready`).
+- **Hover interaction:** Tooltip with topic title and last practiced status.
+- Quick filter tabs: `All (62)`, `Exam Ready`, `Improving`, `Tried`, `New`, plus category chips (*People, Places, Tech, Experiences, Culture, Ambition*).
 - Tab toggle to switch between **Part 2 + 3 Quest** and **Part 1 Compulsory Frames (32 Topics)**.
 
 ### Component C: "Today's 3 Speaking Mission" (Micro-Habit Engine)
 - Compact daily card showcasing 3 prioritized topics (~24 minutes total).
 - Selection algorithm: Picks 1 topic to review (`Improving`), 1 topic to push (`Tried`), and 1 unseen topic (`New`).
 - Visual status checkboxes `① ✓  ② ▶  ③ ○` + celebration modal upon completing all 3.
+- Clicking any mission item immediately focuses its cue card and preparation hourglass.
 
 ### Component D: Story Multiplier Hub
 - Interactive connection cards showing how 1 master story covers multiple cue cards:
@@ -49,6 +56,7 @@
   - 🎂 **20th Birthday Celebration:** #4 (People smiling), #8 (Gifts), #26 (Special food), #62 (Special cake).
   - 🎵 **G-Dragon Concert with Friend:** #14 (Singing), #19 (Music event), #23 (Clever solution), #54 (First time activity).
   - 🚗 **City Traffic & Pollution:** #10 (Trip), #25 (Cars), #46 (Environmental law).
+- Clicking any topic badge in a story card jumps directly to that topic's cue card.
 
 ### Component E: Active Practice Studio (with Hourglass Countdown)
 - **Topic Header & Cues:** Full cue card prompts (*"You should say: ..."*).
@@ -110,7 +118,7 @@ interface TopicPart1 {
 ---
 
 ## 5. Verification & Testing Plan
-1. **Visual Map Rendering:** Verify all 62 nodes render properly with tooltips, click handlers, and responsive layout.
+1. **Interactive Node Click:** Verify clicking any of the 62 circles immediately opens and displays the corresponding topic title, cue card prompt, and bullet points.
 2. **State Updates:** Test status transitions (`New` -> `Tried` -> `Improving` -> `Ready`) updating the progress bar and node colors instantly.
 3. **Daily Mission Generator:** Verify 3 smart topics load daily and track completion.
 4. **Hourglass Practice Timer:** Verify 1:00 prep timer and 2:00 speaking timer accurately count down with animation and sound/visual chime.
