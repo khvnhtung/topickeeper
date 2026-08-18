@@ -198,8 +198,9 @@ const topicsPart2 = [
       "Do you agree or disagree that being an actor is a difficult job?",
       "How important are famous actors to the success of a movie?"
     ],
-    "status": "new",
-    "storyCluster": "20th Birthday Celebration"
+    "status": "improving",
+    "storyCluster": "20th Birthday Celebration",
+    "notes": "Practiced in Lesson 10: Watching movie 'Mua Do' with parents at the cinema."
   },
   {
     "id": 9,
@@ -220,7 +221,8 @@ const topicsPart2 = [
       "What are some jobs that require a good imagination?",
       "Do scientists need to use their imagination?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 10: Drawing and painting, mixing colors, creative art guidance."
   },
   {
     "id": 10,
@@ -1184,7 +1186,8 @@ const topicsPart2 = [
       "Should children learn about animals at school?",
       "Do people care more about animal welfare nowadays?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 10: Fable story about the frog and bunny (bunny brings frog home to get food and water from mom)."
   },
   {
     "id": 49,

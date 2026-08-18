@@ -364,7 +364,8 @@ const topicsPart1 = [
       "Do you want to own a very expensive car?"
     ],
     "status": "improving",
-    "notes": "Practiced in Lessons 13, 14"
+    "notes": "Teacher Corrections (Lesson 10):\n- 'turning to 17 years old' -> 'I am 17 years old / I have just turned 17'\n- 'not be able to' -> 'I am not able to drive yet / I don't have a driving license'\n- 'prefer' -> 'I would prefer / I will have to'\n- 'any situations' -> 'any places'",
+    "studentTranscript": "Q: Would you like to be the driver or the passenger?\nA: I am still 17 years old so I don't have a driving license yet. I prefer to be a passenger.\n\nQ: Is there a lot of cars on the roads in your city?\nA: Whenever I am traveling in the rush hour, the roads are very congested with cars and motorbikes."
   },
   {
     "id": 26,
@@ -415,8 +416,9 @@ const topicsPart1 = [
       "What sort of things do you find most boring now?",
       "What do you do to stop yourself feeling bored?"
     ],
-    "status": "tried",
-    "notes": "Practiced in Lesson 6"
+    "status": "improving",
+    "notes": "Teacher Notes (Lesson 10):\n- Collocation: 'difficult to put ideas into words'\n- Explain coping mechanisms to stop feeling bored.",
+    "studentTranscript": "Q: Do you often feel bored?\nA: Sometimes, especially during exam preparation. I have to stay up late to complete assignments and review lessons to get high grades and make my parents proud."
   },
   {
     "id": 30,
