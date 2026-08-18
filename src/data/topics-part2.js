@@ -1,6 +1,5 @@
 /**
  * IELTS Speaking Quest — Part 2 Forecast Pool (Q2 May–August 2026)
- * Complete dataset with 62 Topics, Cue Cards, Bullet Points, Part 3 Questions, and Student Speeches
  */
 
 const topicsPart2 = [
@@ -25,8 +24,9 @@ const topicsPart2 = [
       "Have the things that people are proud of changed compared to the past?",
       "When do adults feel proud of themselves?"
     ],
-    "status": "new",
-    "storyCluster": "My Mother / Inspiring Family Member"
+    "status": "improving",
+    "storyCluster": "My Mother / Inspiring Family Member",
+    "notes": "Practiced in Lesson 7: Character A (Lan - older cousin nurse) / Family pride"
   },
   {
     "id": 2,
@@ -70,7 +70,8 @@ const topicsPart2 = [
       "Why do people choose the job they mentioned as their dream job?",
       "Why do people change their dream jobs as they grow older?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 4, 12: English teacher career / Hanoi university"
   },
   {
     "id": 4,
@@ -97,7 +98,7 @@ const topicsPart2 = [
     "status": "ready",
     "storyCluster": "20th Birthday Celebration",
     "studentTranscript": "I would like to talk about a time I remember when I saw lots of people smiling. It was on my 20th birthday. It happened two years ago when I was celebrating a birthday party with my close friends at my apartment. At that time we simply planned to get together, order some food, and prepare some simple cake for my birthday. At first I planned to order a simple chocolate cake, but my friends secretly ordered another one which was custom-made. The most surprising moment was when my friends surprised me with this cake. When they brought it out and sang Happy Birthday to me, everyone in my apartment was smiling and taking lots of photos. It was really surprising and memorable. I remember the occasion because the atmosphere was really cozy. At that time I realized that my friends had put a lot of effort into making my birthday really special.",
-    "notes": "Teacher Corrections:\n- \"on my twenty birthday\" -> \"on my 20th birthday\"\n- \"planner (d)\" -> \"planned\"\n- \"surprised moment were that\" -> \"surprising moment was when\"\n- \"sang singing\" -> \"sang\"\n- \"taking lot of photos\" -> \"taking lots of photos\"\n- \"my friend\" (plural) -> \"my friends\"\n\nStory Link: 20th Birthday Celebration (covers #4, #8, #26, #62)",
+    "notes": "Teacher Corrections:\n- \"on my twenty birthday\" -> \"on my 20th birthday\"\n- \"planner (d)\" -> \"planned\"\n- \"surprised moment were that\" -> \"surprising moment was when\"\n- \"sang singing\" -> \"sang\"\n- \"taking lot of photos\" -> \"taking lots of photos\"\n- \"my friend\" (plural) -> \"my friends\"\n\nStory Link: 20th Birthday Celebration (covers #4, #8, #26, #62)\n[Practiced in Lesson 5, 14: 17th/20th Birthday at Jollibee / Apartment cake with friends]",
     "lastPracticed": "2026-08-17"
   },
   {
@@ -122,7 +123,8 @@ const topicsPart2 = [
       "Is it possible for people to become famous without talent?",
       "Would people still want to become famous if they knew what they are going to face?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 7: Khanh Vy VTV MC / TikTok creator (7 languages)"
   },
   {
     "id": 6,
@@ -147,8 +149,9 @@ const topicsPart2 = [
       "Is it necessary for employees to ask their manager for help?",
       "Do you agree or disagree that many people will lose their jobs because of AI?"
     ],
-    "status": "new",
-    "storyCluster": "My Mother / Inspiring Family Member"
+    "status": "improving",
+    "storyCluster": "My Mother / Inspiring Family Member",
+    "notes": "Practiced in Lesson 7: Minh Anh high school English teacher (helping poor students)"
   },
   {
     "id": 7,
@@ -292,7 +295,8 @@ const topicsPart2 = [
       "Might it ever be a good idea for retired people to go back to full-time education?",
       "Do you agree that companies should provide regular training courses for their employees?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 7: Khanh Chi self-taught IELTS 8.0 in 1 year"
   },
   {
     "id": 13,
@@ -315,8 +319,9 @@ const topicsPart2 = [
       "Should young people ask for advice about career planning, for example from teachers or family?",
       "Do you agree or disagree that it is only possible to have a successful career if it has been carefully planned?"
     ],
-    "status": "new",
-    "storyCluster": "My Mother / Inspiring Family Member"
+    "status": "improving",
+    "storyCluster": "My Mother / Inspiring Family Member",
+    "notes": "Practiced in Lesson 7, 11: Lan planning hospital recycling project"
   },
   {
     "id": 14,
@@ -339,8 +344,9 @@ const topicsPart2 = [
       "Should entry to galleries and museums be free for everyone?",
       "Do you agree or disagree that when people look at art in galleries or museums, they can learn a lot about life in general?"
     ],
-    "status": "new",
-    "storyCluster": "G-Dragon Concert with Lan"
+    "status": "improving",
+    "storyCluster": "G-Dragon Concert with Lan",
+    "notes": "Practiced in Lesson 6: Little sister Mai (15 yrs) drawing on plane"
   },
   {
     "id": 15,
@@ -363,7 +369,8 @@ const topicsPart2 = [
       "Does buying things really make people happy?",
       "How much influence does advertising have when people are buying things?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 6: Vinh Centre with mom (Nike, Adidas, Gucci)"
   },
   {
     "id": 16,
@@ -385,7 +392,8 @@ const topicsPart2 = [
       "What personal skills do people need in order to work for an international company?",
       "Do you agree or disagree that practical experience is more useful than qualifications when working in an international company?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 2, 6: London sister / media & communication career"
   },
   {
     "id": 17,
@@ -453,8 +461,9 @@ const topicsPart2 = [
       "Why is music often played when people are doing physical exercise?",
       "Do you agree or disagree that playing music in shops or stores is an effective way of selling more products?"
     ],
-    "status": "new",
-    "storyCluster": "G-Dragon Concert with Lan"
+    "status": "improving",
+    "storyCluster": "G-Dragon Concert with Lan",
+    "notes": "Practiced in Lesson 6: Dam Vinh Hung concert at age 5 with dad"
   },
   {
     "id": 20,
@@ -476,7 +485,8 @@ const topicsPart2 = [
       "Do you agree or disagree that there are too many programmes/shows for people to choose from these days?",
       "What do you think of the view that parents should choose what programmes or shows their children watch?"
     ],
-    "status": "new"
+    "status": "tried",
+    "notes": "Practiced in Lesson 11: TV/Online learning programme"
   },
   {
     "id": 21,
@@ -548,7 +558,7 @@ const topicsPart2 = [
     "status": "ready",
     "storyCluster": "G-Dragon Concert with Lan",
     "studentTranscript": "I would like to tell you about a time when someone I knew found a clever solution to a problem. It’s my best friend Lan. I remember she and I were on our way to watch a G-Dragon concert and the concert was at 11 at night. At that time everything became darker and unluckily our phones were low on battery. We were so scared and we didn’t know how to book Grab or Uber to go back to our hotel. But at this time, she was so intelligent that she noticed a police post nearly two kilometers away. She ran there swiftly, reached the police officers, and they gave me and my friend a hand by driving us back safely.",
-    "notes": "Teacher Corrections:\n- \"tell you a time\" -> \"tell you ABOUT a time\"\n- \"she and I was\" -> \"she and I WERE\"\n- \"at 11 in the night\" -> \"at 11 at night / 11 PM\"\n- \"become the darker\" -> \"became darker\"\n- \"we was\" -> \"we were\"\n- \"the GRAB or the UBER\" -> \"Grab or Uber\"\n- \"to our hotels\" -> \"to our hotel\"\n- \"it has police\" -> \"there were police officers\"\n- \"go jogging in the faster way\" -> \"ran swiftly / hurried over\"\n- \"gave a hand to drive a police car\" -> \"gave us a lift in their police car\"\n\nStory Link: G-Dragon Concert with Lan (covers #14, #19, #23, #54)",
+    "notes": "Teacher Corrections:\n- \"tell you a time\" -> \"tell you ABOUT a time\"\n- \"she and I was\" -> \"she and I WERE\"\n- \"at 11 in the night\" -> \"at 11 at night / 11 PM\"\n- \"become the darker\" -> \"became darker\"\n- \"we was\" -> \"we were\"\n- \"the GRAB or the UBER\" -> \"Grab or Uber\"\n- \"to our hotels\" -> \"to our hotel\"\n- \"it has police\" -> \"there were police officers\"\n- \"go jogging in the faster way\" -> \"ran swiftly / hurried over\"\n- \"gave a hand to drive a police car\" -> \"gave us a lift in their police car\"\n\nStory Link: G-Dragon Concert with Lan (covers #14, #19, #23, #54)\n[Practiced in Lesson 7, 14: G-Dragon concert at 11 PM with Lan, low battery, police car]",
     "lastPracticed": "2026-08-17"
   },
   {
@@ -572,7 +582,8 @@ const topicsPart2 = [
       "Do you think there is a need for new laws to protect nature?",
       "Are punishments or rewards more effective in encouraging people to protect nature?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 7, 13: Lan environmental protection / recycling bins"
   },
   {
     "id": 25,
@@ -595,8 +606,9 @@ const topicsPart2 = [
       "Do you agree or disagree that the most important role of a boss is to encourage employees?",
       "Are people at work more motivated by praise or money?"
     ],
-    "status": "new",
-    "storyCluster": "My Mother / Inspiring Family Member"
+    "status": "improving",
+    "storyCluster": "My Mother / Inspiring Family Member",
+    "notes": "Practiced in Lesson 7: Encouraging friend to switch to cycling"
   },
   {
     "id": 26,
@@ -621,8 +633,9 @@ const topicsPart2 = [
       "Is it better to cook at home or eat at restaurants on special occasions?",
       "What is special about the way this food is made?"
     ],
-    "status": "new",
-    "storyCluster": "20th Birthday Celebration"
+    "status": "improving",
+    "storyCluster": "20th Birthday Celebration",
+    "notes": "Practiced in Entrance Test, Lesson 6: Special birthday food & festive dishes"
   },
   {
     "id": 27,
@@ -671,7 +684,8 @@ const topicsPart2 = [
       "Do you think it is difficult to become a doctor?",
       "Do you think studying biology at school makes students healthier?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 7, 14: Lan nurse working at hospital caring for patients"
   },
   {
     "id": 29,
@@ -694,8 +708,9 @@ const topicsPart2 = [
       "Do you think people move more often nowadays? Why?",
       "What can governments do to make cities better places to live?"
     ],
-    "status": "new",
-    "storyCluster": "Cua Lo Beach Trip"
+    "status": "improving",
+    "storyCluster": "Cua Lo Beach Trip",
+    "notes": "Practiced in Lesson 6: London sister study abroad, lost phone recovered by locals"
   },
   {
     "id": 30,
@@ -800,7 +815,8 @@ const topicsPart2 = [
       "What are the advantages of watching sports events online?",
       "What kinds of sports activities are suitable for children in China?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 6: World Cup Final France vs Argentina with dad (Messi)"
   },
   {
     "id": 34,
@@ -850,8 +866,9 @@ const topicsPart2 = [
       "What should people do when technology fails?",
       "Will technology become more reliable in the future?"
     ],
-    "status": "new",
-    "storyCluster": "Shopee & Tech Gadgets"
+    "status": "tried",
+    "storyCluster": "Shopee & Tech Gadgets",
+    "notes": "Practiced in Lesson 14: Phone battery defect / Shopee tech troubleshooting"
   },
   {
     "id": 36,
@@ -897,7 +914,8 @@ const topicsPart2 = [
       "Do modern homes differ from homes in the past?",
       "How important is location when choosing a home?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 6: Sister modern London apartment (gym/library) but homesick for Vinh"
   },
   {
     "id": 38,
@@ -920,7 +938,8 @@ const topicsPart2 = [
       "Should parents influence their children’s ambitions?",
       "Is it easier to achieve ambitions nowadays?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 4, 14: Long-time dream of becoming an English teacher"
   },
   {
     "id": 39,
@@ -943,7 +962,8 @@ const topicsPart2 = [
       "Can online friendships replace real-life friendships?",
       "How do friendships influence people’s development?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 7: Childhood friend Minh / Khanh Chi"
   },
   {
     "id": 40,
@@ -1089,8 +1109,9 @@ const topicsPart2 = [
       "What motivates people to achieve difficult goals?",
       "Do successful people always work harder than others?"
     ],
-    "status": "new",
-    "storyCluster": "My Mother / Inspiring Family Member"
+    "status": "improving",
+    "storyCluster": "My Mother / Inspiring Family Member",
+    "notes": "Practiced in Lesson 7: Lan achieving hospital milestone / Khanh Chi IELTS 8.0"
   },
   {
     "id": 46,
@@ -1116,7 +1137,7 @@ const topicsPart2 = [
     "status": "ready",
     "storyCluster": "Traffic & Air Pollution in City",
     "studentTranscript": "I would like to tell you about a law of environmental protection that I really want to introduce in my country. I want to impose a high tax on the use and ownership of private vehicles like cars. I read BBC News and saw that Singapore and China have imposed high taxes on private cars by the government. I think it is a great example to protect the environment because in Vietnam, each province has a large number of cars creating significant carbon pollution, which destroys the natural environment and poses serious threats to people's health, leading to chronic respiratory diseases. Under this law, whenever someone buys a new car, they would pay an initial fee of 5 to 10 million VND, plus a monthly environmental tax. This policy would encourage citizens to transition from private cars to public transit and cycling, dramatically improving air quality.",
-    "notes": "Teacher Corrections:\n- \"tell you a law\" -> \"tell you ABOUT a law\"\n- \"impose high tax on use of private vehicle cause\" -> \"impose A high tax on the USE OF private vehicleS LIKE CARS\"\n- \"newspaper from the BBC\" -> \"BBC News\"\n- \"the Singapore and the China have impose\" -> \"Singapore and China have IMPOSED\"\n- \"big amount of cars\" -> \"large number of cars\"\n- \"can create big amount of carbon pollution\" -> \"creates significant carbon emissions\"\n- \"pose threat to people's health\" -> \"poses a serious threat to public health\"\n- \"eye pollution\" -> \"AIR pollution\"\n- \"fined for 5 to 10 million\" -> \"levied a fine/tax of 5 to 10 million VND\"\n\nStory Link: Traffic & Air Pollution in City (covers #10, #25, #46)",
+    "notes": "Teacher Corrections:\n- \"tell you a law\" -> \"tell you ABOUT a law\"\n- \"impose high tax on use of private vehicle cause\" -> \"impose A high tax on the USE OF private vehicleS LIKE CARS\"\n- \"newspaper from the BBC\" -> \"BBC News\"\n- \"the Singapore and the China have impose\" -> \"Singapore and China have IMPOSED\"\n- \"big amount of cars\" -> \"large number of cars\"\n- \"can create big amount of carbon pollution\" -> \"creates significant carbon emissions\"\n- \"pose threat to people's health\" -> \"poses a serious threat to public health\"\n- \"eye pollution\" -> \"AIR pollution\"\n- \"fined for 5 to 10 million\" -> \"levied a fine/tax of 5 to 10 million VND\"\n\nStory Link: Traffic & Air Pollution in City (covers #10, #25, #46)\n[Practiced in Lesson 14: Heavy car tax on private vehicles / rubbish fine (BBC news)]",
     "lastPracticed": "2026-08-17"
   },
   {
@@ -1209,7 +1230,8 @@ const topicsPart2 = [
       "Do children get influenced by advertisements easily?",
       "Should there be stricter control of advertising?"
     ],
-    "status": "new"
+    "status": "tried",
+    "notes": "Practiced in Lesson 11: Celebrity advertisement on social media"
   },
   {
     "id": 51,
@@ -1232,7 +1254,8 @@ const topicsPart2 = [
       "Can technology help language learning?",
       "Should schools teach more foreign languages?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 7: Khanh Vy / Khanh Chi language learning talent"
   },
   {
     "id": 52,
@@ -1254,7 +1277,8 @@ const topicsPart2 = [
       "Why do some people prefer living in traditional houses rather than apartments?",
       "What makes a building attractive to tourists?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 6, 9, 13: Landmark 81 in Saigon (highest floor, coconut ice cream)"
   },
   {
     "id": 53,
@@ -1276,7 +1300,8 @@ const topicsPart2 = [
       "How can schools teach children to care for nature and wildlife?",
       "What role do documentaries play in animal conservation?"
     ],
-    "status": "new"
+    "status": "tried",
+    "notes": "Practiced in Lesson 11: Wild animal curiosity & conservation"
   },
   {
     "id": 54,
@@ -1321,7 +1346,8 @@ const topicsPart2 = [
       "What can people do to make waiting time more productive or enjoyable?",
       "How do children and adults react differently when waiting?"
     ],
-    "status": "new"
+    "status": "tried",
+    "notes": "Practiced in Lesson 11: Waiting for special milestone / birthday event"
   },
   {
     "id": 56,
@@ -1343,7 +1369,8 @@ const topicsPart2 = [
       "What should people do to prepare for unexpected emergency power cuts?",
       "Do people in rural areas cope better with electricity cuts than city dwellers?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 14: Sudden electricity blackout at home while studying"
   },
   {
     "id": 57,
@@ -1388,7 +1415,8 @@ const topicsPart2 = [
       "Should governments invest money in preserving cultural heritage?",
       "How does globalization affect local cultural traditions?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 11, 14: Traditional Vietnamese festival / Tet celebration"
   },
   {
     "id": 59,
@@ -1410,7 +1438,8 @@ const topicsPart2 = [
       "Should schools teach basic repair and maintenance skills to students?",
       "How can manufacturers make products easier to repair?"
     ],
-    "status": "new"
+    "status": "improving",
+    "notes": "Practiced in Lesson 14: Repairing broken mirror / electrical appliance at home"
   },
   {
     "id": 60,
@@ -1432,7 +1461,8 @@ const topicsPart2 = [
       "What measures can be taken to support traditional artisans and craftsmen?",
       "Do younger generations still buy traditional products?"
     ],
-    "status": "new"
+    "status": "tried",
+    "notes": "Practiced in Lesson 14: Traditional Vietnamese handcrafted product"
   },
   {
     "id": 61,
@@ -1477,8 +1507,9 @@ const topicsPart2 = [
       "In your country, do people nowadays cook at home as frequently as they did in the past?",
       "What do you think of people using their mobile phones during a meal?"
     ],
-    "status": "new",
-    "storyCluster": "20th Birthday Celebration"
+    "status": "improving",
+    "storyCluster": "20th Birthday Celebration",
+    "notes": "Practiced in Lesson 11: Custom chocolate birthday cake from friends"
   }
 ];
 
