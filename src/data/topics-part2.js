@@ -705,7 +705,7 @@ const topicsPart2 = [
     "status": "improving",
     "storyCluster": "Mẹ / Người thân truyền cảm hứng (Inspiring Family Member)",
     "ideas5W1H": {
-      "who": "My mother — works as a doctor (or older cousin Lan as a nurse)",
+      "who": "My mother — works as a doctor at a public hospital in Vinh city",
       "what": "Examines patients, prescribes medicine, and checks on sick people during hospital rounds",
       "where": "At a busy public hospital in Vinh city",
       "when": "Over 20 years in the medical profession, often working long hours and night shifts",
@@ -713,7 +713,7 @@ const topicsPart2 = [
       "how": "Admire her patience, hard work, staying calm under pressure, and balancing job with family"
     },
     "chunks": [
-      "work as a doctor / nurse",
+      "work as a doctor",
       "at a public hospital in Vinh",
       "examine and treat sick patients",
       "work long night shifts",
@@ -722,7 +722,7 @@ const topicsPart2 = [
       "admire her patience and hard work",
       "balance her job with our family"
     ],
-    "notes": "Practiced in Lesson 7, 14: Lan nurse working at hospital caring for patients / can also describe mom as doctor"
+    "notes": "Practiced in Lesson 7, 14: Mom as a doctor caring for patients at public hospital in Vinh"
   },
   {
     "id": 29,

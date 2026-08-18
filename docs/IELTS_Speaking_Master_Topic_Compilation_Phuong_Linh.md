@@ -938,7 +938,7 @@ Practiced in Entrance Test, Lesson 6: Special birthday food & festive dishes
 - And explain how you felt about this person
 
 **Teacher Feedback & Story Notes:**
-Practiced in Lesson 7, 14: Lan nurse working at hospital caring for patients (can also describe mother's medical/caregiving background)
+Practiced in Lesson 7, 14: Mother working as a doctor at public hospital in Vinh caring for patients (5W1H & high-yield chunks mapped)
 
 **Part 3 Follow-up Discussion Questions:**
 1. Why do some people choose to work in the medical field?
