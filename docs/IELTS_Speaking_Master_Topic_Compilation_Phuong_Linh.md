@@ -1,6 +1,6 @@
 # IELTS Speaking Master Curriculum & Topic Compilation (Phuong Linh)
 **Target Exam Pool:** Q2 2026 (May – August 2026 Forecast)
-**Current Progress:** 38 / 62 Part 2 Topics (61.3%) · 28 / 32 Part 1 Topics (87.5%)
+**Coverage:** 38 / 62 Part 2 Topics Practiced · 28 / 32 Part 1 Topics Practiced
 **Total Lessons Completed:** 14 Lessons + Entrance Test Assessment
 
 ---
@@ -23,7 +23,6 @@ This section compiles all IELTS Speaking Part 1, Part 2, and Part 3 topics that 
 *(28 Topics Completed)*
 
 ### Part 1 #1. Where You Live Now
-- **Mastery Status:** `● Exam Ready`
 - **Questions Asked:**
   - Which town or city do you live in now?
   - Are there any things you don’t like about your area? What are they?
@@ -63,7 +62,6 @@ Teacher Corrections:
 ---
 
 ### Part 1 #2. Work & Study
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - What do you find the most interesting in your studies or work?
   - Which is more important, the teacher or the student?
@@ -91,7 +89,6 @@ Teacher Corrections:
 ---
 
 ### Part 1 #7. Morning Routine
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - Do you get up early in the morning?
   - Did you get up early in the morning when you were younger?
@@ -121,7 +118,6 @@ Teacher Corrections:
 ---
 
 ### Part 1 #8. Gifts
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - What kinds of gifts do you like to receive?
   - Do you prefer receiving gifts or giving gifts?
@@ -149,7 +145,6 @@ Teacher Corrections:
 ---
 
 ### Part 1 #9. Team Sport
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - Have you ever played a sport in a team?
   - Is your sport team famous?
@@ -164,7 +159,6 @@ Practiced in Lessons 9, 13
 ---
 
 ### Part 1 #10. Building
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - What is the tallest building in your city?
   - Are there many tall buildings where you live?
@@ -179,7 +173,6 @@ Practiced in Lessons 9, 13
 ---
 
 ### Part 1 #11. Travelling
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - When you’re travelling, do you usually look at the view?
   - Did you ever travel to a faraway place when you were a child?
@@ -212,7 +205,6 @@ Teacher Corrections:
 ---
 
 ### Part 1 #12. Free-Time Activities
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - What’s your favourite free-time activity when you were a child?
   - What activities do you enjoy doing in your free time now?
@@ -226,7 +218,6 @@ Practiced in Lesson 6
 ---
 
 ### Part 1 #13. Memory
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - Do you think it is easy to remember people’s names?
   - Do you remember things easily when you’re studying or working?
@@ -258,7 +249,6 @@ Teacher Corrections:
 ---
 
 ### Part 1 #14. Singing
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - Did you like singing when you were a child?
   - Do you like singing now?
@@ -291,7 +281,6 @@ Teacher Corrections:
 ---
 
 ### Part 1 #15. Music
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - Do you like music?
   - What kinds of music do you listen to?
@@ -307,7 +296,6 @@ Practiced in Lessons 3, 6, 9
 ---
 
 ### Part 1 #16. Watch
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - Do you wear a watch in your daily life?
   - What kind of watch do you have?
@@ -340,7 +328,6 @@ Teacher Corrections:
 ---
 
 ### Part 1 #17. Parks and Gardens
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - What kind of parks and gardens did you like when you were a child?
   - Do you enjoy visiting parks and gardens now?
@@ -356,7 +343,6 @@ Practiced in Lesson 1
 ---
 
 ### Part 1 #18. Tidiness
-- **Mastery Status:** `● Exam Ready`
 - **Questions Asked:**
   - Were you a tidy person when you were a child?
   - Are you a tidy person now?
@@ -371,7 +357,6 @@ Practiced in Lessons 5, 9, 13
 ---
 
 ### Part 1 #19. Headphones
-- **Mastery Status:** `◔ Tried`
 - **Questions Asked:**
   - How often do you wear headphones?
   - Do you think headphones are useful?
@@ -385,7 +370,6 @@ Practiced in Lesson 5
 ---
 
 ### Part 1 #20. Websites
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - Do you usually use websites?
   - Which website do you usually use?
@@ -399,7 +383,6 @@ Practiced in Lessons 3, 5
 ---
 
 ### Part 1 #21. Telling Jokes
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - Do you like to tell jokes?
   - Do you often joke with your friends?
@@ -414,7 +397,6 @@ Practiced in Lesson 14
 ---
 
 ### Part 1 #22. Science
-- **Mastery Status:** `● Exam Ready`
 - **Questions Asked:**
   - Did you study science when you were at primary / elementary school?
   - Do you think everyone should study science at school?
@@ -429,7 +411,6 @@ Practiced in Lessons 5, 11
 ---
 
 ### Part 1 #23. Teachers
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - Do you have a favorite teacher?
   - Which teacher do you prefer, the one from primary school or junior high school?
@@ -445,7 +426,6 @@ Practiced in Lessons 4, 7, 11, 12
 ---
 
 ### Part 1 #24. Social Media
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - Do your friends and family use social media?
   - Do you think people in your country find social media useful?
@@ -459,7 +439,6 @@ Practiced in Lessons 5, 9, 11, 13
 ---
 
 ### Part 1 #25. Cars
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - Would you like to be the driver or the passenger?
   - Are there a lot of cars on the roads in your city?
@@ -485,7 +464,6 @@ Teacher Corrections (Lesson 10):
 ---
 
 ### Part 1 #26. Clothes
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - What kind of clothes do you like to wear?
   - Do you wear different clothes on the weekend?
@@ -499,7 +477,6 @@ Practiced in Lessons 6, 9, 13
 ---
 
 ### Part 1 #27. Shopping
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - Do you often go shopping?
   - Do you prefer online or offline shopping?
@@ -513,7 +490,6 @@ Practiced in Lessons 6, 11
 ---
 
 ### Part 1 #28. Space Travel
-- **Mastery Status:** `◔ Tried`
 - **Questions Asked:**
   - Have you ever learnt anything about space and the stars when you were at school?
   - Would you like to know more about space and the stars?
@@ -527,7 +503,6 @@ Practiced in Lesson 11
 ---
 
 ### Part 1 #29. Feeling Bored
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - Do you often feel bored?
   - Did you ever find school boring when you were a child?
@@ -549,7 +524,6 @@ Teacher Notes (Lesson 10):
 ---
 
 ### Part 1 #30. Dream and Ambition
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - When you were a child, what job did you dream of doing?
   - Do you think you are an ambitious person?
@@ -574,7 +548,6 @@ Teacher Corrections:
 ---
 
 ### Part 1 #31. Talking to Elderly People
-- **Mastery Status:** `◑ Improving`
 - **Questions Asked:**
   - Do you often talk to elderly people?
   - Do you enjoy spending time with elderly people?
@@ -596,7 +569,6 @@ Teacher Corrections:
 ---
 
 ### Part 1 #32. Mirrors
-- **Mastery Status:** `● Exam Ready`
 - **Questions Asked:**
   - Do you like looking at yourself in the mirror? How often?
   - Have you ever bought mirrors?
@@ -636,7 +608,6 @@ Teacher Corrections:
 
 ### Part 2 #1. Describe a time when you felt very proud of something a family member did
 - **Category:** People
-- **Mastery Status:** `◑ Improving`
 - **Linked Story Multiplier:** 🧬 **My Mother / Inspiring Family Member**
 
 **Cue Card Prompt:**
@@ -662,7 +633,6 @@ Practiced in Lesson 7: Character A (Lan - older cousin nurse) / Family pride
 
 ### Part 2 #3. Describe a perfect job you would like to have in the future
 - **Category:** Ambition
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe a perfect job you would like to have in the future**
@@ -686,7 +656,6 @@ Practiced in Lesson 4, 12: English teacher career / Hanoi university
 
 ### Part 2 #4. Describe an occasion you remember when you saw a lot of people smiling
 - **Category:** Experiences
-- **Mastery Status:** `● Exam Ready`
 - **Linked Story Multiplier:** 🧬 **20th Birthday Celebration**
 
 **Cue Card Prompt:**
@@ -727,7 +696,6 @@ Story Link: 20th Birthday Celebration (covers #4, #8, #26, #62)
 
 ### Part 2 #5. Describe a famous person who you would like to meet
 - **Category:** People
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe a famous person who you would like to meet**
@@ -753,7 +721,6 @@ Practiced in Lesson 7: Khanh Vy VTV MC / TikTok creator (7 languages)
 
 ### Part 2 #6. Describe a person you know who enjoys helping other people
 - **Category:** People
-- **Mastery Status:** `◑ Improving`
 - **Linked Story Multiplier:** 🧬 **My Mother / Inspiring Family Member**
 
 **Cue Card Prompt:**
@@ -781,7 +748,6 @@ Practiced in Lesson 7: Minh Anh high school English teacher (helping poor studen
 
 ### Part 2 #8. Describe a movie you enjoyed watching
 - **Category:** Culture & Nature
-- **Mastery Status:** `◑ Improving`
 - **Linked Story Multiplier:** 🧬 **20th Birthday Celebration**
 
 **Cue Card Prompt:**
@@ -808,7 +774,6 @@ Practiced in Lesson 10: Watching movie 'Mua Do' with parents at the cinema.
 
 ### Part 2 #9. Describe a time you needed to use your imagination
 - **Category:** Experiences
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe a time you needed to use your imagination**
@@ -831,7 +796,6 @@ Practiced in Lesson 10: Drawing and painting, mixing colors, creative art guidan
 
 ### Part 2 #12. Describe a person who learned something new without a teacher
 - **Category:** Experiences
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe a person who learned something new without a teacher**
@@ -858,7 +822,6 @@ Practiced in Lesson 7: Khanh Chi self-taught IELTS 8.0 in 1 year
 
 ### Part 2 #13. Describe a person who you think is good at planning things
 - **Category:** People
-- **Mastery Status:** `◑ Improving`
 - **Linked Story Multiplier:** 🧬 **My Mother / Inspiring Family Member**
 
 **Cue Card Prompt:**
@@ -884,7 +847,6 @@ Practiced in Lesson 7, 11: Lan planning hospital recycling project
 
 ### Part 2 #14. Describe a child you know who enjoys painting or drawing
 - **Category:** People
-- **Mastery Status:** `◑ Improving`
 - **Linked Story Multiplier:** 🧬 **G-Dragon Concert with Lan**
 
 **Cue Card Prompt:**
@@ -910,7 +872,6 @@ Practiced in Lesson 6: Little sister Mai (15 yrs) drawing on plane
 
 ### Part 2 #15. Describe a shopping place you often go to
 - **Category:** Places
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe a shopping place you often go to**
@@ -935,7 +896,6 @@ Practiced in Lesson 6: Vinh Centre with mom (Nike, Adidas, Gucci)
 
 ### Part 2 #16. Describe a place in another country where you would like to work for a short time
 - **Category:** Ambition
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe a place in another country where you would like to work for a short time**
@@ -959,7 +919,6 @@ Practiced in Lesson 2, 6: London sister / media & communication career
 
 ### Part 2 #19. Describe an event you took part in but it had some music that you didn’t like
 - **Category:** Culture & Nature
-- **Mastery Status:** `◑ Improving`
 - **Linked Story Multiplier:** 🧬 **G-Dragon Concert with Lan**
 
 **Cue Card Prompt:**
@@ -985,7 +944,6 @@ Practiced in Lesson 6: Dam Vinh Hung concert at age 5 with dad
 
 ### Part 2 #20. Describe a TV or online programme that you enjoy watching
 - **Category:** Culture & Nature
-- **Mastery Status:** `◔ Tried`
 
 **Cue Card Prompt:**
 > **Describe a TV or online programme that you enjoy watching**
@@ -1009,7 +967,6 @@ Practiced in Lesson 11: TV/Online learning programme
 
 ### Part 2 #23. Describe a time when someone you know found a clever solution to a problem
 - **Category:** Experiences
-- **Mastery Status:** `● Exam Ready`
 - **Linked Story Multiplier:** 🧬 **G-Dragon Concert with Lan**
 
 **Cue Card Prompt:**
@@ -1053,7 +1010,6 @@ Story Link: G-Dragon Concert with Lan (covers #14, #19, #23, #54)
 
 ### Part 2 #24. Describe a person you know who encourages people to protect the environment or nature
 - **Category:** People
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe a person you know who encourages people to protect the environment or nature**
@@ -1078,7 +1034,6 @@ Practiced in Lesson 7, 13: Lan environmental protection / recycling bins
 
 ### Part 2 #25. Describe a time when you encouraged somebody to do something that he/she didn’t want to do
 - **Category:** People
-- **Mastery Status:** `◑ Improving`
 - **Linked Story Multiplier:** 🧬 **My Mother / Inspiring Family Member**
 
 **Cue Card Prompt:**
@@ -1104,7 +1059,6 @@ Practiced in Lesson 7: Encouraging friend to switch to cycling
 
 ### Part 2 #26. Describe a kind of food that you ate at special occasions
 - **Category:** Culture & Nature
-- **Mastery Status:** `◑ Improving`
 - **Linked Story Multiplier:** 🧬 **20th Birthday Celebration**
 
 **Cue Card Prompt:**
@@ -1132,7 +1086,6 @@ Practiced in Entrance Test, Lesson 6: Special birthday food & festive dishes
 
 ### Part 2 #28. Describe a person who has chosen a career in the medical field, e.g. doctor, nurse, vet
 - **Category:** Ambition
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe a person who has chosen a career in the medical field, e.g. doctor, nurse, vet**
@@ -1160,7 +1113,6 @@ Practiced in Lesson 7, 14: Lan nurse working at hospital caring for patients
 
 ### Part 2 #29. Describe a place you have visited that you think is a good place to live
 - **Category:** Places
-- **Mastery Status:** `◑ Improving`
 - **Linked Story Multiplier:** 🧬 **Cua Lo Beach Trip**
 
 **Cue Card Prompt:**
@@ -1186,7 +1138,6 @@ Practiced in Lesson 6: London sister study abroad, lost phone recovered by local
 
 ### Part 2 #33. Describe a live sport match you have ever watched
 - **Category:** Experiences
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe a live sport match you have ever watched**
@@ -1214,7 +1165,6 @@ Practiced in Lesson 6: World Cup Final France vs Argentina with dad (Messi)
 
 ### Part 2 #35. Describe a problem of technology you have encountered, like a computer or a cell phone
 - **Category:** Tech & Objects
-- **Mastery Status:** `◔ Tried`
 - **Linked Story Multiplier:** 🧬 **Shopee & Tech Gadgets**
 
 **Cue Card Prompt:**
@@ -1240,7 +1190,6 @@ Practiced in Lesson 14: Phone battery defect / Shopee tech troubleshooting
 
 ### Part 2 #37. Describe a home that you like to visit but did not want to live in
 - **Category:** Places
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe a home that you like to visit but did not want to live in**
@@ -1265,7 +1214,6 @@ Practiced in Lesson 6: Sister modern London apartment (gym/library) but homesick
 
 ### Part 2 #38. Describe an ambition you have had for a long time
 - **Category:** Ambition
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe an ambition you have had for a long time**
@@ -1290,7 +1238,6 @@ Practiced in Lesson 4, 14: Long-time dream of becoming an English teacher
 
 ### Part 2 #39. Describe a friend from childhood who you remember very well
 - **Category:** People
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe a friend from childhood who you remember very well**
@@ -1315,7 +1262,6 @@ Practiced in Lesson 7: Childhood friend Minh / Khanh Chi
 
 ### Part 2 #45. Describe a person you know who successfully achieved something difficult
 - **Category:** People
-- **Mastery Status:** `◑ Improving`
 - **Linked Story Multiplier:** 🧬 **My Mother / Inspiring Family Member**
 
 **Cue Card Prompt:**
@@ -1341,7 +1287,6 @@ Practiced in Lesson 7: Lan achieving hospital milestone / Khanh Chi IELTS 8.0
 
 ### Part 2 #46. Describe a law of environment protection that you would like to introduce
 - **Category:** Culture & Nature
-- **Mastery Status:** `● Exam Ready`
 - **Linked Story Multiplier:** 🧬 **Traffic & Air Pollution in City**
 
 **Cue Card Prompt:**
@@ -1384,7 +1329,6 @@ Story Link: Traffic & Air Pollution in City (covers #10, #25, #46)
 
 ### Part 2 #48. Describe a story you knew that involves an animal, like in a movie or a book
 - **Category:** Culture & Nature
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe a story you knew that involves an animal, like in a movie or a book**
@@ -1409,7 +1353,6 @@ Practiced in Lesson 10: Fable story about the frog and bunny (bunny brings frog 
 
 ### Part 2 #50. Describe a piece of advertisement which is about a famous person
 - **Category:** Culture & Nature
-- **Mastery Status:** `◔ Tried`
 
 **Cue Card Prompt:**
 > **Describe a piece of advertisement which is about a famous person**
@@ -1434,7 +1377,6 @@ Practiced in Lesson 11: Celebrity advertisement on social media
 
 ### Part 2 #51. Describe a person who is good at learning languages
 - **Category:** People
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe a person who is good at learning languages**
@@ -1459,7 +1401,6 @@ Practiced in Lesson 7: Khanh Vy / Khanh Chi language learning talent
 
 ### Part 2 #52. Describe an interesting building that you would like to visit
 - **Category:** Places
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe an interesting building that you would like to visit**
@@ -1483,7 +1424,6 @@ Practiced in Lesson 6, 9, 13: Landmark 81 in Saigon (highest floor, coconut ice 
 
 ### Part 2 #53. Describe a wild animal you would like to learn more about
 - **Category:** Culture & Nature
-- **Mastery Status:** `◔ Tried`
 
 **Cue Card Prompt:**
 > **Describe a wild animal you would like to learn more about**
@@ -1507,7 +1447,6 @@ Practiced in Lesson 11: Wild animal curiosity & conservation
 
 ### Part 2 #55. Describe a time when you had to wait for something special to happen
 - **Category:** Experiences
-- **Mastery Status:** `◔ Tried`
 
 **Cue Card Prompt:**
 > **Describe a time when you had to wait for something special to happen**
@@ -1531,7 +1470,6 @@ Practiced in Lesson 11: Waiting for special milestone / birthday event
 
 ### Part 2 #56. Describe an occasion when the electricity suddenly went off
 - **Category:** Experiences
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe an occasion when the electricity suddenly went off**
@@ -1555,7 +1493,6 @@ Practiced in Lesson 14: Sudden electricity blackout at home while studying
 
 ### Part 2 #58. Describe a tradition in your country
 - **Category:** Culture & Nature
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe a tradition in your country**
@@ -1579,7 +1516,6 @@ Practiced in Lesson 11, 14: Traditional Vietnamese festival / Tet celebration
 
 ### Part 2 #59. Describe a time when something in your home broke and you tried to repair it
 - **Category:** Tech & Objects
-- **Mastery Status:** `◑ Improving`
 
 **Cue Card Prompt:**
 > **Describe a time when something in your home broke and you tried to repair it**
@@ -1603,7 +1539,6 @@ Practiced in Lesson 14: Repairing broken mirror / electrical appliance at home
 
 ### Part 2 #60. Describe a traditional product made in your country which you like
 - **Category:** Culture & Nature
-- **Mastery Status:** `◔ Tried`
 
 **Cue Card Prompt:**
 > **Describe a traditional product made in your country which you like**
@@ -1627,7 +1562,6 @@ Practiced in Lesson 14: Traditional Vietnamese handcrafted product
 
 ### Part 2 #62. Describe a special cake you received from others
 - **Category:** Culture & Nature
-- **Mastery Status:** `◑ Improving`
 - **Linked Story Multiplier:** 🧬 **20th Birthday Celebration**
 
 **Cue Card Prompt:**
@@ -1658,7 +1592,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 *(4 Topics Remaining)*
 
 ### Part 1 #3. Hometown
-- **Status:** `○ New`
 - **Questions:**
   - Where is your hometown located?
   - What do you like most about your hometown?
@@ -1670,7 +1603,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 ---
 
 ### Part 1 #4. Accommodation & Home
-- **Status:** `○ New`
 - **Questions:**
   - Do you live in a house or an apartment?
   - What is your favourite room in your home?
@@ -1682,7 +1614,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 ---
 
 ### Part 1 #5. Weather & Seasons
-- **Status:** `○ New`
 - **Questions:**
   - What is the weather like in your country?
   - What is your favourite season of the year?
@@ -1694,7 +1625,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 ---
 
 ### Part 1 #6. Daily Routine & Time Management
-- **Status:** `○ New`
 - **Questions:**
   - What is your normal daily routine?
   - Which part of the day do you enjoy the most?
@@ -1710,7 +1640,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #2. Describe a time when you were not allowed to use your phone
 - **Category:** Experiences
-- **Status:** `○ New`
 
 **Cue Card Prompt:**
 > **Describe a time when you were not allowed to use your phone**
@@ -1730,7 +1659,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #7. Describe an app or software you often use on your phone or computer
 - **Category:** Tech & Objects
-- **Status:** `○ New`
 - **Recommended Story Multiplier Link:** 🧬 **Shopee & Tech Gadgets**
 
 **Cue Card Prompt:**
@@ -1751,7 +1679,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #10. Describe a car, motorbike or bicycle trip that you think would be interesting
 - **Category:** Experiences
-- **Status:** `○ New`
 - **Recommended Story Multiplier Link:** 🧬 **Traffic & Air Pollution in City**
 
 **Cue Card Prompt:**
@@ -1774,7 +1701,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #11. Describe a place you enjoyed visiting that was very quiet
 - **Category:** Places
-- **Status:** `○ New`
 - **Recommended Story Multiplier Link:** 🧬 **Cua Lo Beach Trip**
 
 **Cue Card Prompt:**
@@ -1797,7 +1723,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #17. Describe a time you gave advice to someone
 - **Category:** Experiences
-- **Status:** `○ New`
 
 **Cue Card Prompt:**
 > **Describe a time you gave advice to someone**
@@ -1818,7 +1743,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #18. Describe a piece of technology you would like to own in the future
 - **Category:** Tech & Objects
-- **Status:** `○ New`
 - **Recommended Story Multiplier Link:** 🧬 **Shopee & Tech Gadgets**
 
 **Cue Card Prompt:**
@@ -1838,7 +1762,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #21. Describe a time when you had to pay more than you expected for something
 - **Category:** Experiences
-- **Status:** `○ New`
 - **Recommended Story Multiplier Link:** 🧬 **Shopee & Tech Gadgets**
 
 **Cue Card Prompt:**
@@ -1858,7 +1781,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #22. Describe a city that you have been to and enjoy visiting
 - **Category:** Places
-- **Status:** `○ New`
 - **Recommended Story Multiplier Link:** 🧬 **Cua Lo Beach Trip**
 
 **Cue Card Prompt:**
@@ -1880,7 +1802,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #27. Describe a difficult decision you made that had a good result
 - **Category:** Experiences
-- **Status:** `○ New`
 
 **Cue Card Prompt:**
 > **Describe a difficult decision you made that had a good result**
@@ -1901,7 +1822,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #30. Describe a tall building in your city you like or dislike
 - **Category:** Places
-- **Status:** `○ New`
 
 **Cue Card Prompt:**
 > **Describe a tall building in your city you like or dislike**
@@ -1927,7 +1847,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #31. Describe a person you know about who runs a successful business
 - **Category:** People
-- **Status:** `○ New`
 
 **Cue Card Prompt:**
 > **Describe a person you know about who runs a successful business**
@@ -1949,7 +1868,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #32. Describe a person you know who enjoys growing plants
 - **Category:** Culture & Nature
-- **Status:** `○ New`
 
 **Cue Card Prompt:**
 > **Describe a person you know who enjoys growing plants**
@@ -1974,7 +1892,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #34. Describe a piece of local news that people are interested in
 - **Category:** Culture & Nature
-- **Status:** `○ New`
 
 **Cue Card Prompt:**
 > **Describe a piece of local news that people are interested in**
@@ -1999,7 +1916,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #36. Describe a time when you had to get up very early
 - **Category:** Experiences
-- **Status:** `○ New`
 
 **Cue Card Prompt:**
 > **Describe a time when you had to get up very early**
@@ -2020,7 +1936,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #40. Describe a time that you had to change your plan / you changed your mind
 - **Category:** Experiences
-- **Status:** `○ New`
 
 **Cue Card Prompt:**
 > **Describe a time that you had to change your plan / you changed your mind**
@@ -2040,7 +1955,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #41. Describe an interesting video you watched in social media
 - **Category:** Tech & Objects
-- **Status:** `○ New`
 
 **Cue Card Prompt:**
 > **Describe an interesting video you watched in social media**
@@ -2061,7 +1975,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #42. Describe a time you changed your opinion
 - **Category:** Experiences
-- **Status:** `○ New`
 
 **Cue Card Prompt:**
 > **Describe a time you changed your opinion**
@@ -2082,7 +1995,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #43. Describe a place you went to on holiday that you would recommend
 - **Category:** Places
-- **Status:** `○ New`
 - **Recommended Story Multiplier Link:** 🧬 **Cua Lo Beach Trip**
 
 **Cue Card Prompt:**
@@ -2107,7 +2019,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #44. Describe a place you have been to and felt bored
 - **Category:** Places
-- **Status:** `○ New`
 - **Recommended Story Multiplier Link:** 🧬 **Cua Lo Beach Trip**
 
 **Cue Card Prompt:**
@@ -2133,7 +2044,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #47. Describe a time when you had to make an important decision
 - **Category:** Experiences
-- **Status:** `○ New`
 
 **Cue Card Prompt:**
 > **Describe a time when you had to make an important decision**
@@ -2154,7 +2064,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #49. Describe a person who has not replied to your messages for a long time
 - **Category:** Tech & Objects
-- **Status:** `○ New`
 
 **Cue Card Prompt:**
 > **Describe a person who has not replied to your messages for a long time**
@@ -2175,7 +2084,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #54. Describe an occasion when you felt excited about trying an activity for the first time
 - **Category:** Experiences
-- **Status:** `○ New`
 - **Recommended Story Multiplier Link:** 🧬 **G-Dragon Concert with Lan**
 
 **Cue Card Prompt:**
@@ -2196,7 +2104,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #57. Describe a place which is far away that you would like to visit in the future
 - **Category:** Places
-- **Status:** `○ New`
 - **Recommended Story Multiplier Link:** 🧬 **Cua Lo Beach Trip**
 
 **Cue Card Prompt:**
@@ -2217,7 +2124,6 @@ This section details all remaining topics from the Q2 2026 forecast pool that ha
 
 ### Part 2 #61. Describe a time when you changed a decision
 - **Category:** Experiences
-- **Status:** `○ New`
 
 **Cue Card Prompt:**
 > **Describe a time when you changed a decision**
@@ -2242,11 +2148,11 @@ Instead of preparing 62 separate speeches, Phuong Linh uses these **6 core maste
 - **Core Persona / Setting:** A master narrative about an inspiring, organized, and selfless mother who overcomes hardships and supports others.
 - **Narrative Backbone:** Focus on your mother (or family member) demonstrating exceptional planning skills (#13), volunteering to assist neighbours (#6), motivating you to pursue difficult goals (#25), achieving a challenging career or personal milestone (#45), and making the whole family proud (#1).
 - **Topics Covered (5 Cue Cards):**
-  - `#1` **Describe a time when you felt very proud of something a family member did** (`◑ Improving`)
-  - `#6` **Describe a person you know who enjoys helping other people** (`◑ Improving`)
-  - `#13` **Describe a person who you think is good at planning things** (`◑ Improving`)
-  - `#25` **Describe a time when you encouraged somebody to do something that he/she didn’t want to do** (`◑ Improving`)
-  - `#45` **Describe a person you know who successfully achieved something difficult** (`◑ Improving`)
+  - `#1` **Describe a time when you felt very proud of something a family member did**
+  - `#6` **Describe a person you know who enjoys helping other people**
+  - `#13` **Describe a person who you think is good at planning things**
+  - `#25` **Describe a time when you encouraged somebody to do something that he/she didn’t want to do**
+  - `#45` **Describe a person you know who successfully achieved something difficult**
 
 ---
 
@@ -2254,12 +2160,12 @@ Instead of preparing 62 separate speeches, Phuong Linh uses these **6 core maste
 - **Core Persona / Setting:** A coastal holiday road trip that adapts to nature, relaxation, travel recommendations, and contrasting perspectives.
 - **Narrative Backbone:** A memorable road trip to Cua Lo beach. Frame it as a peaceful escape with soothing ocean waves (#11), an ideal scenic town to visit or reside (#22, #29), a top holiday recommendation (#43), an off-season visit with limited nightlife (#44), or a distant travel goal (#57).
 - **Topics Covered (6 Cue Cards):**
-  - `#11` **Describe a place you enjoyed visiting that was very quiet** (`○ New (Unpracticed)`)
-  - `#22` **Describe a city that you have been to and enjoy visiting** (`○ New (Unpracticed)`)
-  - `#29` **Describe a place you have visited that you think is a good place to live** (`◑ Improving`)
-  - `#43` **Describe a place you went to on holiday that you would recommend** (`○ New (Unpracticed)`)
-  - `#44` **Describe a place you have been to and felt bored** (`○ New (Unpracticed)`)
-  - `#57` **Describe a place which is far away that you would like to visit in the future** (`○ New (Unpracticed)`)
+  - `#11` **Describe a place you enjoyed visiting that was very quiet**
+  - `#22` **Describe a city that you have been to and enjoy visiting**
+  - `#29` **Describe a place you have visited that you think is a good place to live**
+  - `#43` **Describe a place you went to on holiday that you would recommend**
+  - `#44` **Describe a place you have been to and felt bored**
+  - `#57` **Describe a place which is far away that you would like to visit in the future**
 
 ---
 
@@ -2267,10 +2173,10 @@ Instead of preparing 62 separate speeches, Phuong Linh uses these **6 core maste
 - **Core Persona / Setting:** A cozy apartment birthday party filled with surprise gifts, festive cuisine, and joyful memories.
 - **Narrative Backbone:** Celebrating a milestone 20th birthday at an apartment with close friends. Features memorable gifts (#8), delicious homemade and special festive dishes (#26), a surprise custom-decorated cake (#62), and a room full of smiling faces (#4).
 - **Topics Covered (4 Cue Cards):**
-  - `#4` **Describe an occasion you remember when you saw a lot of people smiling** (`● Exam Ready`)
-  - `#8` **Describe a movie you enjoyed watching** (`◑ Improving`)
-  - `#26` **Describe a kind of food that you ate at special occasions** (`◑ Improving`)
-  - `#62` **Describe a special cake you received from others** (`◑ Improving`)
+  - `#4` **Describe an occasion you remember when you saw a lot of people smiling**
+  - `#8` **Describe a movie you enjoyed watching**
+  - `#26` **Describe a kind of food that you ate at special occasions**
+  - `#62` **Describe a special cake you received from others**
 
 ---
 
@@ -2278,10 +2184,10 @@ Instead of preparing 62 separate speeches, Phuong Linh uses these **6 core maste
 - **Core Persona / Setting:** A thrilling late-night music concert adventure testing quick thinking and friendship.
 - **Narrative Backbone:** Attending a massive concert for the first time (#54). Experience dynamic live performances (#14), dealing with overwhelming or unwanted background noise (#19), and best friend Lan cleverly seeking help from nearby police officers when phone batteries died (#23).
 - **Topics Covered (4 Cue Cards):**
-  - `#14` **Describe a child you know who enjoys painting or drawing** (`◑ Improving`)
-  - `#19` **Describe an event you took part in but it had some music that you didn’t like** (`◑ Improving`)
-  - `#23` **Describe a time when someone you know found a clever solution to a problem** (`● Exam Ready`)
-  - `#54` **Describe an occasion when you felt excited about trying an activity for the first time** (`○ New (Unpracticed)`)
+  - `#14` **Describe a child you know who enjoys painting or drawing**
+  - `#19` **Describe an event you took part in but it had some music that you didn’t like**
+  - `#23` **Describe a time when someone you know found a clever solution to a problem**
+  - `#54` **Describe an occasion when you felt excited about trying an activity for the first time**
 
 ---
 
@@ -2289,9 +2195,9 @@ Instead of preparing 62 separate speeches, Phuong Linh uses these **6 core maste
 - **Core Persona / Setting:** Urban mobility challenges, environmental awareness, and legislative solutions.
 - **Narrative Backbone:** Observing heavy urban congestion and exhaust fumes during a road journey (#10), encouraging friends to switch to cycling (#25), and proposing progressive environmental taxes on private vehicles to reduce emissions (#46).
 - **Topics Covered (3 Cue Cards):**
-  - `#10` **Describe a car, motorbike or bicycle trip that you think would be interesting** (`○ New (Unpracticed)`)
-  - `#25` **Describe a time when you encouraged somebody to do something that he/she didn’t want to do** (`◑ Improving`)
-  - `#46` **Describe a law of environment protection that you would like to introduce** (`● Exam Ready`)
+  - `#10` **Describe a car, motorbike or bicycle trip that you think would be interesting**
+  - `#25` **Describe a time when you encouraged somebody to do something that he/she didn’t want to do**
+  - `#46` **Describe a law of environment protection that you would like to introduce**
 
 ---
 
@@ -2299,9 +2205,9 @@ Instead of preparing 62 separate speeches, Phuong Linh uses these **6 core maste
 - **Core Persona / Setting:** Everyday e-commerce, gadget ownership, technical glitches, and budget decisions.
 - **Narrative Backbone:** Using e-commerce platforms like Shopee regularly (#7), investing in essential smart devices (#18), encountering an unexpected defect or unexpected fee (#21), and troubleshooting hardware or electrical issues (#35).
 - **Topics Covered (4 Cue Cards):**
-  - `#7` **Describe an app or software you often use on your phone or computer** (`○ New (Unpracticed)`)
-  - `#18` **Describe a piece of technology you would like to own in the future** (`○ New (Unpracticed)`)
-  - `#21` **Describe a time when you had to pay more than you expected for something** (`○ New (Unpracticed)`)
-  - `#35` **Describe a problem of technology you have encountered, like a computer or a cell phone** (`◔ Tried`)
+  - `#7` **Describe an app or software you often use on your phone or computer**
+  - `#18` **Describe a piece of technology you would like to own in the future**
+  - `#21` **Describe a time when you had to pay more than you expected for something**
+  - `#35` **Describe a problem of technology you have encountered, like a computer or a cell phone**
 
 ---
