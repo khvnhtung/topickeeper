@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IELTS Speaking Quest & TopicKeeper — Q2 2026 Forecast Pool</title>
+  <link rel="stylesheet" href="src/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎙️</text></svg>">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header & Brand -->
+    <header class="app-header">
+      <div class="brand-section">
+        <span class="brand-icon">🎙️</span>
+        <div>
+          <h1 class="brand-title">TopicKeeper</h1>
+          <p class="brand-subtitle">IELTS Speaking Quest · Q2 May–August 2026 Forecast Pool</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="streak-pill" id="streak-display" title="Consecutive Practice Days">
+          <span>🔥</span> <span id="streak-count">0-Day Streak</span>
+        </div>
+        <button class="theme-toggle-btn" id="theme-toggle" title="Toggle Light / Dark Mode" aria-label="Toggle Theme">
+          🌙
+        </button>
+      </div>
+    </header>
+
+    <!-- Motivational Readiness & Progress Dashboard -->
+    <section class="dashboard-hero">
+      <div class="kpi-row">
+        <div class="kpi-main">
+          <span class="kpi-number" id="kpi-ready-count">0</span>
+          <span class="kpi-label">/ 62 Exam Ready</span>
+          <span class="kpi-percentage" id="kpi-percentage">0%</span>
+        </div>
+        <div class="milestone-badge-active" id="milestone-next-badge">
+          <span>🌱</span>
+          <span id="milestone-next-text">10 more topics to Getting Started</span>
+        </div>
+      </div>
+
+      <!-- Multi-segment Progress Bar -->
+      <div class="progress-bar-container">
+        <div class="multi-progress-track" id="multi-progress-track">
+          <div class="seg-ready" id="seg-ready" style="width: 0%" title="Exam Ready"></div>
+          <div class="seg-improving" id="seg-improving" style="width: 0%" title="Improving"></div>
+          <div class="seg-tried" id="seg-tried" style="width: 0%" title="Tried"></div>
+          <div class="seg-new" id="seg-new" style="width: 100%" title="New"></div>
+        </div>
+        <div class="progress-legend">
+          <span class="legend-item"><span class="legend-dot dot-ready"></span> ● Ready: <strong id="count-ready">0</strong></span>
+          <span class="legend-item"><span class="legend-dot dot-improving"></span> ◑ Improving: <strong id="count-improving">0</strong></span>
+          <span class="legend-item"><span class="legend-dot dot-tried"></span> ◔ Tried: <strong id="count-tried">0</strong></span>
+          <span class="legend-item"><span class="legend-dot dot-new"></span> ○ New: <strong id="count-new">62</strong></span>
+        </div>
+      </div>
+
+      <!-- Milestone Ladder -->
+      <div class="milestone-ladder" id="milestone-ladder">
+        <div class="milestone-step" data-target="10">
+          <span class="step-icon">🌱</span>
+          <span class="step-target">10 Topics</span>
+          <span class="step-name">Getting Started</span>
+        </div>
+        <div class="milestone-step" data-target="20">
+          <span class="step-icon">🔥</span>
+          <span class="step-target">20 Topics</span>
+          <span class="step-name">Building Fluency</span>
+        </div>
+        <div class="milestone-step" data-target="30">
+          <span class="step-icon">🎙️</span>
+          <span class="step-target">30 Topics</span>
+          <span class="step-name">Confident Speaker</span>
+        </div>
+        <div class="milestone-step" data-target="40">
+          <span class="step-icon">🚀</span>
+          <span class="step-target">40 Topics</span>
+          <span class="step-name">Exam Mode</span>
+        </div>
+        <div class="milestone-step" data-target="50">
+          <span class="step-icon">💪</span>
+          <span class="step-target">50 Topics</span>
+          <span class="step-name">Almost Ready</span>
+        </div>
+        <div class="milestone-step" data-target="62">
+          <span class="step-icon">🏆</span>
+          <span class="step-target">62 Topics</span>
+          <span class="step-name">Pool Complete</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Today's 3 Speaking Mission Widget -->
+    <section class="daily-mission-card" id="daily-mission-widget">
+      <div class="mission-header">
+        <div class="mission-title-group">
+          <span class="mission-badge">Daily Mission</span>
+          <h2 class="mission-title">Today's 3 Speaking Practice</h2>
+        </div>
+        <span class="mission-subtitle">~24 mins · 1 Review, 1 Push, 1 Unseen</span>
+      </div>
+
+      <div class="mission-list" id="mission-list">
+        <!-- Rendered dynamically by JS -->
+      </div>
+
+      <div class="mission-celebration-banner" id="mission-celebration">
+        <span>🎉</span> <span>Outstanding work! You've completed Today's 3 Speaking Mission!</span>
+      </div>
+    </section>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs-container">
+      <div class="nav-tabs">
+        <button class="nav-tab active" data-tab="part2">
+          <span>🗺️</span> <span>Part 2 Quest Map</span> <span class="tab-badge" id="tab-badge-part2">62</span>
+        </button>
+        <button class="nav-tab" data-tab="part1">
+          <span>💬</span> <span>Part 1 Frames</span> <span class="tab-badge" id="tab-badge-part1">32</span>
+        </button>
+        <button class="nav-tab" data-tab="stories">
+          <span>🧬</span> <span>Story Multipliers</span> <span class="tab-badge">6</span>
+        </button>
+        <button class="nav-tab" data-tab="settings">
+          <span>⚙️</span> <span>Backup & Settings</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ====================================================================
+         Tab View 1: Part 2 Quest Map
+         ==================================================================== -->
+    <main class="tab-view active" id="view-part2">
+      <!-- Search & Filter Toolbar -->
+      <section class="filter-toolbar">
+        <div class="search-row">
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="search-input" placeholder="Search topics by number (#4), title, or keywords..." autocomplete="off">
+          </div>
+          <button class="btn-random-topic" id="btn-random-topic">
+            <span>🎲</span> <span>Pick Next Random Topic</span>
+          </button>
+        </div>
+
+        <div class="filter-chips-row">
+          <span class="filter-label">Status:</span>
+          <button class="chip-btn active" data-filter-status="all">All (62)</button>
+          <button class="chip-btn chip-ready" data-filter-status="ready">● Ready</button>
+          <button class="chip-btn chip-improving" data-filter-status="improving">◑ Improving</button>
+          <button class="chip-btn chip-tried" data-filter-status="tried">◔ Tried</button>
+          <button class="chip-btn chip-new" data-filter-status="new">○ New</button>
+        </div>
+
+        <div class="filter-chips-row">
+          <span class="filter-label">Category:</span>
+          <button class="chip-btn active" data-filter-category="all">All Categories</button>
+          <button class="chip-btn" data-filter-category="People">People</button>
+          <button class="chip-btn" data-filter-category="Places">Places</button>
+          <button class="chip-btn" data-filter-category="Tech & Objects">Tech & Objects</button>
+          <button class="chip-btn" data-filter-category="Experiences">Experiences</button>
+          <button class="chip-btn" data-filter-category="Culture & Nature">Culture & Nature</button>
+          <button class="chip-btn" data-filter-category="Ambition">Ambition</button>
+        </div>
+      </section>
+
+      <!-- 62-Node Journey Matrix -->
+      <section class="matrix-card">
+        <div class="matrix-header">
+          <h2 class="matrix-title">
+            <span>🌌</span> <span>62-Node Quest Journey Matrix</span>
+          </h2>
+          <span class="matrix-hint">Click any circle to open its full Cue Card & bullet points</span>
+        </div>
+
+        <!-- Matrix Grid of 62 Circles -->
+        <div class="topic-map-grid" id="topic-map">
+          <!-- 62 interactive nodes dynamically generated by app.js -->
+        </div>
+      </section>
+    </main>
+
+    <!-- ====================================================================
+         Tab View 2: Part 1 Frames (32 Topics)
+         ==================================================================== -->
+    <section class="tab-view" id="view-part1">
+      <div class="filter-toolbar">
+        <div class="search-row">
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="search-part1" placeholder="Search Part 1 topics & questions..." autocomplete="off">
+          </div>
+          <div class="filter-chips-row">
+            <span class="filter-label">Status:</span>
+            <button class="chip-btn active" data-filter-part1-status="all">All (32)</button>
+            <button class="chip-btn chip-ready" data-filter-part1-status="ready">● Ready</button>
+            <button class="chip-btn chip-improving" data-filter-part1-status="improving">◑ Improving</button>
+            <button class="chip-btn chip-tried" data-filter-part1-status="tried">◔ Tried</button>
+            <button class="chip-btn chip-new" data-filter-part1-status="new">○ New</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="part1-list" id="part1-list">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Tab View 3: Story Multiplier Hub
+         ==================================================================== -->
+    <section class="tab-view" id="view-stories">
+      <div class="stories-intro-card">
+        <h2 class="stories-intro-title">🧬 The Story Multiplier Strategy</h2>
+        <p class="stories-intro-desc">
+          Instead of memorizing 62 distinct cue cards, master these <strong>6 core life stories</strong>. Each story effortlessly adapts to cover 4–6 different IELTS Part 2 topics across People, Places, Objects, and Experiences. Click any topic badge below to open its cue card!
+        </p>
+      </div>
+
+      <div class="stories-grid" id="stories-grid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Tab View 4: Backup & Settings
+         ==================================================================== -->
+    <section class="tab-view" id="view-settings">
+      <div class="settings-grid">
+        <!-- Export Card -->
+        <div class="settings-card">
+          <h3 class="settings-title"><span>📥</span> <span>Export Backup</span></h3>
+          <p class="settings-desc">Save your practice statuses, transcripts, notes, and streak to a JSON file or copy to your clipboard.</p>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <button class="btn-action-primary" id="btn-export-json">Download JSON File</button>
+            <button class="btn-action-secondary" id="btn-copy-json">Copy JSON</button>
+          </div>
+        </div>
+
+        <!-- Import Card -->
+        <div class="settings-card">
+          <h3 class="settings-title"><span>📤</span> <span>Import Backup</span></h3>
+          <p class="settings-desc">Restore your progress from a saved JSON backup file or paste the JSON text below.</p>
+          <input type="file" id="file-import-json" accept=".json" style="font-size: 0.85rem;">
+          <textarea class="import-textarea" id="import-json-text" placeholder="Or paste JSON backup content here..."></textarea>
+          <button class="btn-action-primary" id="btn-import-json">Restore Progress</button>
+          <div id="import-status-msg" style="font-size: 0.8rem; font-weight: 600;"></div>
+        </div>
+
+        <!-- Reset Card -->
+        <div class="settings-card">
+          <h3 class="settings-title"><span>⚠️</span> <span>Reset to Default</span></h3>
+          <p class="settings-desc">Reset all topics, notes, and statuses back to original factory defaults. This action cannot be undone.</p>
+          <button class="btn-action-danger" id="btn-reset-data">Reset All Data to Default</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ======================================================================
+       Interactive Topic Cue Card Modal / Practice Drawer (#modal-cuecard)
+       ====================================================================== -->
+  <div class="modal-backdrop" id="modal-cuecard" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-dialog">
+      <!-- Modal Header -->
+      <header class="modal-header">
+        <div class="modal-header-left">
+          <div class="modal-badges">
+            <span class="modal-topic-id" id="modal-topic-id">#1</span>
+            <span class="modal-category-chip" id="modal-category">People</span>
+            <span class="modal-status-badge status-new" id="modal-status-badge">○ New</span>
+          </div>
+          <h2 class="modal-title" id="modal-title">Topic Title Here</h2>
+          <a class="modal-story-link" id="modal-story-link" style="display: none;">
+            <span>🧬 Linked Story:</span> <strong id="modal-story-name"></strong>
+          </a>
+        </div>
+        <button class="btn-close-modal" id="btn-close-modal" aria-label="Close modal">&times;</button>
+      </header>
+
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <!-- "You should say:" Bullet Points Box -->
+        <section class="cuecard-prompt-box">
+          <div class="cuecard-lead" id="cuecard-prompt">You should say:</div>
+          <ul class="cuecard-points-list" id="cuecard-points">
+            <!-- Rendered dynamically -->
+          </ul>
+        </section>
+
+        <!-- Part 3 Follow-up Questions Accordion -->
+        <section class="accordion-box" id="accordion-part3">
+          <button class="accordion-header" id="accordion-part3-toggle" type="button">
+            <span id="accordion-part3-title">💬 Part 3 Follow-up Discussion Questions</span>
+            <span class="accordion-chevron">▼</span>
+          </button>
+          <div class="accordion-content">
+            <ol class="part3-questions-list" id="part3-questions-list">
+              <!-- Rendered dynamically -->
+            </ol>
+          </div>
+        </section>
+
+        <!-- Student Speech Transcript & Teacher Practice Notes -->
+        <section class="editor-section">
+          <div class="editor-header">
+            <span class="editor-title">📝 Practice Notes & Student Speech Transcript</span>
+            <span class="autosave-indicator" id="autosave-indicator">✓ Auto-saved</span>
+          </div>
+          <div class="editor-grid">
+            <div class="editor-pane">
+              <label for="input-transcript">Student Speech Transcript / Answer Draft:</label>
+              <textarea id="input-transcript" placeholder="Draft your spoken answer or speech transcript here..."></textarea>
+            </div>
+            <div class="editor-pane">
+              <label for="input-notes">Teacher Corrections, Vocab & Practice Notes:</label>
+              <textarea id="input-notes" placeholder="Add vocabulary, collocations, grammar notes, and teacher feedback..."></textarea>
+            </div>
+          </div>
+        </section>
+
+        <!-- Mastery Status Buttons (1-Click Setter) -->
+        <section class="mastery-setter-section">
+          <span class="mastery-setter-label">Update Mastery Status:</span>
+          <div class="mastery-btn-group">
+            <button class="btn-mastery btn-set-new" id="btn-set-new">○ New</button>
+            <button class="btn-mastery btn-set-tried" id="btn-set-tried">◔ Tried</button>
+            <button class="btn-mastery btn-set-improving" id="btn-set-improving">◑ Improving</button>
+            <button class="btn-mastery btn-set-ready" id="btn-set-ready">● Exam Ready</button>
+          </div>
+        </section>
+      </div>
+
+      <!-- Modal Footer -->
+      <footer class="modal-footer">
+        <button class="modal-nav-btn" id="btn-prev-topic">← Previous Topic</button>
+        <button class="modal-nav-btn" id="btn-next-topic">Next Topic →</button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Dynamic Hover Tooltip -->
+  <div class="node-tooltip" id="node-tooltip"></div>
+
+  <!-- Scripts -->
+  <script src="src/data/topics-part2.js"></script>
+  <script src="src/data/topics-part1.js"></script>
+  <script src="src/data/stories.js"></script>
+  <script src="src/state.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>
