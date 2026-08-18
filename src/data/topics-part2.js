@@ -26,7 +26,23 @@ const topicsPart2 = [
     ],
     "status": "improving",
     "storyCluster": "My Mother / Inspiring Family Member",
-    "notes": "Practiced in Lesson 7: Character A (Lan - older cousin nurse) / Family pride"
+    "notes": "Practiced in Lesson 7: Character A (Lan - older cousin nurse) / Family pride",
+    "ideas5W1H": {
+      "who": "My mother, who is a dedicated doctor at a local hospital in Vinh",
+      "what": "Received an exemplary doctor award after passing a demanding qualification exam",
+      "where": "At Vinh General Hospital and at home with our family",
+      "when": "Last year when she was balancing heavy hospital shifts and late-night study",
+      "why": "She showed incredible resilience and never gave up despite her exhausting workload",
+      "how": "Felt immense pride and admiration; organized a small celebratory family dinner"
+    },
+    "chunks": [
+      "dedicated doctor",
+      "pass a demanding exam",
+      "exemplary doctor award",
+      "balance heavy shifts and study",
+      "show incredible resilience",
+      "felt immense pride"
+    ]
   },
   {
     "id": 2,
@@ -71,7 +87,23 @@ const topicsPart2 = [
       "Why do people change their dream jobs as they grow older?"
     ],
     "status": "improving",
-    "notes": "Practiced in Lesson 4, 12: English teacher career / Hanoi university"
+    "notes": "Practiced in Lesson 4, 12: English teacher career / Hanoi university",
+    "ideas5W1H": {
+      "who": "Myself, aspiring to become a high school English teacher",
+      "what": "Teaching communicative English and inspiring teenage students",
+      "where": "At a public or bilingual high school in Hanoi or my hometown Vinh",
+      "when": "In the future after graduating with an English Education degree from university",
+      "why": "Passionate about languages and want to make English learning enjoyable and accessible for provincial students",
+      "how": "Preparing for university entrance exams, practicing speaking daily, and shadowing effective teaching methods"
+    },
+    "chunks": [
+      "high school English teacher",
+      "pursue an English Education degree",
+      "make learning enjoyable",
+      "boost students' confidence",
+      "interactive teaching methods",
+      "meaningful and fulfilling career"
+    ]
   },
   {
     "id": 4,
@@ -140,7 +172,23 @@ const topicsPart2 = [
       "Would people still want to become famous if they knew what they are going to face?"
     ],
     "status": "improving",
-    "notes": "Practiced in Lesson 7: Khanh Vy VTV MC / TikTok creator (7 languages)"
+    "notes": "Practiced in Lesson 7: Khanh Vy VTV MC / TikTok creator (7 languages)",
+    "ideas5W1H": {
+      "who": "Khanh Vy, a talented TV host on VTV and well-known English content creator from Nghe An",
+      "what": "Want to meet her in person, ask for public speaking advice, and learn how she maintains positive energy",
+      "where": "At an educational workshop or youth talk show in Hanoi",
+      "when": "In the near future when I move to Hanoi for university",
+      "why": "She is from my hometown and proves that provincial students can master English and communicate with global confidence",
+      "how": "Follow all her YouTube videos and podcasts for daily English shadowing and inspiration"
+    },
+    "chunks": [
+      "well-known content creator",
+      "talented TV host",
+      "hail from my hometown",
+      "dynamic and positive energy",
+      "effective English shadowing tips",
+      "great role model for youth"
+    ]
   },
   {
     "id": 6,
@@ -167,7 +215,23 @@ const topicsPart2 = [
     ],
     "status": "improving",
     "storyCluster": "My Mother / Inspiring Family Member",
-    "notes": "Practiced in Lesson 7: Minh Anh high school English teacher (helping poor students)"
+    "notes": "Practiced in Lesson 7: Minh Anh high school English teacher (helping poor students)",
+    "ideas5W1H": {
+      "who": "My mother, a kind-hearted doctor living in Vinh",
+      "what": "Provides free medical consultations for elderly neighbours and visits disadvantaged patients in rural clinics",
+      "where": "In our local neighbourhood in Vinh and community health centers",
+      "when": "Almost every weekend during her precious free time",
+      "why": "She genuinely cares about community wellbeing and believes medical skills should serve those in need",
+      "how": "Felt inspired by her kindness, often helping her organize medication and health checkup records"
+    },
+    "chunks": [
+      "kind-hearted and selfless",
+      "free medical consultations",
+      "elderly neighbours",
+      "disadvantaged patients",
+      "lend a helping hand",
+      "set a wonderful example"
+    ]
   },
   {
     "id": 7,
@@ -190,7 +254,23 @@ const topicsPart2 = [
       "What are the benefits of using apps as a tool for education?"
     ],
     "status": "new",
-    "storyCluster": "Shopee & Tech Gadgets"
+    "storyCluster": "Shopee & Tech Gadgets",
+    "ideas5W1H": {
+      "who": "Myself, using the Shopee e-commerce mobile application",
+      "what": "Browsing and purchasing English reference books, stationery, and casual clothes",
+      "where": "On my smartphone at home in Vinh",
+      "when": "Several times a week, especially during monthly discount campaigns like double-day sales",
+      "why": "Offers competitive prices, verified reviews, convenient doorstep delivery, and saves time traveling to bookstores",
+      "how": "Compare prices across verified shops, apply discount vouchers, and track delivery status effortlessly"
+    },
+    "chunks": [
+      "e-commerce mobile application",
+      "English reference books",
+      "monthly discount campaigns",
+      "convenient doorstep delivery",
+      "read verified user reviews",
+      "save a lot of time and money"
+    ]
   },
   {
     "id": 8,
@@ -216,7 +296,23 @@ const topicsPart2 = [
     ],
     "status": "improving",
     "storyCluster": "20th Birthday Celebration",
-    "notes": "Practiced in Lesson 10: Watching movie 'Mua Do' with parents at the cinema."
+    "notes": "Practiced in Lesson 10: Watching movie 'Mua Do' with parents at the cinema.",
+    "ideas5W1H": {
+      "who": "Watched with my close friends during my 20th birthday gathering",
+      "what": "A heartwarming coming-of-age movie about friendship and chasing dreams",
+      "where": "At my apartment in Vinh on a projector screen",
+      "when": "Two months ago on the evening of my birthday celebration",
+      "why": "Wanted a meaningful film to unwind together after eating cake and sharing stories",
+      "how": "Touched by the realistic dialogue and emotional soundtrack; laughed and cried together"
+    },
+    "chunks": [
+      "heartwarming coming-of-age movie",
+      "gather at my apartment",
+      "celebrate my 20th birthday",
+      "emotional and realistic dialogue",
+      "strengthen our friendship",
+      "left a lasting impression"
+    ]
   },
   {
     "id": 9,
@@ -238,7 +334,23 @@ const topicsPart2 = [
       "Do scientists need to use their imagination?"
     ],
     "status": "improving",
-    "notes": "Practiced in Lesson 10: Drawing and painting, mixing colors, creative art guidance."
+    "notes": "Practiced in Lesson 10: Drawing and painting, mixing colors, creative art guidance.",
+    "ideas5W1H": {
+      "who": "Myself and my younger relative Mai, who loves drawing nature",
+      "what": "Helped Mai visualize and design a creative picture story about marine life protection",
+      "where": "In our living room in Vinh",
+      "when": "Last summer during her school holidays",
+      "why": "She needed to submit an artwork for a school competition and was struggling with creative concepts",
+      "how": "Imagined an underwater world with recycled coral reefs, mixed vibrant watercolors, and brainstormed storytelling ideas"
+    },
+    "chunks": [
+      "younger relative",
+      "spark creative imagination",
+      "marine life protection",
+      "vibrant watercolors",
+      "brainstorm storytelling ideas",
+      "rewarding and fun experience"
+    ]
   },
   {
     "id": 10,
@@ -263,7 +375,23 @@ const topicsPart2 = [
       "What impact can an inadequate transport or transportation system have on a country?"
     ],
     "status": "new",
-    "storyCluster": "Traffic & Air Pollution in City"
+    "storyCluster": "Traffic & Air Pollution in City",
+    "ideas5W1H": {
+      "who": "My family (parents, younger sister, and myself)",
+      "what": "A weekend road trip in our family car",
+      "where": "From Vinh city center to Cua Lo beach along the coastal route",
+      "when": "Last summer during a hot weekend",
+      "why": "To escape the urban heat, traffic dust, and relax by the ocean together",
+      "how": "Listened to upbeat acoustic music, admired picturesque rice fields along the way, and enjoyed fresh sea breezes"
+    },
+    "chunks": [
+      "family road trip",
+      "coastal route",
+      "escape urban heat and dust",
+      "sing along to music",
+      "picturesque roadside scenery",
+      "relax and recharge batteries"
+    ]
   },
   {
     "id": 11,
@@ -288,7 +416,23 @@ const topicsPart2 = [
       "Do you agree or disagree that people today feel uncomfortable if there is no noise?"
     ],
     "status": "new",
-    "storyCluster": "Cua Lo Beach Trip"
+    "storyCluster": "Cua Lo Beach Trip",
+    "ideas5W1H": {
+      "who": "Myself, accompanied by my cousin Lan",
+      "what": "Walked along the shoreline at dawn, listened to gentle waves, and watched the sunrise",
+      "where": "Cua Lo beach, about 15 kilometers from Vinh city",
+      "when": "Early in the morning around 5:30 AM during off-season",
+      "why": "Needed a serene atmosphere to clear my mind and escape noisy city traffic and school stress",
+      "how": "Enjoyed the fresh coastal air, felt peaceful watching golden sunlight reflect on the water, and collected sea shells"
+    },
+    "chunks": [
+      "serene and tranquil atmosphere",
+      "walk along the shoreline",
+      "early morning at dawn",
+      "gentle crashing waves",
+      "clear my mind",
+      "peaceful escape from city noise"
+    ]
   },
   {
     "id": 12,
@@ -314,7 +458,23 @@ const topicsPart2 = [
       "Do you agree that companies should provide regular training courses for their employees?"
     ],
     "status": "improving",
-    "notes": "Practiced in Lesson 7: Khanh Chi self-taught IELTS 8.0 in 1 year"
+    "notes": "Practiced in Lesson 7: Khanh Chi self-taught IELTS 8.0 in 1 year",
+    "ideas5W1H": {
+      "who": "My childhood friend Minh, who is an independent English learner",
+      "what": "Learned English listening and daily communication skills entirely on his own",
+      "where": "At home in Vinh using an old laptop and smartphone",
+      "when": "Over the course of one year during high school",
+      "why": "Could not afford expensive English center tuition fees but was determined to speak English fluently",
+      "how": "Practiced shadowing with YouTube talk shows, listened to BBC podcasts daily, and noted vocabulary in flashcard apps"
+    },
+    "chunks": [
+      "childhood friend",
+      "self-taught English learner",
+      "listen to podcasts daily",
+      "shadowing technique",
+      "improve pronunciation and fluency",
+      "admire his determination and discipline"
+    ]
   },
   {
     "id": 13,
@@ -339,7 +499,23 @@ const topicsPart2 = [
     ],
     "status": "improving",
     "storyCluster": "My Mother / Inspiring Family Member",
-    "notes": "Practiced in Lesson 7, 11: Lan planning hospital recycling project"
+    "notes": "Practiced in Lesson 7, 11: Lan planning hospital recycling project",
+    "ideas5W1H": {
+      "who": "My mother — a very organized homemaker and doctor living in Vinh city",
+      "what": "Plans our family's monthly budget, daily meals, and our annual summer holiday to Cua Lo beach",
+      "where": "At our home in Vinh city",
+      "when": "Every week for household routines, and weeks before every family vacation",
+      "why": "Wants to manage family finances wisely, avoid last-minute stress, and make sure everyone has a wonderful time",
+      "how": "Writes detailed checklists in a notebook, compares accommodation options early, and always prepares a backup plan"
+    },
+    "chunks": [
+      "be exceptionally well-organized",
+      "plan our monthly household budget",
+      "book hotel rooms well in advance",
+      "write down a detailed checklist",
+      "avoid last-minute rush and stress",
+      "always prepare a reliable backup plan"
+    ]
   },
   {
     "id": 14,
@@ -364,7 +540,23 @@ const topicsPart2 = [
     ],
     "status": "improving",
     "storyCluster": "G-Dragon Concert with Lan",
-    "notes": "Practiced in Lesson 6: Little sister Mai (15 yrs) drawing on plane"
+    "notes": "Practiced in Lesson 6: Little sister Mai (15 yrs) drawing on plane",
+    "ideas5W1H": {
+      "who": "My 8-year-old younger cousin Mai, who lives near my house in Vinh",
+      "what": "Draws colorful pictures of countryside animals, blooming flowers, and our family gatherings",
+      "where": "At her study desk at home and outdoors during weekend family visits",
+      "when": "Almost every afternoon right after finishing her elementary school homework",
+      "why": "She has a rich imagination, feels happy expressing herself with colors, and loves gifting drawings to relatives",
+      "how": "Sits quietly with her sketchbook and colored pencil set for hours, focusing on every little detail"
+    },
+    "chunks": [
+      "have a natural passion for drawing",
+      "a set of colored pencils and a sketchbook",
+      "draw vibrant pictures of nature and animals",
+      "have a lively and rich imagination",
+      "completely lose track of time while sketching",
+      "give handmade drawings as thoughtful gifts"
+    ]
   },
   {
     "id": 15,
@@ -388,7 +580,23 @@ const topicsPart2 = [
       "How much influence does advertising have when people are buying things?"
     ],
     "status": "improving",
-    "notes": "Practiced in Lesson 6: Vinh Centre with mom (Nike, Adidas, Gucci)"
+    "notes": "Practiced in Lesson 6: Vinh Centre with mom (Nike, Adidas, Gucci)",
+    "ideas5W1H": {
+      "who": "Me and my mother, or sometimes with my close friends",
+      "what": "A lively commercial center and market area featuring clothing stores, stationery shops, and local snack stalls",
+      "where": "Vinh city center, just about a ten-minute motorbike ride from my house",
+      "when": "Once or twice a month on weekends, especially before a new school term starts",
+      "why": "Offers a wide variety of affordable fashion items, school supplies, and cozy places to relax with friends",
+      "how": "Browse different shops to compare prices, pick out notebooks and clothes, and enjoy milk tea afterwards"
+    },
+    "chunks": [
+      "a bustling shopping center in downtown Vinh",
+      "shop for clothes and school stationery",
+      "offer a wide variety of affordable items",
+      "compare prices between different shops",
+      "just a short motorbike ride from my house",
+      "a convenient place to hang out with friends"
+    ]
   },
   {
     "id": 16,
@@ -411,7 +619,23 @@ const topicsPart2 = [
       "Do you agree or disagree that practical experience is more useful than qualifications when working in an international company?"
     ],
     "status": "improving",
-    "notes": "Practiced in Lesson 2, 6: London sister / media & communication career"
+    "notes": "Practiced in Lesson 2, 6: London sister / media & communication career",
+    "ideas5W1H": {
+      "who": "Myself as a future English education university student",
+      "what": "A short-term teaching assistant internship or cultural exchange job at an international language school",
+      "where": "Singapore — a clean, green, and highly developed multicultural city-state",
+      "when": "During a summer break while studying English pedagogy at university in Hanoi",
+      "why": "Wants to experience a world-class bilingual education system, improve daily English fluency, and learn modern teaching techniques",
+      "how": "Apply through an international student exchange program, assist senior teachers in class, and explore the city during weekends"
+    },
+    "chunks": [
+      "a short-term teaching assistant internship",
+      "gain hands-on educational experience",
+      "a clean, green, and modern environment",
+      "improve my daily English communication fluency",
+      "learn innovative and engaging teaching methods",
+      "broaden my horizons in Southeast Asia"
+    ]
   },
   {
     "id": 17,
@@ -434,7 +658,23 @@ const topicsPart2 = [
       "What kinds of personal qualities do people need to give good advice?",
       "Do you agree or disagree that anyone can learn how to give advice effectively?"
     ],
-    "status": "new"
+    "status": "new",
+    "ideas5W1H": {
+      "who": "My childhood friend Minh, who was feeling frustrated with his English self-study",
+      "what": "Advised him to break down his study routine into 20 manageable minutes a day using mobile apps and podcasts instead of cramming",
+      "where": "At a quiet neighborhood coffee shop in Vinh where we often study together",
+      "when": "About six months ago when we were preparing for our high school English examinations",
+      "why": "He was overwhelmed by trying to memorize long lists of grammar rules and was losing motivation quickly",
+      "how": "Shared my own study schedule, helped him install useful learning apps, and encouraged him to focus on small daily habits"
+    },
+    "chunks": [
+      "struggle with learning English consistently",
+      "give practical and encouraging advice",
+      "break down study time into small daily habits",
+      "listen to short English podcasts every morning",
+      "feel overwhelmed by heavy grammar exercises",
+      "see noticeable progress after a few weeks"
+    ]
   },
   {
     "id": 18,
@@ -456,7 +696,23 @@ const topicsPart2 = [
       "What are the differences between talking to people online and talking to them face to face?"
     ],
     "status": "new",
-    "storyCluster": "Shopee & Tech Gadgets"
+    "storyCluster": "Shopee & Tech Gadgets",
+    "ideas5W1H": {
+      "who": "Myself for my upcoming university studies in Hanoi",
+      "what": "A lightweight iPad tablet with a stylus pen and a slim detachable keyboard",
+      "where": "To use in lecture halls in Hanoi, local libraries, and at my study desk at home",
+      "when": "Plan to purchase it right before beginning my freshman year studying English Education",
+      "why": "Replaces heavy printed books, keeps all digital notes organized in one place, and makes lesson planning effortless",
+      "how": "Save money from part-time tutoring and birthday gifts, then order it on Shopee during a seasonal sale"
+    },
+    "chunks": [
+      "a lightweight tablet with a stylus pen",
+      "take neat digital notes during lectures",
+      "replace heavy textbooks and printed handouts",
+      "design engaging English lesson plans",
+      "save up money from tutoring to buy it",
+      "significantly boost my study productivity"
+    ]
   },
   {
     "id": 19,
@@ -481,7 +737,23 @@ const topicsPart2 = [
     ],
     "status": "improving",
     "storyCluster": "G-Dragon Concert with Lan",
-    "notes": "Practiced in Lesson 6: Dam Vinh Hung concert at age 5 with dad"
+    "notes": "Practiced in Lesson 6: Dam Vinh Hung concert at age 5 with dad",
+    "ideas5W1H": {
+      "who": "Me and my cousin Lan",
+      "what": "An outdoor weekend street fair that played extremely loud, repetitive electronic dance remixes on blast",
+      "where": "Along the pedestrian walking street in Vinh city",
+      "when": "Last summer on a crowded Saturday evening",
+      "why": "The volume was deafening and distorted by low-grade speakers, making it impossible to chat or enjoy the evening",
+      "how": "Decided to leave the main stage area early and found a peaceful café around the corner to sit and chat"
+    },
+    "chunks": [
+      "attend an outdoor weekend street fair",
+      "extremely loud and repetitive dance tracks",
+      "harsh bass booming from low-quality speakers",
+      "impossible to have a normal conversation",
+      "feel dizzy and develop a slight headache",
+      "escape to a quiet café down the street"
+    ]
   },
   {
     "id": 20,
@@ -504,7 +776,23 @@ const topicsPart2 = [
       "What do you think of the view that parents should choose what programmes or shows their children watch?"
     ],
     "status": "tried",
-    "notes": "Practiced in Lesson 11: TV/Online learning programme"
+    "notes": "Practiced in Lesson 11: TV/Online learning programme",
+    "ideas5W1H": {
+      "who": "Myself, often watching together with my family or my friend Minh",
+      "what": "An inspiring educational knowledge show and English learning broadcast on national television (VTV)",
+      "where": "In our family living room in Vinh on television and on YouTube during study breaks",
+      "when": "Every Sunday morning or during relaxing evening breaks after school",
+      "why": "Features challenging trivia, improves academic vocabulary, and showcases motivating young student competitors",
+      "how": "Try to solve the questions alongside contestants and note down useful new expressions in my study journal"
+    },
+    "chunks": [
+      "a popular educational quiz show on national TV",
+      "watch it every Sunday morning with my family",
+      "challenge myself to answer difficult questions",
+      "expand my general knowledge and vocabulary",
+      "talented and quick-thinking contestants",
+      "a great source of study inspiration"
+    ]
   },
   {
     "id": 21,
@@ -526,7 +814,23 @@ const topicsPart2 = [
       "How important is it to teach children about giving money to support people in need?"
     ],
     "status": "new",
-    "storyCluster": "Shopee & Tech Gadgets"
+    "storyCluster": "Shopee & Tech Gadgets",
+    "ideas5W1H": {
+      "who": "Myself when ordering school and winter items online",
+      "what": "Purchased a warm padded winter jacket and a study headset on an e-commerce app (Shopee)",
+      "where": "Delivered to my home address in Vinh city",
+      "when": "Last November at the beginning of the chilly winter season",
+      "why": "Failed to notice extra express shipping charges and handling fees because I rushed through the checkout during a flash sale",
+      "how": "Felt surprised when the courier asked for more cash than anticipated, paid the total, and learned to check the final invoice"
+    },
+    "chunks": [
+      "order a warm winter jacket online",
+      "rush through the checkout during a flash sale",
+      "overlook the express delivery surcharge",
+      "end up paying significantly more than expected",
+      "feel surprised and slightly disappointed",
+      "learn a valuable lesson about double-checking fees"
+    ]
   },
   {
     "id": 22,
@@ -550,7 +854,23 @@ const topicsPart2 = [
       "Do you agree or disagree that cities lose their individual character as they grow in size?"
     ],
     "status": "new",
-    "storyCluster": "Cua Lo Beach Trip"
+    "storyCluster": "Cua Lo Beach Trip",
+    "ideas5W1H": {
+      "who": "Me and my family (parents and cousins)",
+      "what": "A refreshing holiday in Da Nang, a modern and clean coastal city in central Vietnam",
+      "where": "Da Nang city — visiting My Khe beach, Son Tra peninsula, and the Dragon Bridge",
+      "when": "Have visited twice, most recently during our family summer vacation last year",
+      "why": "Loved the clean coastal air, uncrowded sandy beaches, mouthwatering local seafood, and friendly hospitality",
+      "how": "Took early morning walks along the shoreline, toured local street food stalls at night, and enjoyed the ocean breeze"
+    },
+    "chunks": [
+      "a renowned coastal city in central Vietnam",
+      "take a family summer road trip",
+      "walk along pristine sandy beaches",
+      "enjoy fresh seafood at local night markets",
+      "warm and exceptionally friendly locals",
+      "a refreshing escape from daily academic pressure"
+    ]
   },
   {
     "id": 23,
@@ -577,7 +897,23 @@ const topicsPart2 = [
     "storyCluster": "G-Dragon Concert with Lan",
     "studentTranscript": "I would like to tell you about a time when someone I knew found a clever solution to a problem. It’s my best friend Lan. I remember she and I were on our way to watch a G-Dragon concert and the concert was at 11 at night. At that time everything became darker and unluckily our phones were low on battery. We were so scared and we didn’t know how to book Grab or Uber to go back to our hotel. But at this time, she was so intelligent that she noticed a police post nearly two kilometers away. She ran there swiftly, reached the police officers, and they gave me and my friend a hand by driving us back safely.",
     "notes": "Teacher Corrections:\n- \"tell you a time\" -> \"tell you ABOUT a time\"\n- \"she and I was\" -> \"she and I WERE\"\n- \"at 11 in the night\" -> \"at 11 at night / 11 PM\"\n- \"become the darker\" -> \"became darker\"\n- \"we was\" -> \"we were\"\n- \"the GRAB or the UBER\" -> \"Grab or Uber\"\n- \"to our hotels\" -> \"to our hotel\"\n- \"it has police\" -> \"there were police officers\"\n- \"go jogging in the faster way\" -> \"ran swiftly / hurried over\"\n- \"gave a hand to drive a police car\" -> \"gave us a lift in their police car\"\n\nStory Link: G-Dragon Concert with Lan (covers #14, #19, #23, #54)\n[Practiced in Lesson 7, 14: G-Dragon concert at 11 PM with Lan, low battery, police car]",
-    "lastPracticed": "2026-08-17"
+    "lastPracticed": "2026-08-17",
+    "ideas5W1H": {
+      "who": "My close cousin Lan",
+      "what": "Both of our smartphones ran out of battery late at night, leaving us unable to book a ride home after an evening event",
+      "where": "On a quiet street after an evening event in the city",
+      "when": "Late one evening around 10 PM last year",
+      "why": "We were stranded far from home with completely dead batteries and no passing taxis in sight",
+      "how": "Lan calmly noticed a local neighborhood security post nearby, politely explained our predicament, and the officers kindly helped us reach our family"
+    },
+    "chunks": [
+      "run completely out of phone battery",
+      "find ourselves stranded late in the evening",
+      "stay calm and think on our feet",
+      "spot a nearby neighborhood security post",
+      "politely explain our situation to the officers",
+      "a smart and safe solution to a stressful dilemma"
+    ]
   },
   {
     "id": 24,
@@ -601,7 +937,23 @@ const topicsPart2 = [
       "Are punishments or rewards more effective in encouraging people to protect nature?"
     ],
     "status": "improving",
-    "notes": "Practiced in Lesson 7, 13: Lan environmental protection / recycling bins"
+    "notes": "Practiced in Lesson 7, 13: Lan environmental protection / recycling bins",
+    "ideas5W1H": {
+      "who": "My cousin Lan — leader of a youth environmental volunteer group in Vinh",
+      "what": "Organizes weekend park cleanups, plastic recycling workshops, and campaigns encouraging students to carry reusable bottles",
+      "where": "At local parks, public schools, and along the Lam River in Vinh city",
+      "when": "Has been running community green initiatives actively for over two years",
+      "why": "Deeply troubled by single-use plastic waste and eager to build eco-friendly habits among the local youth",
+      "how": "Leads by personal example, posts accessible recycling tutorials online, and makes group cleanups enjoyable and energetic"
+    },
+    "chunks": [
+      "an active leader of a youth environmental club",
+      "organize weekend community clean-up campaigns",
+      "collect and sort recyclable plastic waste",
+      "encourage students to bring reusable bottles",
+      "lead by personal example in daily life",
+      "raise public awareness about plastic pollution"
+    ]
   },
   {
     "id": 25,
@@ -626,7 +978,23 @@ const topicsPart2 = [
     ],
     "status": "improving",
     "storyCluster": "My Mother / Inspiring Family Member",
-    "notes": "Practiced in Lesson 7: Encouraging friend to switch to cycling"
+    "notes": "Practiced in Lesson 7: Encouraging friend to switch to cycling",
+    "ideas5W1H": {
+      "who": "My childhood friend Minh, who was extremely nervous about public speaking in English",
+      "what": "Encouraged him to deliver our team's English presentation on environmental protection in front of the whole class",
+      "where": "In our high school classroom in Vinh city",
+      "when": "Last semester during our English project evaluation week",
+      "why": "He had fantastic ideas but lacked confidence and feared mispronouncing words in front of his peers",
+      "how": "Rehearsed with him patiently after school, gave him positive encouragement, and cheered for him during the presentation"
+    },
+    "chunks": [
+      "be terrified of public speaking",
+      "deliver an English presentation in front of class",
+      "afraid of making pronunciation mistakes",
+      "rehearse patiently together after school",
+      "boost his self-confidence with positive feedback",
+      "step out of his comfort zone with success"
+    ]
   },
   {
     "id": 26,
@@ -653,7 +1021,23 @@ const topicsPart2 = [
     ],
     "status": "improving",
     "storyCluster": "20th Birthday Celebration",
-    "notes": "Practiced in Entrance Test, Lesson 6: Special birthday food & festive dishes"
+    "notes": "Practiced in Entrance Test, Lesson 6: Special birthday food & festive dishes",
+    "ideas5W1H": {
+      "who": "My whole family gathering together (parents, relatives, and me)",
+      "what": "Traditional Banh Chung (square sticky rice cake) and festive Tet dishes",
+      "where": "At my family home in Vinh city",
+      "when": "During the Lunar New Year (Tet holiday) every spring",
+      "why": "It is a symbolic dish representing family reunion, gratitude to ancestors, and Vietnamese tradition",
+      "how": "Felt warm and happy wrapping the cakes together by hand and sitting around the boiling fire overnight"
+    },
+    "chunks": [
+      "gather with my whole family",
+      "traditional square sticky rice cake",
+      "celebrate the Lunar New Year",
+      "wrap the cake with green leaves",
+      "boil it overnight over a wood fire",
+      "strengthen our family bonds"
+    ]
   },
   {
     "id": 27,
@@ -676,7 +1060,23 @@ const topicsPart2 = [
       "Can difficult decisions help people grow as individuals? Why?",
       "Do you prefer making decisions alone or with other people’s advice?"
     ],
-    "status": "new"
+    "status": "new",
+    "ideas5W1H": {
+      "who": "Myself, with encouragement and practical advice from my mother",
+      "what": "Deciding to apply for English Education in Hanoi instead of choosing a university close to home",
+      "where": "In Vinh city, planning my move to Hanoi",
+      "when": "In my final year of high school while choosing university majors",
+      "why": "It was difficult because I had never lived away from my family, but Hanoi offers top teacher training and better career opportunities",
+      "how": "Talked with my mother who encouraged me to step out of my comfort zone; resulted in higher confidence, better IELTS test focus, and clear career goals"
+    },
+    "chunks": [
+      "make a major life decision",
+      "move away from home",
+      "pursue English Education in Hanoi",
+      "step out of my comfort zone",
+      "receive valuable advice from my mother",
+      "gain independence and confidence"
+    ]
   },
   {
     "id": 28,
@@ -705,22 +1105,20 @@ const topicsPart2 = [
     "status": "improving",
     "storyCluster": "Mẹ / Người thân truyền cảm hứng (Inspiring Family Member)",
     "ideas5W1H": {
-      "who": "My mother — works as a doctor at a public hospital in Vinh city",
-      "what": "Examines patients, prescribes medicine, and checks on sick people during hospital rounds",
+      "who": "My mother — works as a dedicated doctor at a public hospital in Vinh city",
+      "what": "Examines patients, prescribes treatment plans, and does daily hospital rounds to care for sick people",
       "where": "At a busy public hospital in Vinh city",
-      "when": "Over 20 years in the medical profession, often working long hours and night shifts",
-      "why": "Loves helping sick people get better and wants to be useful to her community",
-      "how": "Admire her patience, hard work, staying calm under pressure, and balancing job with family"
+      "when": "Over 20 years in the medical profession, regularly working long shifts and night duties",
+      "why": "Loves helping patients recover from illnesses and wants to serve her hometown community",
+      "how": "Admire her patience, compassion, calm demeanor under pressure, and ability to balance demanding work with family life"
     },
     "chunks": [
-      "work as a doctor",
+      "work as a dedicated doctor",
       "at a public hospital in Vinh",
       "examine and treat sick patients",
       "work long night shifts",
       "stay calm under pressure",
-      "look for a practical way to help",
-      "admire her patience and hard work",
-      "balance her job with our family"
+      "admire her patience and dedication"
     ],
     "notes": "Practiced in Lesson 7, 14: Mom as a doctor caring for patients at public hospital in Vinh"
   },
@@ -747,7 +1145,23 @@ const topicsPart2 = [
     ],
     "status": "improving",
     "storyCluster": "Cua Lo Beach Trip",
-    "notes": "Practiced in Lesson 6: London sister study abroad, lost phone recovered by locals"
+    "notes": "Practiced in Lesson 6: London sister study abroad, lost phone recovered by locals",
+    "ideas5W1H": {
+      "who": "Myself and my family who frequently visit and spend weekends there",
+      "what": "Cua Lo coastal town (Nghe An province), a peaceful and scenic place to live",
+      "where": "Located about 15 kilometers from central Vinh city along the coastline",
+      "when": "Visited often during weekend getaways and summer vacations",
+      "why": "Offers clean fresh air, affordable living costs, fresh seafood, safe neighborhoods, and little traffic congestion compared to big cities",
+      "how": "Feel relaxed and refreshed whenever I visit; ideal balance between modern essential facilities and peaceful coastal nature"
+    },
+    "chunks": [
+      "a peaceful coastal town",
+      "enjoy fresh sea breeze",
+      "affordable cost of living",
+      "safe and friendly neighborhood",
+      "escape the hectic city life",
+      "a balanced and healthy lifestyle"
+    ]
   },
   {
     "id": 30,
@@ -775,7 +1189,23 @@ const topicsPart2 = [
       "In the future, will Chinese people prefer high-rise buildings or houses?",
       "Why do you think some people design their own homes?"
     ],
-    "status": "new"
+    "status": "new",
+    "ideas5W1H": {
+      "who": "Local residents, visitors, and me when meeting friends or shopping",
+      "what": "Muong Thanh Grand Hotel and Commercial Tower, the most famous high-rise building in Vinh",
+      "where": "Located at the central intersection in the heart of Vinh city",
+      "when": "Built several years ago and visible from almost everywhere across town",
+      "why": "Features modern glass architecture with a shopping mall, hotel rooms, event halls, and a top-floor cafe with panoramic views",
+      "how": "Like it because it represents the rapid modernization of Vinh and serves as an easy landmark to meet up with friends"
+    },
+    "chunks": [
+      "a prominent landmark in my city",
+      "located in the city center",
+      "modern high-rise building",
+      "enjoy a panoramic view from the rooftop",
+      "a popular meeting point for friends",
+      "symbolize the development of my hometown"
+    ]
   },
   {
     "id": 31,
@@ -799,7 +1229,23 @@ const topicsPart2 = [
       "How important is customer service in business success?",
       "Do you approve of the business model of small shops / small retail stores?"
     ],
-    "status": "new"
+    "status": "new",
+    "ideas5W1H": {
+      "who": "Mr. Nam, a passionate local entrepreneur in Vinh city whom I know through visiting his shop",
+      "what": "Founded a thriving independent bookstore and quiet study cafe chain catering to high school and university students",
+      "where": "In downtown Vinh city, close to major high schools",
+      "when": "Started about 7 years ago from a small bookstall and expanded into a spacious three-storey study hub",
+      "why": "Succeeded by providing affordable English study books, quiet study booths, good coffee, and hosting free weekend English clubs",
+      "how": "Admire his determination, customer-first service, and genuine passion for supporting local students education"
+    },
+    "chunks": [
+      "run a successful local business",
+      "open an independent bookstore and cafe",
+      "expand from a small corner shop",
+      "cater to students and language learners",
+      "host weekend English speaking clubs",
+      "admire his dedication and vision"
+    ]
   },
   {
     "id": 32,
@@ -826,7 +1272,23 @@ const topicsPart2 = [
       "Do you think planting is easy or difficult?",
       "What do you gain after solving problems in planting?"
     ],
-    "status": "new"
+    "status": "new",
+    "ideas5W1H": {
+      "who": "Vietnamese people across the country, cherished by my family and teachers",
+      "what": "The Lotus flower (Hoa Sen), the national flower of Vietnam",
+      "where": "Grows in ponds and lakes throughout the Vietnamese countryside and around Nghe An",
+      "when": "Blooms beautifully every summer from May to August",
+      "why": "Symbolizes purity, resilience, and optimism because it grows out of muddy water while remaining clean and fragrant; parts of the plant are also used in tea and medicine",
+      "how": "Feel proud whenever I see lotus ponds because it represents the enduring and humble spirit of Vietnamese culture"
+    },
+    "chunks": [
+      "the national flower of Vietnam",
+      "grow gracefully in ponds and lakes",
+      "bloom during the hot summer",
+      "a symbol of purity and resilience",
+      "widely used in traditional tea and medicine",
+      "reflect the spirit of Vietnamese people"
+    ]
   },
   {
     "id": 33,
@@ -853,7 +1315,23 @@ const topicsPart2 = [
       "What kinds of sports activities are suitable for children in China?"
     ],
     "status": "improving",
-    "notes": "Practiced in Lesson 6: World Cup Final France vs Argentina with dad (Messi)"
+    "notes": "Practiced in Lesson 6: World Cup Final France vs Argentina with dad (Messi)",
+    "ideas5W1H": {
+      "who": "My family (my dad, mother, and me) together with our neighbors",
+      "what": "An intense football match of the Vietnam national team in the Southeast Asian championship",
+      "where": "In our living room in Vinh city, watching live on a big TV screen",
+      "when": "Last year during the exciting tournament final match",
+      "why": "Football is the most popular sport in Vietnam and brings people from all walks of life together",
+      "how": "Felt thrilled and excited, cheering loudly when our team scored a winning goal in the final minutes, followed by joyful neighborhood celebrations"
+    },
+    "chunks": [
+      "watch a live football match",
+      "broadcast on national television",
+      "gather with my family in the living room",
+      "cheer enthusiastically for the national team",
+      "score a dramatic winning goal",
+      "an electric and joyful atmosphere"
+    ]
   },
   {
     "id": 34,
@@ -880,7 +1358,23 @@ const topicsPart2 = [
       "Do young people or old people care more about local news?",
       "Do people pay more attention to local news or national news?"
     ],
-    "status": "new"
+    "status": "new",
+    "ideas5W1H": {
+      "who": "Vinh city local authorities and residents, including my friends and family",
+      "what": "The official opening of a new pedestrian walking street and public green park in the city center",
+      "where": "Along Nguyen Van Cu street in central Vinh city",
+      "when": "A few months ago, shared widely across local community news pages and social media",
+      "why": "People were very interested because it created a safe, vehicle-free space for weekend leisure, acoustic music, and street food stalls",
+      "how": "Felt excited because it livened up the city nightlife and gave teenagers and families a healthy outdoor gathering space"
+    },
+    "chunks": [
+      "a piece of exciting local news",
+      "read on a local community page",
+      "open a new pedestrian walking street",
+      "create a green public park",
+      "enjoy street food and live music",
+      "enrich the cultural life of the city"
+    ]
   },
   {
     "id": 35,
@@ -905,7 +1399,23 @@ const topicsPart2 = [
     ],
     "status": "tried",
     "storyCluster": "Shopee & Tech Gadgets",
-    "notes": "Practiced in Lesson 14: Phone battery defect / Shopee tech troubleshooting"
+    "notes": "Practiced in Lesson 14: Phone battery defect / Shopee tech troubleshooting",
+    "ideas5W1H": {
+      "who": "Myself, studying and taking an online practice test at home",
+      "what": "Sudden Wi-Fi disconnection and router failure during a timed 60-minute online IELTS mock test",
+      "where": "In my study room at home in Vinh city",
+      "when": "A couple of months ago on a rainy evening while preparing for my exam",
+      "why": "A heavy rainstorm caused a neighborhood power flicker and knocked out the optical fiber connection",
+      "how": "Felt stressed and panicked as the countdown timer was ticking; quickly turned on my 4G mobile hotspot to reconnect and submitted the test just in time"
+    },
+    "chunks": [
+      "encounter a sudden technical issue",
+      "take an online timed mock test",
+      "lose the Wi-Fi connection completely",
+      "feel panicked and stressed",
+      "switch to a 4G mobile hotspot",
+      "learn the importance of having a backup plan"
+    ]
   },
   {
     "id": 36,
@@ -1095,7 +1605,23 @@ const topicsPart2 = [
       "How do people decide on their travel dates?"
     ],
     "status": "new",
-    "storyCluster": "Cua Lo Beach Trip"
+    "storyCluster": "Cua Lo Beach Trip",
+    "ideas5W1H": {
+      "who": "My parents, my younger cousin Mai, and me",
+      "what": "A three-day summer holiday trip to Cua Lo Beach",
+      "where": "Cua Lo coastal district in Nghe An province",
+      "when": "Last summer after completing a demanding high school semester",
+      "why": "Wanted to relax by the sea, enjoy fresh seafood, and spend quality bonding time together as a family",
+      "how": "Swam in the cool sea water, caught the sunrise on the beach, tasted grilled squid, and felt completely recharged; recommend it because it is budget-friendly, safe, and relaxing"
+    },
+    "chunks": [
+      "go on a relaxing summer holiday",
+      "visit Cua Lo beach with my family",
+      "unwind after a stressful semester",
+      "enjoy fresh and affordable seafood",
+      "take a stroll along the sandy shore",
+      "a perfect family-friendly destination"
+    ]
   },
   {
     "id": 44,
@@ -1148,7 +1674,23 @@ const topicsPart2 = [
     ],
     "status": "improving",
     "storyCluster": "My Mother / Inspiring Family Member",
-    "notes": "Practiced in Lesson 7: Lan achieving hospital milestone / Khanh Chi IELTS 8.0"
+    "notes": "Practiced in Lesson 7: Lan achieving hospital milestone / Khanh Chi IELTS 8.0",
+    "ideas5W1H": {
+      "who": "My mother, who works as a doctor at a public hospital in Vinh",
+      "what": "Successfully passed an intensive advanced medical certification exam while working full-time",
+      "where": "At the provincial hospital in Vinh and examination center in Hanoi",
+      "when": "Last year after over six months of rigorous preparation",
+      "why": "It was extremely tough because she had to juggle 12-hour hospital shifts, emergency night calls, household chores, and late-night medical research",
+      "how": "Deeply inspired by her strong discipline and resilience; our whole family celebrated her achievement with a special home dinner"
+    },
+    "chunks": [
+      "achieve a challenging milestone",
+      "pass an advanced medical examination",
+      "work long shifts at the hospital",
+      "burn the midnight oil studying",
+      "demonstrate remarkable perseverance",
+      "feel incredibly proud and inspired"
+    ]
   },
   {
     "id": 46,
@@ -1175,7 +1717,23 @@ const topicsPart2 = [
     "storyCluster": "Traffic & Air Pollution in City",
     "studentTranscript": "I would like to tell you about a law of environmental protection that I really want to introduce in my country. I want to impose a high tax on the use and ownership of private vehicles like cars. I read BBC News and saw that Singapore and China have imposed high taxes on private cars by the government. I think it is a great example to protect the environment because in Vietnam, each province has a large number of cars creating significant carbon pollution, which destroys the natural environment and poses serious threats to people's health, leading to chronic respiratory diseases. Under this law, whenever someone buys a new car, they would pay an initial fee of 5 to 10 million VND, plus a monthly environmental tax. This policy would encourage citizens to transition from private cars to public transit and cycling, dramatically improving air quality.",
     "notes": "Teacher Corrections:\n- \"tell you a law\" -> \"tell you ABOUT a law\"\n- \"impose high tax on use of private vehicle cause\" -> \"impose A high tax on the USE OF private vehicleS LIKE CARS\"\n- \"newspaper from the BBC\" -> \"BBC News\"\n- \"the Singapore and the China have impose\" -> \"Singapore and China have IMPOSED\"\n- \"big amount of cars\" -> \"large number of cars\"\n- \"can create big amount of carbon pollution\" -> \"creates significant carbon emissions\"\n- \"pose threat to people's health\" -> \"poses a serious threat to public health\"\n- \"eye pollution\" -> \"AIR pollution\"\n- \"fined for 5 to 10 million\" -> \"levied a fine/tax of 5 to 10 million VND\"\n\nStory Link: Traffic & Air Pollution in City (covers #10, #25, #46)\n[Practiced in Lesson 14: Heavy car tax on private vehicles / rubbish fine (BBC news)]",
-    "lastPracticed": "2026-08-17"
+    "lastPracticed": "2026-08-17",
+    "ideas5W1H": {
+      "who": "City residents, drivers, local environmental agencies, and young students",
+      "what": "A strict environmental law imposing strict vehicle emission standards and heavy fines for public littering",
+      "where": "Implemented in cities across Vietnam, starting with developing urban areas like Vinh",
+      "when": "First learned about similar clean-air laws in my high school environmental science lessons and online news",
+      "why": "Rapid increase in motorbikes and cars causes heavy exhaust fumes, air pollution, and plastic trash in public areas",
+      "how": "Strongly support this law because it protects public respiratory health, keeps streets clean, and encourages people to switch to electric bikes and public buses"
+    },
+    "chunks": [
+      "introduce a strict environmental law",
+      "tackle vehicle emissions and air pollution",
+      "impose heavy fines for littering",
+      "encourage green and public transport",
+      "protect public respiratory health",
+      "create a cleaner living environment"
+    ]
   },
   {
     "id": 47,
@@ -1547,14 +2105,25 @@ const topicsPart2 = [
     ],
     "status": "improving",
     "storyCluster": "20th Birthday Celebration",
-    "notes": "Practiced in Lesson 11: Custom chocolate birthday cake from friends"
+    "notes": "Practiced in Lesson 11: Custom chocolate birthday cake from friends",
+    "ideas5W1H": {
+      "who": "My close friends (Lan and my high school classmates)",
+      "what": "A custom-made two-tier chocolate cake decorated with fresh strawberries and sweet encouragement messages",
+      "where": "At my apartment in Vinh city during my birthday gathering",
+      "when": "Two years ago on my 20th birthday party",
+      "why": "My friends secretly ordered it customized with my favorite dark chocolate flavor and a cute decoration of an English teacher to cheer on my future dream",
+      "how": "Felt surprised and deeply touched by their thoughtfulness; it tasted delicious and made my birthday celebration truly unforgettable"
+    },
+    "chunks": [
+      "receive a custom-made birthday cake",
+      "celebrate my 20th birthday",
+      "surprise me at my apartment",
+      "rich dark chocolate and fresh fruit",
+      "touched by my friends thoughtfulness",
+      "create unforgettable memories"
+    ]
   }
 ];
 
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { topicsPart2 };
-}
-
-if (typeof window !== 'undefined') {
-  window.topicsPart2 = topicsPart2;
-}
+if (typeof module !== "undefined") module.exports = { topicsPart2 };
+if (typeof window !== "undefined") window.topicsPart2 = topicsPart2;
