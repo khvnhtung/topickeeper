@@ -509,7 +509,7 @@ Teacher Corrections:
 ### Part 2 #1. Describe a time when you felt very proud of something a family member did
 
 **Category:** People
-**Linked Story Multiplier:** My Mother / Inspiring Family Member
+**Linked Story Grouping:** My Mother / Inspiring Family Member
 
 **Cue Card (Describe a time when you felt very proud of something a family member did)**
 - Who the family member was
@@ -551,7 +551,7 @@ Practiced in Lesson 4, 12: English teacher career / Hanoi university
 ### Part 2 #4. Describe an occasion you remember when you saw a lot of people smiling
 
 **Category:** Experiences
-**Linked Story Multiplier:** 20th Birthday Celebration
+**Linked Story Grouping:** 20th Birthday Celebration
 
 **Cue Card (Describe an occasion you remember when you saw a lot of people smiling)**
 - Where you were and when it happened
@@ -608,7 +608,7 @@ Practiced in Lesson 7: Khanh Vy VTV MC / TikTok creator (7 languages)
 ### Part 2 #6. Describe a person you know who enjoys helping other people
 
 **Category:** People
-**Linked Story Multiplier:** My Mother / Inspiring Family Member
+**Linked Story Grouping:** My Mother / Inspiring Family Member
 
 **Cue Card (Describe a person you know who enjoys helping other people)**
 - Who this person is
@@ -632,7 +632,7 @@ Practiced in Lesson 7: Minh Anh high school English teacher (helping poor studen
 ### Part 2 #8. Describe a movie you enjoyed watching
 
 **Category:** Culture & Nature
-**Linked Story Multiplier:** 20th Birthday Celebration
+**Linked Story Grouping:** 20th Birthday Celebration
 
 **Cue Card (Describe a movie you enjoyed watching)**
 - Where and when you saw it
@@ -697,7 +697,7 @@ Practiced in Lesson 7: Khanh Chi self-taught IELTS 8.0 in 1 year
 ### Part 2 #13. Describe a person who you think is good at planning things
 
 **Category:** People
-**Linked Story Multiplier:** My Mother / Inspiring Family Member
+**Linked Story Grouping:** My Mother / Inspiring Family Member
 
 **Cue Card (Describe a person who you think is good at planning things)**
 - Who he/she is and how you know him/her
@@ -719,7 +719,7 @@ Practiced in Lesson 7, 11: Lan planning hospital recycling project
 ### Part 2 #14. Describe a child you know who enjoys painting or drawing
 
 **Category:** People
-**Linked Story Multiplier:** G-Dragon Concert with Lan
+**Linked Story Grouping:** G-Dragon Concert with Lan
 
 **Cue Card (Describe a child you know who enjoys painting or drawing)**
 - Who he/she is and how you know him/her
@@ -782,7 +782,7 @@ Practiced in Lesson 2, 6: London sister / media & communication career
 ### Part 2 #19. Describe an event you took part in but it had some music that you didn’t like
 
 **Category:** Culture & Nature
-**Linked Story Multiplier:** G-Dragon Concert with Lan
+**Linked Story Grouping:** G-Dragon Concert with Lan
 
 **Cue Card (Describe an event you took part in but it had some music that you didn’t like)**
 - What it was
@@ -824,7 +824,7 @@ Practiced in Lesson 11: TV/Online learning programme
 ### Part 2 #23. Describe a time when someone you know found a clever solution to a problem
 
 **Category:** Experiences
-**Linked Story Multiplier:** G-Dragon Concert with Lan
+**Linked Story Grouping:** G-Dragon Concert with Lan
 
 **Cue Card (Describe a time when someone you know found a clever solution to a problem)**
 - Who the person is
@@ -883,7 +883,7 @@ Practiced in Lesson 7, 13: Lan environmental protection / recycling bins
 ### Part 2 #25. Describe a time when you encouraged somebody to do something that he/she didn’t want to do
 
 **Category:** People
-**Linked Story Multiplier:** My Mother / Inspiring Family Member
+**Linked Story Grouping:** My Mother / Inspiring Family Member
 
 **Cue Card (Describe a time when you encouraged somebody to do something that he/she didn’t want to do)**
 - Who this person is
@@ -905,7 +905,7 @@ Practiced in Lesson 7: Encouraging friend to switch to cycling
 ### Part 2 #26. Describe a kind of food that you ate at special occasions
 
 **Category:** Culture & Nature
-**Linked Story Multiplier:** 20th Birthday Celebration
+**Linked Story Grouping:** 20th Birthday Celebration
 
 **Cue Card (Describe a kind of food that you ate at special occasions)**
 - What it is
@@ -953,7 +953,7 @@ Practiced in Lesson 7, 14: Lan nurse working at hospital caring for patients
 ### Part 2 #29. Describe a place you have visited that you think is a good place to live
 
 **Category:** Places
-**Linked Story Multiplier:** Cua Lo Beach Trip
+**Linked Story Grouping:** Cua Lo Beach Trip
 
 **Cue Card (Describe a place you have visited that you think is a good place to live)**
 - Where it is
@@ -999,7 +999,7 @@ Practiced in Lesson 6: World Cup Final France vs Argentina with dad (Messi)
 ### Part 2 #35. Describe a problem of technology you have encountered, like a computer or a cell phone
 
 **Category:** Tech & Objects
-**Linked Story Multiplier:** Shopee & Tech Gadgets
+**Linked Story Grouping:** Shopee & Tech Gadgets
 
 **Cue Card (Describe a problem of technology you have encountered, like a computer or a cell phone)**
 - What it was
@@ -1084,7 +1084,7 @@ Practiced in Lesson 7: Childhood friend Minh / Khanh Chi
 ### Part 2 #45. Describe a person you know who successfully achieved something difficult
 
 **Category:** People
-**Linked Story Multiplier:** My Mother / Inspiring Family Member
+**Linked Story Grouping:** My Mother / Inspiring Family Member
 
 **Cue Card (Describe a person you know who successfully achieved something difficult)**
 - Who it is
@@ -1106,7 +1106,7 @@ Practiced in Lesson 7: Lan achieving hospital milestone / Khanh Chi IELTS 8.0
 ### Part 2 #46. Describe a law of environment protection that you would like to introduce
 
 **Category:** Culture & Nature
-**Linked Story Multiplier:** Traffic & Air Pollution in City
+**Linked Story Grouping:** Traffic & Air Pollution in City
 
 **Cue Card (Describe a law of environment protection that you would like to introduce)**
 - What it is
@@ -1346,7 +1346,7 @@ Practiced in Lesson 14: Traditional Vietnamese handcrafted product
 ### Part 2 #62. Describe a special cake you received from others
 
 **Category:** Culture & Nature
-**Linked Story Multiplier:** 20th Birthday Celebration
+**Linked Story Grouping:** 20th Birthday Celebration
 
 **Cue Card (Describe a special cake you received from others)**
 - When it happened
@@ -1437,7 +1437,7 @@ Practiced in Lesson 11: Custom chocolate birthday cake from friends
 ### Part 2 #7. Describe an app or software you often use on your phone or computer
 
 **Category:** Tech & Objects
-**Recommended Story Multiplier Link:** Shopee & Tech Gadgets
+**Recommended Story Grouping Link:** Shopee & Tech Gadgets
 
 **Cue Card (Describe an app or software you often use on your phone or computer)**
 - What it is
@@ -1455,7 +1455,7 @@ Practiced in Lesson 11: Custom chocolate birthday cake from friends
 ### Part 2 #10. Describe a car, motorbike or bicycle trip that you think would be interesting
 
 **Category:** Experiences
-**Recommended Story Multiplier Link:** Traffic & Air Pollution in City
+**Recommended Story Grouping Link:** Traffic & Air Pollution in City
 
 **Cue Card (Describe a car, motorbike or bicycle trip that you think would be interesting)**
 - Where you want to go
@@ -1475,7 +1475,7 @@ Practiced in Lesson 11: Custom chocolate birthday cake from friends
 ### Part 2 #11. Describe a place you enjoyed visiting that was very quiet
 
 **Category:** Places
-**Recommended Story Multiplier Link:** Cua Lo Beach Trip
+**Recommended Story Grouping Link:** Cua Lo Beach Trip
 
 **Cue Card (Describe a place you enjoyed visiting that was very quiet)**
 - When you went there
@@ -1513,7 +1513,7 @@ Practiced in Lesson 11: Custom chocolate birthday cake from friends
 ### Part 2 #18. Describe a piece of technology you would like to own in the future
 
 **Category:** Tech & Objects
-**Recommended Story Multiplier Link:** Shopee & Tech Gadgets
+**Recommended Story Grouping Link:** Shopee & Tech Gadgets
 
 **Cue Card (Describe a piece of technology you would like to own in the future)**
 - What it is
@@ -1530,7 +1530,7 @@ Practiced in Lesson 11: Custom chocolate birthday cake from friends
 ### Part 2 #21. Describe a time when you had to pay more than you expected for something
 
 **Category:** Experiences
-**Recommended Story Multiplier Link:** Shopee & Tech Gadgets
+**Recommended Story Grouping Link:** Shopee & Tech Gadgets
 
 **Cue Card (Describe a time when you had to pay more than you expected for something)**
 - What you bought
@@ -1547,7 +1547,7 @@ Practiced in Lesson 11: Custom chocolate birthday cake from friends
 ### Part 2 #22. Describe a city that you have been to and enjoy visiting
 
 **Category:** Places
-**Recommended Story Multiplier Link:** Cua Lo Beach Trip
+**Recommended Story Grouping Link:** Cua Lo Beach Trip
 
 **Cue Card (Describe a city that you have been to and enjoy visiting)**
 - Where the city is
@@ -1741,7 +1741,7 @@ Practiced in Lesson 11: Custom chocolate birthday cake from friends
 ### Part 2 #43. Describe a place you went to on holiday that you would recommend
 
 **Category:** Places
-**Recommended Story Multiplier Link:** Cua Lo Beach Trip
+**Recommended Story Grouping Link:** Cua Lo Beach Trip
 
 **Cue Card (Describe a place you went to on holiday that you would recommend)**
 - Where you went
@@ -1763,7 +1763,7 @@ Practiced in Lesson 11: Custom chocolate birthday cake from friends
 ### Part 2 #44. Describe a place you have been to and felt bored
 
 **Category:** Places
-**Recommended Story Multiplier Link:** Cua Lo Beach Trip
+**Recommended Story Grouping Link:** Cua Lo Beach Trip
 
 **Cue Card (Describe a place you have been to and felt bored)**
 - Where it was
@@ -1822,7 +1822,7 @@ Practiced in Lesson 11: Custom chocolate birthday cake from friends
 ### Part 2 #54. Describe an occasion when you felt excited about trying an activity for the first time
 
 **Category:** Experiences
-**Recommended Story Multiplier Link:** G-Dragon Concert with Lan
+**Recommended Story Grouping Link:** G-Dragon Concert with Lan
 
 **Cue Card (Describe an occasion when you felt excited about trying an activity for the first time)**
 - What activity you did
@@ -1840,7 +1840,7 @@ Practiced in Lesson 11: Custom chocolate birthday cake from friends
 ### Part 2 #57. Describe a place which is far away that you would like to visit in the future
 
 **Category:** Places
-**Recommended Story Multiplier Link:** Cua Lo Beach Trip
+**Recommended Story Grouping Link:** Cua Lo Beach Trip
 
 **Cue Card (Describe a place which is far away that you would like to visit in the future)**
 - Where it is
@@ -1873,7 +1873,7 @@ Practiced in Lesson 11: Custom chocolate birthday cake from friends
 5. Do older people make decisions faster than younger people?
 
 
-# SECTION 3: The 6-Hub Story Multiplier Reference
+# SECTION 3: The 6-Hub Story Grouping Reference
 
 ### 👩‍🏫 My Mother / Inspiring Family Member
 
