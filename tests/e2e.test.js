@@ -18,7 +18,6 @@ assert.ok(indexHtml.includes('id="topic-map"'), 'Topic map container must exist'
 assert.ok(indexHtml.includes('id="modal-cuecard"'), 'Modal cuecard must exist');
 assert.ok(indexHtml.includes('id="cuecard-points"'), 'Cuecard points list container must exist');
 assert.ok(indexHtml.includes('id="part3-questions-list"'), 'Part 3 questions list must exist');
-assert.ok(indexHtml.includes('id="daily-mission-widget"'), 'Daily mission widget container must exist');
 assert.ok(indexHtml.includes('id="stories-grid"'), 'Stories grid container must exist');
 assert.ok(indexHtml.includes('id="part1-list"'), 'Part 1 list container must exist');
 

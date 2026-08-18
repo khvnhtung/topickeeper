@@ -47,12 +47,7 @@
     elements.countReady = document.getElementById('count-ready');
     elements.countImproving = document.getElementById('count-improving');
     elements.countTried = document.getElementById('count-tried');
-    elements.countNew = document.getElementById('count-new');
     elements.milestoneLadder = document.getElementById('milestone-ladder');
-
-    // Mission Widget
-    elements.missionList = document.getElementById('mission-list');
-    elements.missionCelebration = document.getElementById('mission-celebration');
 
     // Tabs & Views
     elements.navTabs = document.querySelectorAll('.nav-tab');
@@ -192,64 +187,6 @@
           step.classList.add('current');
         }
       });
-    }
-  }
-
-  // --- TODAY'S 3 SPEAKING MISSION ---
-  function renderDailyMission() {
-    if (!state || !elements.missionList) return;
-
-    const missions = state.getTodaysMission();
-    const isAllComplete = state.isMissionComplete();
-
-    elements.missionList.innerHTML = '';
-
-    const romanNums = ['①', '②', '③'];
-
-    missions.forEach((topic, idx) => {
-      const card = document.createElement('div');
-      card.className = `mission-item ${topic.completed ? 'completed' : ''}`;
-      card.setAttribute('role', 'button');
-      card.setAttribute('tabindex', '0');
-
-      const isDone = topic.completed;
-      const marker = isDone ? '✓' : romanNums[idx] || `${idx + 1}`;
-
-      card.innerHTML = `
-        <div class="mission-item-left">
-          <div class="mission-check-circle" title="${isDone ? 'Completed' : 'Click topic to practice'}">
-            ${marker}
-          </div>
-          <div class="mission-item-info">
-            <span class="mission-topic-num">#${topic.id} · ${escapeHtml(topic.category || 'Part 2')}</span>
-            <span class="mission-topic-title" title="${escapeHtml(topic.title)}">${escapeHtml(topic.title)}</span>
-          </div>
-        </div>
-        <span class="modal-status-badge status-${topic.status || 'new'}">
-          ${getStatusEmoji(topic.status)} ${capitalize(topic.status || 'new')}
-        </span>
-      `;
-
-      card.addEventListener('click', () => {
-        openPart2Modal(topic.id);
-      });
-
-      card.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          openPart2Modal(topic.id);
-        }
-      });
-
-      elements.missionList.appendChild(card);
-    });
-
-    if (elements.missionCelebration) {
-      if (isAllComplete) {
-        elements.missionCelebration.classList.add('visible');
-      } else {
-        elements.missionCelebration.classList.remove('visible');
-      }
     }
   }
 
@@ -863,7 +800,6 @@
     if (state) {
       state.subscribe((s, event) => {
         renderDashboard();
-        renderDailyMission();
         renderTopicMap();
         if (elements.tabBadgePart2) elements.tabBadgePart2.textContent = s.getAllPart2Topics().length;
         if (elements.tabBadgePart1) elements.tabBadgePart1.textContent = s.getAllPart1Topics().length;
@@ -920,7 +856,6 @@
     initEventListeners();
 
     renderDashboard();
-    renderDailyMission();
     renderTopicMap();
     renderStoryMultipliers();
     renderPart1List();
