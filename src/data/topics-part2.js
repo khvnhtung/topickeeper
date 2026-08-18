@@ -97,6 +97,22 @@ const topicsPart2 = [
     ],
     "status": "ready",
     "storyCluster": "20th Birthday Celebration",
+    "ideas5W1H": {
+      "who": "My close friends celebrating my 20th birthday",
+      "what": "Ordered food, had dinner together, and surprised me with a custom-decorated cake",
+      "where": "At my apartment in Vinh",
+      "when": "Two years ago on my 20th birthday",
+      "why": "Friends secretly planned a surprise cake to make my birthday unforgettable",
+      "how": "Felt touched by their effort; cozy atmosphere with everyone smiling and taking photos"
+    },
+    "chunks": [
+      "celebrate my 20th birthday",
+      "gather with close friends",
+      "order a custom-made cake",
+      "a surprising and memorable moment",
+      "cozy and warm atmosphere",
+      "put a lot of effort into..."
+    ],
     "studentTranscript": "I would like to talk about a time I remember when I saw lots of people smiling. It was on my 20th birthday. It happened two years ago when I was celebrating a birthday party with my close friends at my apartment. At that time we simply planned to get together, order some food, and prepare some simple cake for my birthday. At first I planned to order a simple chocolate cake, but my friends secretly ordered another one which was custom-made. The most surprising moment was when my friends surprised me with this cake. When they brought it out and sang Happy Birthday to me, everyone in my apartment was smiling and taking lots of photos. It was really surprising and memorable. I remember the occasion because the atmosphere was really cozy. At that time I realized that my friends had put a lot of effort into making my birthday really special.",
     "notes": "Teacher Corrections:\n- \"on my twenty birthday\" -> \"on my 20th birthday\"\n- \"planner (d)\" -> \"planned\"\n- \"surprised moment were that\" -> \"surprising moment was when\"\n- \"sang singing\" -> \"sang\"\n- \"taking lot of photos\" -> \"taking lots of photos\"\n- \"my friend\" (plural) -> \"my friends\"\n\nStory Link: 20th Birthday Celebration (covers #4, #8, #26, #62)\n[Practiced in Lesson 5, 14: 17th/20th Birthday at Jollibee / Apartment cake with friends]",
     "lastPracticed": "2026-08-17"
@@ -688,7 +704,25 @@ const topicsPart2 = [
     ],
     "status": "improving",
     "storyCluster": "Mẹ / Người thân truyền cảm hứng (Inspiring Family Member)",
-    "notes": "Practiced in Lesson 7, 14: Lan nurse working at hospital caring for patients / can also describe mom"
+    "ideas5W1H": {
+      "who": "My mother — works as a doctor (or older cousin Lan as a nurse)",
+      "what": "Examines patients, prescribes medicine, and checks on sick people during hospital rounds",
+      "where": "At a busy public hospital in Vinh city",
+      "when": "Over 20 years in the medical profession, often working long hours and night shifts",
+      "why": "Loves helping sick people get better and wants to be useful to her community",
+      "how": "Admire her patience, hard work, staying calm under pressure, and balancing job with family"
+    },
+    "chunks": [
+      "work as a doctor / nurse",
+      "at a public hospital in Vinh",
+      "examine and treat sick patients",
+      "work long night shifts",
+      "stay calm under pressure",
+      "look for a practical way to help",
+      "admire her patience and hard work",
+      "balance her job with our family"
+    ],
+    "notes": "Practiced in Lesson 7, 14: Lan nurse working at hospital caring for patients / can also describe mom as doctor"
   },
   {
     "id": 29,

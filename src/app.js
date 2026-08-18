@@ -76,6 +76,16 @@
       modalStoryLabel: '🧬 Câu chuyện liên kết:',
       modalPart3Title: '💬 Câu hỏi thảo luận Part 3 ({n})',
       modalUpdateStatus: 'Cập nhật trạng thái:',
+      ideasTitle: 'Gợi ý ý tưởng 5W1H & Cụm từ hay (Phuong Linh)',
+      chunksLabel: '💎 Cụm từ hay dễ nhớ (Key Chunks):',
+      labels5W1H: {
+        who: 'Ai (Who)',
+        what: 'Làm gì (What)',
+        where: 'Ở đâu (Where)',
+        when: 'Khi nào (When)',
+        why: 'Tại sao (Why)',
+        how: 'Cảm xúc (How)'
+      },
       btnPrevTopic: '← Chủ đề trước',
       btnNextTopic: 'Chủ đề tiếp theo →',
       copied: '✓ Đã sao chép vào bộ nhớ tạm!',
@@ -152,6 +162,16 @@
       modalStoryLabel: '🧬 Linked Story:',
       modalPart3Title: '💬 Part 3 Follow-up Discussion Questions ({n})',
       modalUpdateStatus: 'Update Mastery Status:',
+      ideasTitle: 'Quick 5W1H Ideas & Key Chunks (Phuong Linh)',
+      chunksLabel: '💎 High-Value Chunks to Use:',
+      labels5W1H: {
+        who: 'Who',
+        what: 'What',
+        where: 'Where',
+        when: 'When',
+        why: 'Why',
+        how: 'How / Feeling'
+      },
       btnPrevTopic: '← Previous Topic',
       btnNextTopic: 'Next Topic →',
       copied: '✓ Copied to Clipboard!',
@@ -292,6 +312,12 @@
     elements.btnCloseModal = document.getElementById('btn-close-modal');
     elements.cuecardPrompt = document.getElementById('cuecard-prompt');
     elements.cuecardPoints = document.getElementById('cuecard-points');
+    elements.modalIdeasBox = document.getElementById('modal-ideas-box');
+    elements.ideasTitle = document.getElementById('ideas-title');
+    elements.ideas5w1hList = document.getElementById('ideas-5w1h-list');
+    elements.ideasChunksWrap = document.getElementById('ideas-chunks-wrap');
+    elements.chunksLabel = document.getElementById('chunks-label');
+    elements.chunksChips = document.getElementById('chunks-chips');
     elements.accordionPart3 = document.getElementById('accordion-part3');
     elements.accordionPart3Toggle = document.getElementById('accordion-part3-toggle');
     elements.accordionPart3Title = document.getElementById('accordion-part3-title');
@@ -397,6 +423,8 @@
 
     // Modal controls
     if (elements.modalStoryLabel) elements.modalStoryLabel.textContent = dict.modalStoryLabel;
+    if (elements.ideasTitle) elements.ideasTitle.textContent = dict.ideasTitle;
+    if (elements.chunksLabel) elements.chunksLabel.textContent = dict.chunksLabel;
     if (elements.masterySetterLabel) elements.masterySetterLabel.textContent = dict.modalUpdateStatus;
     if (elements.btnSetNew) elements.btnSetNew.textContent = dict.newFull;
     if (elements.btnSetTried) elements.btnSetTried.textContent = dict.triedFull;
@@ -649,6 +677,49 @@
         li.textContent = point;
         elements.cuecardPoints.appendChild(li);
       });
+    }
+
+    // 5W1H Quick Ideas & Key Chunks (if available)
+    if (topic.ideas5W1H || (Array.isArray(topic.chunks) && topic.chunks.length > 0)) {
+      if (elements.modalIdeasBox) elements.modalIdeasBox.style.display = 'flex';
+      
+      // Render 5W1H items
+      if (elements.ideas5w1hList) {
+        elements.ideas5w1hList.innerHTML = '';
+        if (topic.ideas5W1H) {
+          const labels = dict.labels5W1H || {};
+          const keys = ['who', 'what', 'where', 'when', 'why', 'how'];
+          keys.forEach(k => {
+            if (topic.ideas5W1H[k]) {
+              const item = document.createElement('div');
+              item.className = 'idea-item';
+              item.innerHTML = `
+                <span class="idea-label">${escapeHtml(labels[k] || k.toUpperCase())}</span>
+                <span class="idea-text">${escapeHtml(topic.ideas5W1H[k])}</span>
+              `;
+              elements.ideas5w1hList.appendChild(item);
+            }
+          });
+        }
+      }
+
+      // Render Chunks
+      if (elements.ideasChunksWrap && elements.chunksChips) {
+        elements.chunksChips.innerHTML = '';
+        if (Array.isArray(topic.chunks) && topic.chunks.length > 0) {
+          elements.ideasChunksWrap.style.display = 'block';
+          topic.chunks.forEach(ch => {
+            const chip = document.createElement('span');
+            chip.className = 'chunk-chip';
+            chip.textContent = ch;
+            elements.chunksChips.appendChild(chip);
+          });
+        } else {
+          elements.ideasChunksWrap.style.display = 'none';
+        }
+      }
+    } else {
+      if (elements.modalIdeasBox) elements.modalIdeasBox.style.display = 'none';
     }
 
     // Part 3 Accordion Questions (Questions in English, title in active language)
