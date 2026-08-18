@@ -73,7 +73,7 @@ class AppState {
   }
 
   /**
-   * Safe localStorage load
+   * Safe localStorage load with smart dataset merge
    */
   loadFromStorage() {
     try {
@@ -86,8 +86,33 @@ class AppState {
         return false;
       }
 
-      this.part2 = data.part2;
-      this.part1 = data.part1;
+      // Merge saved user progress with latest default question bank & ideas
+      const savedP2Map = new Map((data.part2 || []).map(t => [t.id, t]));
+      this.part2 = (this.defaultPart2 || []).map(def => {
+        const saved = savedP2Map.get(def.id);
+        if (!saved) return this.cloneData(def);
+        return {
+          ...this.cloneData(def),
+          status: saved.status || def.status || 'new',
+          lastPracticed: saved.lastPracticed || def.lastPracticed || null,
+          notes: saved.notes !== undefined ? saved.notes : def.notes,
+          studentTranscript: saved.studentTranscript !== undefined ? saved.studentTranscript : def.studentTranscript
+        };
+      });
+
+      const savedP1Map = new Map((data.part1 || []).map(t => [t.id, t]));
+      this.part1 = (this.defaultPart1 || []).map(def => {
+        const saved = savedP1Map.get(def.id);
+        if (!saved) return this.cloneData(def);
+        return {
+          ...this.cloneData(def),
+          status: saved.status || def.status || 'new',
+          lastPracticed: saved.lastPracticed || def.lastPracticed || null,
+          notes: saved.notes !== undefined ? saved.notes : def.notes,
+          studentTranscript: saved.studentTranscript !== undefined ? saved.studentTranscript : def.studentTranscript
+        };
+      });
+
       this.streak = data.streak || { count: 0, lastPracticedDate: null, streakActive: false };
       this.dailyMissions = data.dailyMissions || { date: '', topicIds: [], completedIds: [] };
       return true;
