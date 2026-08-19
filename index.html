@@ -19,6 +19,16 @@
         </div>
       </div>
       <div class="header-actions">
+        <div class="student-select-wrap" id="student-select-wrap">
+          <button class="student-select-btn" id="student-select-btn" aria-haspopup="true" aria-expanded="false" title="Chọn học viên / Select Student">
+            <span class="student-avatar" id="current-student-avatar">👩‍🎓</span>
+            <span class="student-name" id="current-student-name">Phương Linh</span>
+            <span class="student-caret">▾</span>
+          </button>
+          <div class="student-dropdown-menu" id="student-dropdown-menu" role="menu">
+            <!-- Dynamically populated by app.js -->
+          </div>
+        </div>
         <div class="cloud-sync-badge" id="cloud-sync-badge" title="Đồng bộ Supabase Cloud Realtime">
           <span class="sync-dot" id="sync-dot"></span> <span id="cloud-sync-text">Cloud Sync</span>
         </div>
@@ -294,6 +304,7 @@
   <div class="node-tooltip" id="node-tooltip"></div>
 
   <!-- Scripts -->
+  <script src="src/data/students.js"></script>
   <script src="src/data/topics-part2.js"></script>
   <script src="src/data/topics-part1.js"></script>
   <script src="src/data/stories.js"></script>

@@ -7,6 +7,7 @@ console.log('Testing End-to-End project structure & markup...');
 assert.ok(fs.existsSync('index.html'), 'index.html must exist');
 assert.ok(fs.existsSync('src/styles.css'), 'src/styles.css must exist');
 assert.ok(fs.existsSync('src/app.js'), 'src/app.js must exist');
+assert.ok(fs.existsSync('src/data/students.js'), 'students.js must exist');
 assert.ok(fs.existsSync('src/data/topics-part2.js'), 'topics-part2.js must exist');
 assert.ok(fs.existsSync('src/data/topics-part1.js'), 'topics-part1.js must exist');
 assert.ok(fs.existsSync('src/data/stories.js'), 'stories.js must exist');
@@ -14,6 +15,8 @@ assert.ok(fs.existsSync('src/state.js'), 'state.js must exist');
 
 const indexHtml = fs.readFileSync('index.html', 'utf8');
 assert.ok(indexHtml.includes('IELTS Speaking Quest'), 'Title must be in HTML');
+assert.ok(indexHtml.includes('id="student-select-btn"'), 'Student select button must exist');
+assert.ok(indexHtml.includes('id="student-dropdown-menu"'), 'Student dropdown menu must exist');
 assert.ok(indexHtml.includes('id="topic-map"'), 'Topic map container must exist');
 assert.ok(indexHtml.includes('id="modal-cuecard"'), 'Modal cuecard must exist');
 assert.ok(indexHtml.includes('id="cuecard-points"'), 'Cuecard points list container must exist');

@@ -6,14 +6,54 @@
 (function () {
   'use strict';
 
+  // --- STUDENT DETECTION & ROUTING ---
+  function detectActiveStudentSlug() {
+    if (typeof window === 'undefined') return 'phuong-linh';
+    
+    // 1. Check query parameter e.g. ?student=khai
+    try {
+      const urlParams = new URLSearchParams(window.location.search);
+      const queryStudent = urlParams.get('student');
+      if (queryStudent && window.getStudentBySlug) {
+        return window.getStudentBySlug(queryStudent).slug;
+      }
+    } catch (e) {}
+
+    // 2. Check path parameter e.g. /khai
+    try {
+      const pathSlug = window.location.pathname.replace(/^\/|\/$/g, '');
+      if (pathSlug && pathSlug !== 'index.html' && window.getStudentBySlug) {
+        return window.getStudentBySlug(pathSlug).slug;
+      }
+    } catch (e) {}
+
+    // 3. Check hash e.g. #/khai or #khai
+    try {
+      if (window.location.hash) {
+        const hashSlug = window.location.hash.replace(/^#\/?/, '');
+        if (hashSlug && window.getStudentBySlug) {
+          return window.getStudentBySlug(hashSlug).slug;
+        }
+      }
+    } catch (e) {}
+
+    // Default slug (Phuong Linh)
+    return 'phuong-linh';
+  }
+
   // --- STATE INITIALIZATION ---
   const defaultP2 = (typeof window !== 'undefined' && window.topicsPart2) ? window.topicsPart2 : [];
   const defaultP1 = (typeof window !== 'undefined' && window.topicsPart1) ? window.topicsPart1 : [];
   const stories = (typeof window !== 'undefined' && window.storyClusters) ? window.storyClusters : [];
 
+  let currentStudentSlug = detectActiveStudentSlug();
+  let currentStudent = (typeof window !== 'undefined' && window.getStudentBySlug) 
+    ? window.getStudentBySlug(currentStudentSlug) 
+    : { slug: 'phuong-linh', name: 'Phương Linh', displayName: 'Phương Linh', avatar: '👩‍🎓' };
+
   let state;
   if (typeof window !== 'undefined' && window.AppState) {
-    state = new window.AppState(defaultP2, defaultP1);
+    state = new window.AppState(defaultP2, defaultP1, currentStudent.slug);
     window.appStateInstance = state;
   }
 
@@ -214,10 +254,14 @@
 
   let currentLang = 'vi';
 
-  // --- DOM ELEMENT REFERENCES ---
-  const elements = {};
-
   function cacheDOMElements() {
+    // Student Switcher
+    elements.studentSelectWrap = document.getElementById('student-select-wrap');
+    elements.studentSelectBtn = document.getElementById('student-select-btn');
+    elements.currentStudentAvatar = document.getElementById('current-student-avatar');
+    elements.currentStudentName = document.getElementById('current-student-name');
+    elements.studentDropdownMenu = document.getElementById('student-dropdown-menu');
+
     elements.streakCount = document.getElementById('streak-count');
     elements.langToggle = document.getElementById('lang-toggle');
     elements.langFlag = document.getElementById('lang-flag');
@@ -340,6 +384,99 @@
     elements.btnSetReady = document.getElementById('btn-set-ready');
     elements.btnPrevTopic = document.getElementById('btn-prev-topic');
     elements.btnNextTopic = document.getElementById('btn-next-topic');
+  }
+
+  // --- STUDENT SWITCHER CONTROLLER ---
+  function renderStudentSwitcher() {
+    if (!elements.studentDropdownMenu) return;
+    const students = (typeof window !== 'undefined' && window.getAllStudents) ? window.getAllStudents() : [];
+
+    if (elements.currentStudentAvatar) elements.currentStudentAvatar.textContent = currentStudent.avatar || '🎓';
+    if (elements.currentStudentName) elements.currentStudentName.textContent = currentStudent.displayName || currentStudent.name;
+
+    elements.studentDropdownMenu.innerHTML = '';
+    students.forEach(st => {
+      const item = document.createElement('button');
+      item.className = `student-dropdown-item ${st.slug === currentStudent.slug ? 'active' : ''}`;
+      item.setAttribute('role', 'menuitem');
+      item.dataset.slug = st.slug;
+
+      const desc = currentLang === 'vi' ? (st.description_vi || st.target) : (st.description_en || st.target);
+
+      item.innerHTML = `
+        <div class="student-dropdown-item-left">
+          <span class="student-avatar">${st.avatar || '🎓'}</span>
+          <div class="student-dropdown-meta">
+            <span class="student-dropdown-name">${escapeHtml(st.name)}</span>
+            <span class="student-dropdown-desc">${escapeHtml(desc)}</span>
+          </div>
+        </div>
+        ${st.slug === currentStudent.slug ? '<span style="color: var(--accent-primary); font-size: 0.9rem;">✓</span>' : ''}
+      `;
+
+      item.addEventListener('click', (e) => {
+        e.stopPropagation();
+        switchStudent(st.slug);
+        closeStudentDropdown();
+      });
+
+      elements.studentDropdownMenu.appendChild(item);
+    });
+
+    updatePageTitle();
+  }
+
+  function switchStudent(newSlug) {
+    if (newSlug === currentStudent.slug) return;
+
+    currentStudentSlug = newSlug;
+    currentStudent = (typeof window !== 'undefined' && window.getStudentBySlug) 
+      ? window.getStudentBySlug(newSlug) 
+      : { slug: newSlug, name: newSlug, displayName: newSlug, avatar: '🎓' };
+
+    // Update URL without page reload
+    if (typeof window !== 'undefined' && window.history && window.history.pushState) {
+      const newPath = newSlug === 'phuong-linh' ? '/' : `/${newSlug}`;
+      window.history.pushState({ student: newSlug }, '', newPath);
+    }
+
+    // Switch state
+    if (state && typeof state.setStudent === 'function') {
+      state.setStudent(newSlug);
+    }
+
+    // Switch Cloud Sync
+    if (window.cloudSync && typeof window.cloudSync.setStudent === 'function') {
+      window.cloudSync.setStudent(newSlug);
+    }
+
+    renderStudentSwitcher();
+    renderDashboard();
+    renderTopicMap();
+    renderStoryMultipliers();
+    renderPart1List();
+  }
+
+  function toggleStudentDropdown() {
+    if (!elements.studentSelectWrap) return;
+    elements.studentSelectWrap.classList.toggle('open');
+    const isOpen = elements.studentSelectWrap.classList.contains('open');
+    if (elements.studentSelectBtn) {
+      elements.studentSelectBtn.setAttribute('aria-expanded', String(isOpen));
+    }
+  }
+
+  function closeStudentDropdown() {
+    if (!elements.studentSelectWrap) return;
+    elements.studentSelectWrap.classList.remove('open');
+    if (elements.studentSelectBtn) {
+      elements.studentSelectBtn.setAttribute('aria-expanded', 'false');
+    }
+  }
+
+  function updatePageTitle() {
+    const studentLabel = currentStudent ? (currentStudent.displayName || currentStudent.name) : 'Phương Linh';
+    document.title = `TopicKeeper · ${studentLabel} — IELTS Speaking Quest`;
   }
 
   // --- LANGUAGE MANAGEMENT ---
@@ -962,8 +1099,9 @@
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     const date = new Date().toISOString().slice(0, 10);
+    const slug = (currentStudent && currentStudent.slug) ? currentStudent.slug : 'phuong-linh';
     a.href = url;
-    a.download = `topickeeper-backup-${date}.json`;
+    a.download = `topickeeper-${slug}-backup-${date}.json`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -1067,6 +1205,28 @@
 
   // --- EVENT LISTENERS INITIALIZATION ---
   function initEventListeners() {
+    // Student Switcher Dropdown
+    if (elements.studentSelectBtn) {
+      elements.studentSelectBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleStudentDropdown();
+      });
+    }
+
+    document.addEventListener('click', (e) => {
+      if (elements.studentSelectWrap && !elements.studentSelectWrap.contains(e.target)) {
+        closeStudentDropdown();
+      }
+    });
+
+    // Browser navigation (Back / Forward)
+    window.addEventListener('popstate', () => {
+      const detected = detectActiveStudentSlug();
+      if (detected !== currentStudentSlug) {
+        switchStudent(detected);
+      }
+    });
+
     // Navigation Tabs
     if (elements.navTabs) {
       elements.navTabs.forEach(tab => {
@@ -1124,8 +1284,11 @@
     }
 
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && elements.modalCuecard && elements.modalCuecard.classList.contains('open')) {
-        closeModal();
+      if (e.key === 'Escape') {
+        if (elements.modalCuecard && elements.modalCuecard.classList.contains('open')) {
+          closeModal();
+        }
+        closeStudentDropdown();
       }
     });
 
@@ -1259,6 +1422,7 @@
     cacheDOMElements();
     initTheme();
     initLanguage();
+    renderStudentSwitcher();
     initEventListeners();
 
     renderDashboard();
@@ -1268,8 +1432,7 @@
 
     // Initialize Supabase Cloud Sync
     if (typeof window !== 'undefined' && typeof window.CloudSyncEngine !== 'undefined' && state) {
-      const studentSlug = window.location.pathname.replace(/^\/|\/$/g, '') || 'phuong-linh';
-      window.cloudSync = new window.CloudSyncEngine(state, { slug: studentSlug });
+      window.cloudSync = new window.CloudSyncEngine(state, { slug: currentStudent.slug });
       
       window.cloudSync.onSyncStatus((status) => {
         if (elements.cloudSyncBadge) {

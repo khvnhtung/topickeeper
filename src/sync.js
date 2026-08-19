@@ -64,6 +64,16 @@ class CloudSyncEngine {
   }
 
   /**
+   * Switch student profile and re-sync
+   */
+  async setStudent(newSlug) {
+    if (this.autoSyncTimer) clearTimeout(this.autoSyncTimer);
+    this.currentSlug = newSlug || SUPABASE_CONFIG.defaultSlug;
+    this.lastSyncedAt = null;
+    return await this.pullFromCloud();
+  }
+
+  /**
    * Pull latest state from Supabase for current student
    */
   async pullFromCloud(silent = false) {
@@ -87,9 +97,13 @@ class CloudSyncEngine {
         const cloudData = rows[0].state_data;
         const updatedAt = rows[0].updated_at;
 
+        const baseDefaults = (this.state && typeof this.state.getCleanDefaults === 'function' && this.state.studentSlug !== 'phuong-linh')
+          ? this.state.getCleanDefaults()
+          : { part2: this.state.defaultPart2 || [], part1: this.state.defaultPart1 || [] };
+
         // Compare if cloud data is valid
         if (cloudData.part2 && Array.isArray(cloudData.part2)) {
-          this.state.part2 = this.state.defaultPart2.map(def => {
+          this.state.part2 = baseDefaults.part2.map(def => {
             const saved = (cloudData.part2 || []).find(t => t.id === def.id);
             if (!saved) return this.state.cloneData(def);
             return {
@@ -102,7 +116,7 @@ class CloudSyncEngine {
           });
 
           if (cloudData.part1 && Array.isArray(cloudData.part1)) {
-            this.state.part1 = this.state.defaultPart1.map(def => {
+            this.state.part1 = baseDefaults.part1.map(def => {
               const saved = (cloudData.part1 || []).find(t => t.id === def.id);
               if (!saved) return this.state.cloneData(def);
               return {
