@@ -254,6 +254,9 @@
 
   let currentLang = 'vi';
 
+  // --- DOM ELEMENT REFERENCES ---
+  const elements = {};
+
   function cacheDOMElements() {
     // Student Switcher
     elements.studentSelectWrap = document.getElementById('student-select-wrap');
@@ -1220,12 +1223,14 @@
     });
 
     // Browser navigation (Back / Forward)
-    window.addEventListener('popstate', () => {
-      const detected = detectActiveStudentSlug();
-      if (detected !== currentStudentSlug) {
-        switchStudent(detected);
-      }
-    });
+    if (typeof window !== 'undefined' && typeof window.addEventListener === 'function') {
+      window.addEventListener('popstate', () => {
+        const detected = detectActiveStudentSlug();
+        if (detected !== currentStudentSlug) {
+          switchStudent(detected);
+        }
+      });
+    }
 
     // Navigation Tabs
     if (elements.navTabs) {
