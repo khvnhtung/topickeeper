@@ -78,6 +78,10 @@
       modalUpdateStatus: 'Cập nhật trạng thái:',
       ideasTitle: 'Gợi ý ý tưởng 5W1H & Cụm từ hay (Phuong Linh)',
       chunksLabel: '💎 Cụm từ hay dễ nhớ (Key Chunks):',
+      cloudSynced: 'Đã đồng bộ Cloud',
+      cloudSaving: 'Đang lưu...',
+      cloudPulling: 'Đang tải...',
+      cloudLocal: 'Sẵn sàng',
       labels5W1H: {
         who: 'Ai (Who)',
         what: 'Làm gì (What)',
@@ -164,6 +168,10 @@
       modalUpdateStatus: 'Update Mastery Status:',
       ideasTitle: 'Quick 5W1H Ideas & Key Chunks (Phuong Linh)',
       chunksLabel: '💎 High-Value Chunks to Use:',
+      cloudSynced: 'Cloud Synced',
+      cloudSaving: 'Saving...',
+      cloudPulling: 'Syncing...',
+      cloudLocal: 'Ready',
       labels5W1H: {
         who: 'Who',
         what: 'What',
@@ -216,6 +224,9 @@
     elements.langCode = document.getElementById('lang-code');
     elements.themeToggle = document.getElementById('theme-toggle');
     elements.brandSubtitle = document.getElementById('brand-subtitle');
+    elements.cloudSyncBadge = document.getElementById('cloud-sync-badge');
+    elements.cloudSyncText = document.getElementById('cloud-sync-text');
+    elements.syncDot = document.getElementById('sync-dot');
 
     // Dashboard KPIs
     elements.kpiReadyCount = document.getElementById('kpi-ready-count');
@@ -1254,6 +1265,25 @@
     renderTopicMap();
     renderStoryMultipliers();
     renderPart1List();
+
+    // Initialize Supabase Cloud Sync
+    if (typeof window !== 'undefined' && typeof window.CloudSyncEngine !== 'undefined' && state) {
+      const studentSlug = window.location.pathname.replace(/^\/|\/$/g, '') || 'phuong-linh';
+      window.cloudSync = new window.CloudSyncEngine(state, { slug: studentSlug });
+      
+      window.cloudSync.onSyncStatus((status) => {
+        if (elements.cloudSyncBadge) {
+          elements.cloudSyncBadge.className = `cloud-sync-badge ${status}`;
+        }
+        if (elements.cloudSyncText) {
+          const dict = I18N[currentLang] || I18N.vi;
+          if (status === 'synced') elements.cloudSyncText.textContent = dict.cloudSynced || 'Cloud Synced';
+          else if (status === 'saving') elements.cloudSyncText.textContent = dict.cloudSaving || 'Saving...';
+          else if (status === 'pulling') elements.cloudSyncText.textContent = dict.cloudPulling || 'Syncing...';
+          else elements.cloudSyncText.textContent = dict.cloudLocal || 'Local';
+        }
+      });
+    }
   }
 
   if (document.readyState === 'loading') {
