@@ -99,6 +99,9 @@
       allCategories: 'Tất cả chủ đề',
       matrixTitle: 'Hành trình 62 chủ đề Part 2',
       matrixHint: 'Nhấp vào vòng tròn số bất kỳ để xem Cue Card & gợi ý chi tiết',
+      p1KpiLabel: '/ 32 Đã sẵn sàng',
+      p1MatrixTitle: 'Bản đồ 32 chủ đề Part 1',
+      p1MatrixHint: 'Nhấp vào vòng tròn số bất kỳ để chuyển nhanh đến câu hỏi chi tiết',
       storyTabTitle: '🧬 Chiến lược dùng 1 câu chuyện cho nhiều đề',
       storyTabDesc: 'Thay vì ghi nhớ 62 bài nói riêng biệt, hãy làm chủ <strong>6 câu chuyện cốt lõi</strong> này. Mỗi câu chuyện có thể linh hoạt chuyển hóa để trả lời 4–6 đề IELTS Part 2 khác nhau (Người, Địa điểm, Đồ vật, Trải nghiệm). Nhấp vào bất kỳ chủ đề nào bên dưới để mở ngay Cue Card!',
       storyCovers: 'Bao quát {n} chủ đề Part 2:',
@@ -189,6 +192,9 @@
       allCategories: 'All Categories',
       matrixTitle: '62-Node Quest Journey Matrix',
       matrixHint: 'Click any circle to open its full Cue Card & bullet points',
+      p1KpiLabel: '/ 32 Ready',
+      p1MatrixTitle: '32 Part 1 Topics Map',
+      p1MatrixHint: 'Click any circle to jump directly to detailed questions',
       storyTabTitle: '🧬 Story Grouping Strategy',
       storyTabDesc: 'Instead of memorizing 62 distinct cue cards, master these <strong>6 core life stories</strong>. Each story effortlessly adapts to cover 4–6 different IELTS Part 2 topics across People, Places, Objects, and Experiences. Click any topic badge below to open its cue card!',
       storyCovers: 'Covers {n} Cue Cards:',
@@ -327,7 +333,7 @@
     elements.topicMap = document.getElementById('topic-map');
     elements.nodeTooltip = document.getElementById('node-tooltip');
 
-    // Part 1 View
+    // Part 1 View & Matrix
     elements.searchPart1 = document.getElementById('search-part1');
     elements.filterPart1LabelStatus = document.getElementById('filter-part1-label-status');
     elements.chipP1All = document.getElementById('chip-p1-all');
@@ -337,6 +343,26 @@
     elements.chipP1New = document.getElementById('chip-p1-new');
     elements.part1StatusChips = document.querySelectorAll('[data-filter-part1-status]');
     elements.part1List = document.getElementById('part1-list');
+
+    // Part 1 Hero Progress Card & Matrix
+    elements.p1KpiReadyCount = document.getElementById('p1-kpi-ready-count');
+    elements.p1KpiLabel = document.getElementById('p1-kpi-label');
+    elements.p1KpiPercentage = document.getElementById('p1-kpi-percentage');
+    elements.p1SegReady = document.getElementById('p1-seg-ready');
+    elements.p1SegImproving = document.getElementById('p1-seg-improving');
+    elements.p1SegTried = document.getElementById('p1-seg-tried');
+    elements.p1SegNew = document.getElementById('p1-seg-new');
+    elements.p1LegendLabelReady = document.getElementById('p1-legend-label-ready');
+    elements.p1LegendLabelImproving = document.getElementById('p1-legend-label-improving');
+    elements.p1LegendLabelTried = document.getElementById('p1-legend-label-tried');
+    elements.p1LegendLabelNew = document.getElementById('p1-legend-label-new');
+    elements.p1CountReady = document.getElementById('p1-count-ready');
+    elements.p1CountImproving = document.getElementById('p1-count-improving');
+    elements.p1CountTried = document.getElementById('p1-count-tried');
+    elements.p1CountNew = document.getElementById('p1-count-new');
+    elements.p1MatrixTitleText = document.getElementById('p1-matrix-title-text');
+    elements.p1MatrixHint = document.getElementById('p1-matrix-hint');
+    elements.part1TopicMap = document.getElementById('part1-topic-map');
 
     // Stories View
     elements.storiesIntroTitle = document.getElementById('stories-intro-title');
@@ -456,6 +482,7 @@
     renderStudentSwitcher();
     renderDashboard();
     renderTopicMap();
+    renderPart1TopicMap();
     renderStoryMultipliers();
     renderPart1List();
   }
@@ -544,7 +571,7 @@
     if (elements.matrixTitleText) elements.matrixTitleText.textContent = dict.matrixTitle;
     if (elements.matrixHint) elements.matrixHint.textContent = dict.matrixHint;
 
-    // Part 1 Toolbar
+    // Part 1 Toolbar & Matrix
     if (elements.searchPart1) elements.searchPart1.placeholder = dict.searchPlaceholderPart1;
     if (elements.filterPart1LabelStatus) elements.filterPart1LabelStatus.textContent = dict.filterStatus;
     if (elements.chipP1All) elements.chipP1All.textContent = `${dict.all} (32)`;
@@ -552,6 +579,14 @@
     if (elements.chipP1Improving) elements.chipP1Improving.textContent = dict.improvingFull;
     if (elements.chipP1Tried) elements.chipP1Tried.textContent = dict.triedFull;
     if (elements.chipP1New) elements.chipP1New.textContent = dict.newFull;
+
+    if (elements.p1KpiLabel) elements.p1KpiLabel.textContent = dict.p1KpiLabel;
+    if (elements.p1LegendLabelReady) elements.p1LegendLabelReady.textContent = dict.readyFull + ':';
+    if (elements.p1LegendLabelImproving) elements.p1LegendLabelImproving.textContent = dict.improvingFull + ':';
+    if (elements.p1LegendLabelTried) elements.p1LegendLabelTried.textContent = dict.triedFull + ':';
+    if (elements.p1LegendLabelNew) elements.p1LegendLabelNew.textContent = dict.newFull + ':';
+    if (elements.p1MatrixTitleText) elements.p1MatrixTitleText.textContent = dict.p1MatrixTitle;
+    if (elements.p1MatrixHint) elements.p1MatrixHint.textContent = dict.p1MatrixHint;
 
     // Stories Tab
     if (elements.storiesIntroTitle) elements.storiesIntroTitle.textContent = dict.storyTabTitle;
@@ -587,6 +622,7 @@
     if (shouldRerender) {
       renderDashboard();
       renderTopicMap();
+      renderPart1TopicMap();
       renderStoryMultipliers();
       renderPart1List();
 
@@ -658,6 +694,29 @@
     if (elements.countImproving) elements.countImproving.textContent = stats.improvingCount;
     if (elements.countTried) elements.countTried.textContent = stats.triedCount;
     if (elements.countNew) elements.countNew.textContent = stats.newCount;
+
+    // --- Part 1 Dashboard KPIs & Progress Bar ---
+    if (state && typeof state.getPart1Stats === 'function') {
+      const statsP1 = state.getPart1Stats();
+      if (elements.p1KpiReadyCount) elements.p1KpiReadyCount.textContent = statsP1.readyCount;
+      if (elements.p1KpiPercentage) elements.p1KpiPercentage.textContent = `${statsP1.readinessPercentage}%`;
+
+      const totalP1 = statsP1.total || 32;
+      const p1ReadyPct = (statsP1.readyCount / totalP1) * 100;
+      const p1ImprovingPct = (statsP1.improvingCount / totalP1) * 100;
+      const p1TriedPct = (statsP1.triedCount / totalP1) * 100;
+      const p1NewPct = (statsP1.newCount / totalP1) * 100;
+
+      if (elements.p1SegReady) elements.p1SegReady.style.width = `${p1ReadyPct}%`;
+      if (elements.p1SegImproving) elements.p1SegImproving.style.width = `${p1ImprovingPct}%`;
+      if (elements.p1SegTried) elements.p1SegTried.style.width = `${p1TriedPct}%`;
+      if (elements.p1SegNew) elements.p1SegNew.style.width = `${p1NewPct}%`;
+
+      if (elements.p1CountReady) elements.p1CountReady.textContent = statsP1.readyCount;
+      if (elements.p1CountImproving) elements.p1CountImproving.textContent = statsP1.improvingCount;
+      if (elements.p1CountTried) elements.p1CountTried.textContent = statsP1.triedCount;
+      if (elements.p1CountNew) elements.p1CountNew.textContent = statsP1.newCount;
+    }
   }
 
   // --- 62-NODE MATRIX MAP RENDERING ---
@@ -1019,6 +1078,95 @@
     });
   }
 
+  // --- 32-NODE PART 1 MATRIX MAP RENDERING ---
+  function renderPart1TopicMap() {
+    if (!state || !elements.part1TopicMap) return;
+
+    const topics = state.getAllPart1Topics();
+    elements.part1TopicMap.innerHTML = '';
+
+    topics.forEach(topic => {
+      const node = document.createElement('button');
+      node.className = `topic-node node-${topic.status || 'new'}`;
+      node.dataset.id = topic.id;
+      node.dataset.category = topic.category || '';
+      node.dataset.status = topic.status || 'new';
+      node.setAttribute('aria-label', `Part 1 Topic #${topic.id}: ${topic.title} (${getStatusLabel(topic.status || 'new')})`);
+
+      node.textContent = topic.id;
+
+      // Event: Click node scrolls smoothly to the card in Part 1 list
+      node.addEventListener('click', () => {
+        // If current status filter hides this card, switch filter to 'all' so card appears
+        if (currentPart1Status !== 'all' && topic.status !== currentPart1Status) {
+          currentPart1Status = 'all';
+          if (elements.part1StatusChips) {
+            elements.part1StatusChips.forEach(c => {
+              c.classList.toggle('active', c.dataset.filterPart1Status === 'all');
+            });
+          }
+          renderPart1List();
+          applyPart1Filters();
+        }
+
+        const targetCard = document.getElementById(`part1-card-${topic.id}`);
+        if (targetCard) {
+          targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          targetCard.classList.remove('card-pulse-highlight');
+          void targetCard.offsetWidth; // Trigger DOM reflow to replay animation
+          targetCard.classList.add('card-pulse-highlight');
+          setTimeout(() => {
+            targetCard.classList.remove('card-pulse-highlight');
+          }, 2000);
+        }
+      });
+
+      // Event: Tooltip hover
+      node.addEventListener('mouseenter', (e) => {
+        showTooltip(topic, e);
+      });
+
+      node.addEventListener('mousemove', (e) => {
+        positionTooltip(e);
+      });
+
+      node.addEventListener('mouseleave', () => {
+        hideTooltip();
+      });
+
+      elements.part1TopicMap.appendChild(node);
+    });
+
+    applyPart1Filters();
+  }
+
+  function applyPart1Filters() {
+    if (!elements.part1TopicMap) return;
+
+    const nodes = elements.part1TopicMap.querySelectorAll('.topic-node');
+    const query = currentPart1Search.trim().toLowerCase();
+
+    nodes.forEach(node => {
+      const id = Number(node.dataset.id);
+      const status = node.dataset.status;
+      const topic = state ? state.getPart1Topic(id) : null;
+
+      let matchStatus = (currentPart1Status === 'all' || status === currentPart1Status);
+      let matchQuery = true;
+
+      if (query && topic) {
+        const idMatches = query === String(id) || query === `#${id}`;
+        const titleMatches = topic.title && topic.title.toLowerCase().includes(query);
+        const questionsMatch = Array.isArray(topic.questions) && topic.questions.some(q => q.toLowerCase().includes(query));
+        matchQuery = idMatches || titleMatches || questionsMatch;
+      }
+
+      const isVisible = matchStatus && matchQuery;
+      node.classList.toggle('dimmed', !isVisible);
+      node.classList.toggle('highlighted', isVisible && (Boolean(query) || currentPart1Status !== 'all'));
+    });
+  }
+
   // --- PART 1 COMPULSORY FRAMES RENDERING ---
   function renderPart1List() {
     if (!state || !elements.part1List) return;
@@ -1044,6 +1192,7 @@
 
       const card = document.createElement('div');
       card.className = 'part1-card';
+      card.id = `part1-card-${topic.id}`;
       card.dataset.id = topic.id;
 
       let qListHtml = '';
@@ -1202,7 +1351,10 @@
     });
 
     // Re-render Part 1 or Stories if active
-    if (tabId === 'part1') renderPart1List();
+    if (tabId === 'part1') {
+      renderPart1TopicMap();
+      renderPart1List();
+    }
     if (tabId === 'stories') renderStoryMultipliers();
   }
 
@@ -1330,6 +1482,7 @@
       elements.searchPart1.addEventListener('input', debounce((e) => {
         currentPart1Search = e.target.value;
         renderPart1List();
+        applyPart1Filters();
       }, 150));
     }
 
@@ -1340,6 +1493,7 @@
           chip.classList.add('active');
           currentPart1Status = chip.dataset.filterPart1Status;
           renderPart1List();
+          applyPart1Filters();
         });
       });
     }
@@ -1356,6 +1510,7 @@
       state.subscribe((s, event) => {
         renderDashboard();
         renderTopicMap();
+        renderPart1TopicMap();
         if (elements.tabBadgePart2) elements.tabBadgePart2.textContent = s.getAllPart2Topics().length;
         if (elements.tabBadgePart1) elements.tabBadgePart1.textContent = s.getAllPart1Topics().length;
 
@@ -1432,6 +1587,7 @@
 
     renderDashboard();
     renderTopicMap();
+    renderPart1TopicMap();
     renderStoryMultipliers();
     renderPart1List();
 

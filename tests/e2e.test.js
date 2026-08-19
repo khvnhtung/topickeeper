@@ -25,5 +25,7 @@ assert.ok(indexHtml.includes('id="part3-questions-list"'), 'Part 3 questions lis
 assert.ok(indexHtml.includes('id="lang-toggle"'), 'Language toggle button must exist');
 assert.ok(indexHtml.includes('id="stories-grid"'), 'Stories grid container must exist');
 assert.ok(indexHtml.includes('id="part1-list"'), 'Part 1 list container must exist');
+assert.ok(indexHtml.includes('id="part1-topic-map"'), 'Part 1 topic map container must exist');
+assert.ok(indexHtml.includes('id="part1-hero-card"'), 'Part 1 hero card container must exist');
 
 console.log('✅ End-to-End project structure verified!');

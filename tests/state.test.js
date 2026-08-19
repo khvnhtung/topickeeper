@@ -38,11 +38,18 @@ assert.ok(stats.nextMilestone, 'Must calculate next milestone');
 assert.strictEqual(stats.nextMilestone.target, 10);
 assert.strictEqual(stats.topicsToNextMilestone, 10 - stats.readyCount);
 
-// 4. Test Part 1 topic retrieval and status updates
+// 4. Test Part 1 topic retrieval, status updates, and statistics
 assert.strictEqual(appState.getAllPart1Topics().length, 32);
 appState.setPart1Status(1, 'improving');
 assert.strictEqual(appState.getPart1Topic(1).status, 'improving');
 assert.strictEqual(appState.getPart1Topic(999), null);
+
+const p1Stats = appState.getPart1Stats();
+assert.strictEqual(p1Stats.total, 32);
+assert.strictEqual(typeof p1Stats.readyCount, 'number');
+assert.strictEqual(typeof p1Stats.improvingCount, 'number');
+assert.strictEqual(typeof p1Stats.readinessPercentage, 'number');
+assert.ok(p1Stats.practicedCount > 0, 'Part 1 should have practiced topics');
 
 // 5. Test Today's 3 Mission generator
 const mission = appState.getTodaysMission();

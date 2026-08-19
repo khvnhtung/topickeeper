@@ -1458,6 +1458,26 @@ input:focus, textarea:focus, select:focus {
   display: flex;
   flex-direction: column;
   gap: 0.85rem;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.part1-card.card-pulse-highlight {
+  animation: cardPulse 1.8s ease-in-out;
+  scroll-margin-top: 90px;
+}
+
+@keyframes cardPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.7);
+    border-color: var(--primary);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(99, 102, 241, 0);
+    border-color: var(--primary);
+  }
+  100% {
+    box-shadow: none;
+  }
 }
 
 .part1-header {

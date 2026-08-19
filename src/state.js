@@ -403,6 +403,28 @@ class AppState {
     };
   }
 
+  getPart1Stats() {
+    const total = this.part1.length;
+    const readyCount = this.part1.filter(t => t.status === 'ready').length;
+    const improvingCount = this.part1.filter(t => t.status === 'improving').length;
+    const triedCount = this.part1.filter(t => t.status === 'tried').length;
+    const newCount = this.part1.filter(t => t.status === 'new' || !t.status).length;
+    const practicedCount = readyCount + improvingCount + triedCount;
+    const readinessPercentage = total > 0 ? Math.round((readyCount / total) * 100) : 0;
+    const practicedPercentage = total > 0 ? Math.round((practicedCount / total) * 100) : 0;
+
+    return {
+      total,
+      readyCount,
+      improvingCount,
+      triedCount,
+      newCount,
+      practicedCount,
+      readinessPercentage,
+      practicedPercentage
+    };
+  }
+
   // --- TODAY'S MISSION & DAILY STREAK ---
 
   getStreak() {
