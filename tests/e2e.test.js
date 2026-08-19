@@ -8,6 +8,7 @@ assert.ok(fs.existsSync('index.html'), 'index.html must exist');
 assert.ok(fs.existsSync('src/styles.css'), 'src/styles.css must exist');
 assert.ok(fs.existsSync('src/app.js'), 'src/app.js must exist');
 assert.ok(fs.existsSync('src/data/students.js'), 'students.js must exist');
+assert.ok(fs.existsSync('src/data/seed-khai.js'), 'seed-khai.js must exist');
 assert.ok(fs.existsSync('src/data/topics-part2.js'), 'topics-part2.js must exist');
 assert.ok(fs.existsSync('src/data/topics-part1.js'), 'topics-part1.js must exist');
 assert.ok(fs.existsSync('src/data/stories.js'), 'stories.js must exist');

@@ -52,25 +52,41 @@ assert.strictEqual(statePL.getPart2Topic(23).status, 'ready');
 assert.strictEqual(statePL.getPart2Topic(46).status, 'ready');
 assert.ok(statePL.getPart2Topic(1).notes.includes('Lesson 7'));
 
-// 3. Test Khai State (Fresh baseline)
+// 3. Test Khai State (Preloaded seeded baseline: 7 Part 2 topics, 14 Part 1 topics)
 const stateKhai = new AppState(topicsPart2, topicsPart1, 'khai');
 assert.strictEqual(stateKhai.studentSlug, 'khai');
 assert.strictEqual(stateKhai.storageKey, 'topickeeper_app_state_v1_khai');
 
-// Khai starts with all topics fresh ('new')
+// Khai Part 2 topics
 assert.strictEqual(stateKhai.getAllPart2Topics().length, 62);
-assert.strictEqual(stateKhai.getAllPart1Topics().length, 32);
+assert.strictEqual(stateKhai.getPart2Topic(13).status, 'ready');
+assert.strictEqual(stateKhai.getPart2Topic(22).status, 'ready');
+assert.strictEqual(stateKhai.getPart2Topic(49).status, 'ready');
+assert.strictEqual(stateKhai.getPart2Topic(18).status, 'improving');
+assert.strictEqual(stateKhai.getPart2Topic(35).status, 'improving');
+assert.strictEqual(stateKhai.getPart2Topic(45).status, 'improving');
+assert.strictEqual(stateKhai.getPart2Topic(48).status, 'improving');
+assert.ok(stateKhai.getPart2Topic(13).studentTranscript.includes('So that person is me'));
+assert.ok(stateKhai.getPart2Topic(22).studentTranscript.includes('Ho Chi Minh'));
+assert.ok(stateKhai.getPart2Topic(49).studentTranscript.includes('math homework'));
 
-stateKhai.getAllPart2Topics().forEach(t => {
-  assert.strictEqual(t.status, 'new', `Topic #${t.id} for Khai should start as 'new'`);
-  assert.strictEqual(t.notes, '', `Topic #${t.id} for Khai should have empty notes`);
-  assert.strictEqual(t.studentTranscript, '', `Topic #${t.id} for Khai should have empty transcript`);
-  assert.ok(t.title && t.cueCard, `Topic #${t.id} must retain shared question bank`);
-});
+// Untouched topics remain 'new'
+assert.strictEqual(stateKhai.getPart2Topic(4).status, 'new');
+assert.strictEqual(stateKhai.getPart2Topic(23).status, 'new');
 
 const khaiStats = stateKhai.getPart2Stats();
-assert.strictEqual(khaiStats.readyCount, 0, 'Khai should have 0 ready topics initially');
-assert.strictEqual(khaiStats.newCount, 62, 'Khai should have 62 new topics initially');
+assert.strictEqual(khaiStats.readyCount, 3, 'Khai should have 3 ready topics (#13, #22, #49)');
+assert.strictEqual(khaiStats.improvingCount, 4, 'Khai should have 4 improving topics (#18, #35, #45, #48)');
+assert.strictEqual(khaiStats.newCount, 55, 'Khai should have 55 new topics');
+
+// Khai Part 1 topics (14 practiced topics)
+assert.strictEqual(stateKhai.getAllPart1Topics().length, 32);
+[1, 2, 7, 8, 15, 21, 22, 25, 26, 27, 28, 30, 31, 32].forEach(id => {
+  const p1 = stateKhai.getPart1Topic(id);
+  assert.ok(p1.status === 'improving' || p1.status === 'ready', `Part 1 topic #${id} should be practiced`);
+});
+assert.strictEqual(stateKhai.getPart1Topic(3).status, 'new');
+assert.strictEqual(stateKhai.getPart1Topic(4).status, 'new');
 
 // 4. Test State & LocalStorage Isolation between Students
 stateKhai.setPart2Status(1, 'ready');

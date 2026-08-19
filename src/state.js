@@ -3,6 +3,13 @@
  * Manages Part 1 & Part 2 topic status, practice records, daily streaks, missions, and localStorage sync.
  */
 
+let seedKhaiModule;
+try {
+  if (typeof require !== 'undefined') {
+    seedKhaiModule = require('./data/seed-khai.js');
+  }
+} catch (e) {}
+
 const STORAGE_KEY_PREFIX = 'topickeeper_app_state_v1';
 
 const MILESTONES = [
@@ -38,7 +45,7 @@ class AppState {
   }
 
   /**
-   * Get fresh unpracticed defaults for new students
+   * Get fresh unpracticed defaults for new generic students
    */
   getCleanDefaults() {
     const cleanPart2 = (this.defaultPart2 || []).map(topic => {
@@ -66,6 +73,31 @@ class AppState {
     });
 
     return { part2: cleanPart2, part1: cleanPart1 };
+  }
+
+  /**
+   * Get default topic dataset tailored per student profile
+   */
+  getStudentDefaults(slug) {
+    const student = slug || this.studentSlug || 'phuong-linh';
+
+    if (student === 'phuong-linh') {
+      return {
+        part2: this.cloneData(this.defaultPart2 || []),
+        part1: this.cloneData(this.defaultPart1 || [])
+      };
+    }
+
+    if (student === 'khai') {
+      const seeder = (typeof window !== 'undefined' && window.seedKhai)
+        ? window.seedKhai
+        : (typeof seedKhaiModule !== 'undefined' && seedKhaiModule && seedKhaiModule.seedKhai ? seedKhaiModule.seedKhai : null);
+      if (seeder && typeof seeder.getSeededData === 'function') {
+        return seeder.getSeededData(this.defaultPart2, this.defaultPart1);
+      }
+    }
+
+    return this.getCleanDefaults();
   }
 
   /**
@@ -107,14 +139,9 @@ class AppState {
   init() {
     const loaded = this.loadFromStorage();
     if (!loaded) {
-      if (this.studentSlug === 'phuong-linh') {
-        this.part2 = this.cloneData(this.defaultPart2);
-        this.part1 = this.cloneData(this.defaultPart1);
-      } else {
-        const clean = this.getCleanDefaults();
-        this.part2 = clean.part2;
-        this.part1 = clean.part1;
-      }
+      const defaults = this.getStudentDefaults(this.studentSlug);
+      this.part2 = defaults.part2;
+      this.part1 = defaults.part1;
       this.streak = { count: 0, lastPracticedDate: null, streakActive: false };
       this.dailyMissions = { date: '', topicIds: [], completedIds: [] };
     }
@@ -140,9 +167,7 @@ class AppState {
         return false;
       }
 
-      const baseDefaults = this.studentSlug === 'phuong-linh' 
-        ? { part2: this.defaultPart2, part1: this.defaultPart1 }
-        : this.getCleanDefaults();
+      const baseDefaults = this.getStudentDefaults(this.studentSlug);
 
       // Merge saved user progress with latest default question bank & ideas
       const savedP2Map = new Map((data.part2 || []).map(t => [t.id, t]));
@@ -543,14 +568,9 @@ class AppState {
       console.warn('Error clearing localStorage:', err);
     }
 
-    if (this.studentSlug === 'phuong-linh') {
-      this.part2 = this.cloneData(this.defaultPart2);
-      this.part1 = this.cloneData(this.defaultPart1);
-    } else {
-      const clean = this.getCleanDefaults();
-      this.part2 = clean.part2;
-      this.part1 = clean.part1;
-    }
+    const defaults = this.getStudentDefaults(this.studentSlug);
+    this.part2 = defaults.part2;
+    this.part1 = defaults.part1;
     this.streak = { count: 0, lastPracticedDate: null, streakActive: false };
     this.dailyMissions = { date: '', topicIds: [], completedIds: [] };
 
