@@ -8,11 +8,11 @@ const STUDENTS = [
     slug: 'phuong-linh',
     name: 'Phương Linh',
     displayName: 'Phương Linh',
-    target: 'IELTS 6.5 - 7.0',
+    target: 'IELTS 6.0',
     avatar: '👩‍🎓',
     isDefault: true,
-    description_vi: 'Học viên Phương Linh · Mục tiêu 6.5–7.0',
-    description_en: 'Student Phuong Linh · Target Band 6.5–7.0'
+    description_vi: 'Học viên Phương Linh · Mục tiêu 6.0',
+    description_en: 'Student Phuong Linh · Target Band 6.0'
   },
   {
     slug: 'khai',
