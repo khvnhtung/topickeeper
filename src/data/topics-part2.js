@@ -253,7 +253,7 @@ const topicsPart2 = [
       "Is it necessary for parents to limit the time their children spend on apps or computer programs?",
       "What are the benefits of using apps as a tool for education?"
     ],
-    "status": "new",
+    "status": "tried",
     "storyCluster": "Shopee & Tech Gadgets",
     "ideas5W1H": {
       "who": "Myself, using the Shopee e-commerce mobile application",
@@ -415,7 +415,7 @@ const topicsPart2 = [
       "What are the benefits of quietness for people of all ages?",
       "Do you agree or disagree that people today feel uncomfortable if there is no noise?"
     ],
-    "status": "new",
+    "status": "tried",
     "storyCluster": "Cua Lo Beach Trip",
     "ideas5W1H": {
       "who": "Myself, accompanied by my cousin Lan",
@@ -658,7 +658,7 @@ const topicsPart2 = [
       "What kinds of personal qualities do people need to give good advice?",
       "Do you agree or disagree that anyone can learn how to give advice effectively?"
     ],
-    "status": "new",
+    "status": "improving",
     "ideas5W1H": {
       "who": "My childhood friend Minh, who was feeling frustrated with his English self-study",
       "what": "Advised him to break down his study routine into 20 manageable minutes a day using mobile apps and podcasts instead of cramming",
@@ -1189,7 +1189,7 @@ const topicsPart2 = [
       "In the future, will Chinese people prefer high-rise buildings or houses?",
       "Why do you think some people design their own homes?"
     ],
-    "status": "new",
+    "status": "improving",
     "ideas5W1H": {
       "who": "Local residents, visitors, and me when meeting friends or shopping",
       "what": "Muong Thanh Grand Hotel and Commercial Tower, the most famous high-rise building in Vinh",
@@ -1648,7 +1648,7 @@ const topicsPart2 = [
       "How to avoid feeling bored?",
       "Why do some people find playing on their phones boring?"
     ],
-    "status": "new",
+    "status": "improving",
     "storyCluster": "Cua Lo Beach Trip"
   },
   {
@@ -1803,7 +1803,7 @@ const topicsPart2 = [
       "Is it rude not to reply to messages? Why?",
       "Can texting damage relationships?"
     ],
-    "status": "new"
+    "status": "improving"
   },
   {
     "id": 50,
