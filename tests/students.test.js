@@ -59,6 +59,7 @@ assert.strictEqual(stateKhai.storageKey, 'topickeeper_app_state_v1_khai');
 
 // Khai Part 2 topics
 assert.strictEqual(stateKhai.getAllPart2Topics().length, 62);
+assert.strictEqual(stateKhai.getPart2Topic(6).status, 'ready');
 assert.strictEqual(stateKhai.getPart2Topic(13).status, 'ready');
 assert.strictEqual(stateKhai.getPart2Topic(22).status, 'ready');
 assert.strictEqual(stateKhai.getPart2Topic(49).status, 'ready');
@@ -66,6 +67,7 @@ assert.strictEqual(stateKhai.getPart2Topic(18).status, 'improving');
 assert.strictEqual(stateKhai.getPart2Topic(35).status, 'improving');
 assert.strictEqual(stateKhai.getPart2Topic(45).status, 'improving');
 assert.strictEqual(stateKhai.getPart2Topic(48).status, 'improving');
+assert.ok(stateKhai.getPart2Topic(6).studentTranscript.includes('my father'));
 assert.ok(stateKhai.getPart2Topic(13).studentTranscript.includes('So that person is me'));
 assert.ok(stateKhai.getPart2Topic(22).studentTranscript.includes('Ho Chi Minh'));
 assert.ok(stateKhai.getPart2Topic(49).studentTranscript.includes('math homework'));
@@ -75,13 +77,13 @@ assert.strictEqual(stateKhai.getPart2Topic(4).status, 'new');
 assert.strictEqual(stateKhai.getPart2Topic(23).status, 'new');
 
 const khaiStats = stateKhai.getPart2Stats();
-assert.strictEqual(khaiStats.readyCount, 3, 'Khai should have 3 ready topics (#13, #22, #49)');
+assert.strictEqual(khaiStats.readyCount, 4, 'Khai should have 4 ready topics (#6, #13, #22, #49)');
 assert.strictEqual(khaiStats.improvingCount, 4, 'Khai should have 4 improving topics (#18, #35, #45, #48)');
-assert.strictEqual(khaiStats.newCount, 55, 'Khai should have 55 new topics');
+assert.strictEqual(khaiStats.newCount, 54, 'Khai should have 54 new topics');
 
-// Khai Part 1 topics (14 practiced topics)
+// Khai Part 1 topics (17 practiced topics)
 assert.strictEqual(stateKhai.getAllPart1Topics().length, 32);
-[1, 2, 7, 8, 15, 21, 22, 25, 26, 27, 28, 30, 31, 32].forEach(id => {
+[1, 2, 7, 8, 9, 15, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32].forEach(id => {
   const p1 = stateKhai.getPart1Topic(id);
   assert.ok(p1.status === 'improving' || p1.status === 'ready', `Part 1 topic #${id} should be practiced`);
 });

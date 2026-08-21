@@ -4,6 +4,15 @@
  */
 
 const SEED_KHAI_PART2 = {
+  // Topic #6: Person who enjoys helping other people
+  6: {
+    status: 'ready',
+    lastPracticed: '2026-08-20',
+    lastPracticedDate: '2026-08-20',
+    studentTranscript: "Okay. So I'm describing a person that I know who enjoys helping other people. That person is my father. He is now 50 years old, and oftentimes I observe him, he often helps others, and he even goes to great lengths to help my relatives even if that goes against his schedule. Even when he's busy, he always tries to help others. For many times, my father often drives my relatives to a city to attend a wedding, to attend a funeral, or go around the cities for sightseeing and entertainment. Many people refer to him as their driver because he drives them everywhere when they ask him to. When others ask him for help, he will definitely help them at all costs. For the reason behind this, he always taught me that helping others can someday benefit you. When you give out help, the people you have helped will assist you in times of need.",
+    notes: "Practiced in Lesson 7: Inspiring Role Models & Helping Others\n- Subject: Khải's father (50 years old), driving relatives to weddings, funerals, and sightseeing trips even when busy.\n- Teacher Corrections:\n  • \"goes against his timeline\" -> \"goes against his schedule / timetable for the day\"\n  • \"double edged blade\" -> \"double-edged sword\" (/sɔːd/, silent 'w')\n  • \"elders\" -> \"older people / the older generation\"\n- Part 3 Follow-up Discussed (6 Questions across 2 Sets):\n  • Set 1 (Altruism & Youth Support): Mandatory community service (civic duty & interpersonal skills vs. coercion sparking resentment & students feeling like unpaid janitors), willingness to help strangers (close-knit upbringing vs. safety concerns/scams like phone snatching in HCMC), support for young people in first job (emergency financial cash, emotional venting with family).\n  • Set 2 (Technology & Welfare): AI vs. human volunteers (AI solves math but lacks empathy, emotional bonding & teamwork speed in crisis), government vs. community duty (local community provides food/rice; government implements pension systems & lowers healthcare costs)."
+  },
+
   // Topic #13: Person good at planning things
   13: {
     status: 'ready',
@@ -97,6 +106,15 @@ const SEED_KHAI_PART1 = {
     notes: "Practiced in Set 1 (Frame 2: Gifts)\n- Questions: Preferred gifts, childhood gifts, recent gifts, giving gifts, buying gifts online.\n- Teacher feedback: Pronunciation of 'express'; phrase: 'not too materialistic when it comes to gifts'."
   },
 
+  // #9. Team Sport
+  9: {
+    status: 'improving',
+    lastPracticed: '2026-08-20',
+    lastPracticedDate: '2026-08-20',
+    studentTranscript: "Q: Have you ever played a sport in a team?\nA: I played volleyball with my group of friends, and it is a team sport. Apart from volleyball, I didn't really play much in team sport other than esports.\n\nQ: Are team sports popular in your country?\nA: Team sports are quite popular in Vietnam, especially football. People use football as a form of patriotism, gathering in cafes to watch international tournaments together.\n\nQ: Do you enjoy watching team sports?\nA: I prefer watching individual sports like figure skating or tennis because team sports can often be quite long-winded.",
+    notes: "Practiced in Lesson 7 (Team Sport)\n- Questions: Playing volleyball/esports, non-competitive hobby for stress relief, football popularity/patriotism in Vietnam, wanting to try badminton, individual sports vs. long-winded team sports.\n- Teacher Corrections: 'long winding' -> 'long-winded'; plural agreement: 'team sports are' (not 'is')."
+  },
+
   // #15. Music
   15: {
     status: 'improving',
@@ -119,6 +137,24 @@ const SEED_KHAI_PART1 = {
     lastPracticed: '2026-08-18',
     lastPracticedDate: '2026-08-18',
     notes: "Practiced in Lesson 1 (Science)\n- Questions: Science in primary school, necessity of science, boiling water/camping survival, physics/chemistry/biology uniqueness, home experiments."
+  },
+
+  // #23. Teachers
+  23: {
+    status: 'ready',
+    lastPracticed: '2026-08-20',
+    lastPracticedDate: '2026-08-20',
+    studentTranscript: "Q: Do you have a favorite teacher from your school days?\nA: After three years of studying in high school, I figured out that none of them truly connect with the students as well as the younger ones, though younger teachers only account for about 5% of my school.\n\nQ: Do you think teachers nowadays are different from when your parents were at school?\nA: They are drastically different. In my parents' generation, teachers were really harsh and scolded students frequently. Nowadays, teachers are trained to be more empathetic and understanding.\n\nQ: Did you ever want to become a teacher when you were younger?\nA: When I was a child, I dreamed of being a chef or a singer. But as I grew older and more pragmatic, I searched for something to make a living that I'm passionate about, so becoming an English teacher is my future dream.",
+    notes: "Practiced in Lesson 7 (Teachers)\n- Questions: Favorite teacher (lack of connection with older teachers vs. 5% young teachers), generation gap in teaching styles (harsh/scolding vs. empathetic), childhood dreams (chef/singer) vs. pragmatic career choice of becoming an English teacher."
+  },
+
+  // #24. Social Media
+  24: {
+    status: 'ready',
+    lastPracticed: '2026-08-20',
+    lastPracticedDate: '2026-08-20',
+    studentTranscript: "Q: How much time do you usually spend on social media each day?\nA: My total screen time is four hours a day, and I spend about two hours on social media daily, mostly on TikTok and Instagram.\n\nQ: Do you find social media truly useful for your daily life, or is it mostly a distraction?\nA: Social media is a double-edged sword. When I am studying and scrolling, it is a major distraction. But when I am stressed out and overwhelmed, scrolling helps soothe my emotions.\n\nQ: Do older and younger people in your country use social media in different ways?\nA: The way they use social media varies dramatically. Older generations watch short reels and whatever clips pop up on their newsfeed, whereas the younger generation is much more selective and follows niche topics like gaming or cooking.",
+    notes: "Practiced in Lesson 7 (Social Media)\n- Questions: Screen time (4 hrs total, 2 hrs TikTok/Instagram), double-edged sword (study distraction vs. emotional soothing), generational usage (random reels vs. niche gaming/cooking content).\n- Teacher Corrections: 'double edged blade' -> 'double-edged sword' (pronunciation: /sɔːd/, silent 'w')."
   },
 
   // #25. Cars
