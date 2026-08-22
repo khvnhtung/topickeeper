@@ -65,11 +65,13 @@ assert.strictEqual(stateKhai.getPart2Topic(22).status, 'ready');
 assert.strictEqual(stateKhai.getPart2Topic(49).status, 'ready');
 assert.strictEqual(stateKhai.getPart2Topic(18).status, 'improving');
 assert.strictEqual(stateKhai.getPart2Topic(35).status, 'improving');
+assert.strictEqual(stateKhai.getPart2Topic(42).status, 'improving');
 assert.strictEqual(stateKhai.getPart2Topic(45).status, 'improving');
 assert.strictEqual(stateKhai.getPart2Topic(48).status, 'improving');
 assert.ok(stateKhai.getPart2Topic(6).studentTranscript.includes('my father'));
 assert.ok(stateKhai.getPart2Topic(13).studentTranscript.includes('So that person is me'));
 assert.ok(stateKhai.getPart2Topic(22).studentTranscript.includes('Ho Chi Minh'));
+assert.ok(stateKhai.getPart2Topic(42).studentTranscript.includes('Samsung'));
 assert.ok(stateKhai.getPart2Topic(49).studentTranscript.includes('math homework'));
 
 // Untouched topics remain 'new'
@@ -78,12 +80,12 @@ assert.strictEqual(stateKhai.getPart2Topic(23).status, 'new');
 
 const khaiStats = stateKhai.getPart2Stats();
 assert.strictEqual(khaiStats.readyCount, 4, 'Khai should have 4 ready topics (#6, #13, #22, #49)');
-assert.strictEqual(khaiStats.improvingCount, 4, 'Khai should have 4 improving topics (#18, #35, #45, #48)');
-assert.strictEqual(khaiStats.newCount, 54, 'Khai should have 54 new topics');
+assert.strictEqual(khaiStats.improvingCount, 5, 'Khai should have 5 improving topics (#18, #35, #42, #45, #48)');
+assert.strictEqual(khaiStats.newCount, 53, 'Khai should have 53 new topics');
 
-// Khai Part 1 topics (17 practiced topics)
+// Khai Part 1 topics (20 practiced topics)
 assert.strictEqual(stateKhai.getAllPart1Topics().length, 32);
-[1, 2, 7, 8, 9, 15, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32].forEach(id => {
+[1, 2, 7, 8, 9, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32].forEach(id => {
   const p1 = stateKhai.getPart1Topic(id);
   assert.ok(p1.status === 'improving' || p1.status === 'ready', `Part 1 topic #${id} should be practiced`);
 });

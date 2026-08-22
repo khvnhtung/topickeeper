@@ -47,6 +47,15 @@ const SEED_KHAI_PART2 = {
     notes: "Practiced in Handout 1 (Topic 35)\n- Subject: Fixing printer driver compatibility issues after switching from Windows to Mac OS.\n- Key focus: Troubleshooting, driver conflicts, searching Mac tech forums."
   },
 
+  // Topic #42: Describe a time you changed your opinion
+  42: {
+    status: 'improving',
+    lastPracticed: '2026-08-21',
+    lastPracticedDate: '2026-08-21',
+    studentTranscript: "Okay, so I'll be telling you about the time when I changed my opinion. When I was a child, I used to love using Samsung products, and my parents had Samsung Galaxy phones. I was really into Samsung and thought they were the best tech company. But when I got into contact with Apple products, my whole perspective changed. Apple's operating system was much more efficient and less laggy than Samsung. The camera quality was surprising, capturing all the fine details when taking photos. The performance was also great. So when my father asked me what phone I wanted to buy, I chose the iPhone 15. Although Samsung may have advanced features nowadays, I'm still loyal to Apple products.",
+    notes: "Practiced in Lesson (2026-08-21): Changing Opinions & Tech Preferences\n- Subject: Switching loyalty from Samsung Android to Apple iPhone 15.\n- Teacher Guidance:\n  • Establish a clear, specific preconception at the start (e.g. \"I used to think Apple was overpriced with poor battery life\").\n  • Highlight the turning point (firsthand test of speed, camera detail, smoother OS).\n  • State the revised conclusion clearly (all-day battery life, reliable performance, quieter MacBook keyboard vs Windows)."
+  },
+
   // Topic #45: Person who successfully achieved something difficult / Special Achievement
   45: {
     status: 'improving',
@@ -115,12 +124,39 @@ const SEED_KHAI_PART1 = {
     notes: "Practiced in Lesson 7 (Team Sport)\n- Questions: Playing volleyball/esports, non-competitive hobby for stress relief, football popularity/patriotism in Vietnam, wanting to try badminton, individual sports vs. long-winded team sports.\n- Teacher Corrections: 'long winding' -> 'long-winded'; plural agreement: 'team sports are' (not 'is')."
   },
 
+  // #14. Singing
+  14: {
+    status: 'improving',
+    lastPracticed: '2026-08-21',
+    lastPracticedDate: '2026-08-21',
+    studentTranscript: "Q: Did you like singing when you were a child?\nA: As a child, I loved singing and dancing so much that my dream was to become a singer, though my parents got annoyed and told me to stop.\n\nQ: Do you like singing now?\nA: Nowadays I don't sing as much because my voice broke during puberty, so it isn't as good as before.\n\nQ: Will you sing in the car?\nA: I don't have a car, but I often sing while riding my motorcycle. Sometimes I sing so loudly that other drivers give me a dirty look.\n\nQ: How well did you sing?\nA: In my childhood, I used to sing with a high, angelic and childlike voice. Now whenever I sing, my mother tells me to stop.\n\nQ: Did you take music lessons?\nA: In the past I attended an electronic keyboard class, and now I'm taking piano lessons because my father wants us to master an instrument.",
+    notes: "Practiced in Lesson (2026-08-21): Singing\n- Questions: Childhood passion for singing, voice change after puberty, singing on motorcycle ('give me a dirty look / side eye'), angelic/childlike voice, piano & keyboard lessons.\n- Teacher Corrections:\n  • 'dirty looks' -> 'give someone a dirty look / the side eye'\n  • 'anchoic / interest voice' -> 'an angelic voice'\n  • 'childlike' -> fix pronunciation & stress."
+  },
+
   // #15. Music
   15: {
     status: 'improving',
     lastPracticed: '2026-08-18',
     lastPracticedDate: '2026-08-18',
     notes: "Practiced in Handout 1 (Music)\n- Questions: Preferred music genres, changes in musical taste over time."
+  },
+
+  // #16. Watch
+  16: {
+    status: 'ready',
+    lastPracticed: '2026-08-21',
+    lastPracticedDate: '2026-08-21',
+    studentTranscript: "Q: Do you wear a watch in your daily life?\nA: Yes, I wear a watch as an accessory to tell time and because it has an old money aesthetic that looks classy.\n\nQ: What kind of watch do you have?\nA: I have a digital watch because it is convenient and easy to maintain with a battery, unlike analog watches that rely on the motion of your wrist.\n\nQ: Has anyone ever given you a watch as a gift?\nA: My uncle gave me a Casio watch. My father taught me not to accept overly expensive gifts from relatives so as not to be indebted to them.\n\nQ: What kind of watch do people around you like to wear?\nA: Most friends use their phones, but those who wear watches prefer analog models with an hour hand, minute hand, and second hand for the aesthetic.",
+    notes: "Practiced in Lesson (2026-08-21): Watch\n- Questions: Daily watch wearing, old money aesthetic, digital vs analog mechanics, Casio watch gift from uncle, avoiding being indebted to relatives, clock hands (hour/minute/second hand).\n- Teacher Corrections:\n  • 'locomotion of your hands' -> 'motion / movement of your wrist'\n  • 'indebted' -> silent 'b' /ɪnˈdetɪd/\n  • 'time hand and hour hand' -> 'hour hand, minute hand, second hand'\n  • Natural phrasing: 'the old money aesthetic people try to imitate these days'."
+  },
+
+  // #17. Parks and Gardens
+  17: {
+    status: 'ready',
+    lastPracticed: '2026-08-21',
+    lastPracticedDate: '2026-08-21',
+    studentTranscript: "Q: What kind of parks and gardens did you like when you were a child?\nA: As a child, I loved amusement parks. When visiting Ho Chi Minh City, I visited Dam Sen park with its dry rides, water park, Sun Wheel, and street food stalls.\n\nQ: Do you enjoy visiting parks and gardens now?\nA: I enjoy walking in sunflower and rosemary gardens in Da Lat, as well as parks in HCMC with tall shady trees dating back to the French colonial era.\n\nQ: Do you think there should be more parks and gardens in your city?\nA: Definitely. Many new high-rise concrete buildings have been built in my city, which exacerbates the urban heat island effect. Parks help cool the surrounding environment by up to 5°C and provide a pleasant space for evening strolls.\n\nQ: Is there a famous park or garden that you want to visit?\nA: Central Park in New York City is on my bucket list because it is an iconic location featured in many famous movies.",
+    notes: "Practiced in Lesson (2026-08-21): Parks and Gardens\n- Questions: Dam Sen amusement park in HCMC, sunflower/rosemary gardens in Da Lat, French colonial parks, urban heat mitigation (cooling climate by 5°C), Central Park NYC on bucket list.\n- Teacher Corrections:\n  • 'buildings have been raised / risen / erected' -> 'many new high-rise buildings have been built'\n  • 'in the cinematic field' -> 'in the movies that I've watched / iconic cinema locations'."
   },
 
   // #21. Telling Jokes
